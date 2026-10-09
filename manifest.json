@@ -1,0 +1,947 @@
+{
+  "id": "ordem-paranormal",
+  "nome": "Ordem Paranormal",
+  "versao": "0.1.0",
+  "apiVersao": 10,
+  "repositorio": "https://github.com/ato20-org/ato20.ordem-paranormal.plugin",
+  "descricao": {
+    "pt-BR": "Ordem Paranormal no ATO20: a campanha nasce com AGI, FOR, INT, PRE e VIG, PV, PE e SAN, a ficha de agente nos detalhes e as condições do jogo. E a ficha de agente editável em PDF vira personagem.",
+    "en": "Ordem Paranormal in ATO20: the campaign starts with AGI, FOR, INT, PRE and VIG, HP, EP and SAN, the agent sheet as details and the game's conditions. And the fillable agent sheet PDF becomes a character."
+  },
+  "contribui": {
+    "sistemas": [
+      {
+        "id": "ordem",
+        "titulo": "Ordem Paranormal",
+        "atributos": [
+          {
+            "sigla": "AGI",
+            "valor": 1,
+            "descricao": "Agilidade: coordenação, reflexos e velocidade."
+          },
+          {
+            "sigla": "FOR",
+            "valor": 1,
+            "descricao": "Força: potência física."
+          },
+          {
+            "sigla": "INT",
+            "valor": 1,
+            "descricao": "Intelecto: raciocínio, memória e estudo."
+          },
+          {
+            "sigla": "PRE",
+            "valor": 1,
+            "descricao": "Presença: sentidos, carisma e força de vontade."
+          },
+          {
+            "sigla": "VIG",
+            "valor": 1,
+            "descricao": "Vigor: saúde e resistência do corpo."
+          }
+        ],
+        "medidores": [
+          {
+            "nome": "PV",
+            "cor": "#ef4444",
+            "estilo": "barra",
+            "maximo": 20
+          },
+          {
+            "nome": "PE",
+            "cor": "#f59e0b",
+            "estilo": "barra",
+            "maximo": 2
+          },
+          {
+            "nome": "SAN",
+            "cor": "#3b82f6",
+            "estilo": "barra",
+            "maximo": 12
+          }
+        ],
+        "detalhes": {
+          "grupos": [
+            {
+              "nome": "Identidade"
+            },
+            {
+              "nome": "Combate"
+            },
+            {
+              "nome": "Perícias"
+            },
+            {
+              "nome": "Habilidades e rituais",
+              "exibicao": "lista"
+            },
+            {
+              "nome": "Ataques",
+              "exibicao": "lista"
+            },
+            {
+              "nome": "Descrição",
+              "exibicao": "lista"
+            }
+          ],
+          "modelos": [
+            {
+              "grupo": "Identidade",
+              "rotulo": "Jogador"
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "Origem"
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "Classe",
+              "tipo": "escolha",
+              "opcoes": [
+                "Combatente",
+                "Especialista",
+                "Ocultista"
+              ]
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "Trilha"
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "NEX",
+              "tipo": "numero",
+              "valor": 5
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "PE por rodada",
+              "tipo": "numero",
+              "valor": 1
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "Deslocamento",
+              "valor": "9m"
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "Patente",
+              "tipo": "escolha",
+              "valor": "Recruta",
+              "opcoes": [
+                "Recruta",
+                "Operador",
+                "Agente especial",
+                "Oficial de operações",
+                "Agente de elite"
+              ]
+            },
+            {
+              "grupo": "Identidade",
+              "rotulo": "Pontos de prestígio",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Combate",
+              "rotulo": "Defesa",
+              "tipo": "numero",
+              "valor": 10
+            },
+            {
+              "grupo": "Combate",
+              "rotulo": "Proteção"
+            },
+            {
+              "grupo": "Combate",
+              "rotulo": "Resistências"
+            },
+            {
+              "grupo": "Combate",
+              "rotulo": "DT de rituais",
+              "tipo": "numero"
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Acrobacia",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Adestramento",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Artes",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Atletismo",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Atualidades",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Ciências",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Crime",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Diplomacia",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Enganação",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Fortitude",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Furtividade",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Iniciativa",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Intimidação",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Intuição",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Investigação",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Luta",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Medicina",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Ocultismo",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Percepção",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Pilotagem",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Pontaria",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Profissão",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Reflexos",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Religião",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Sobrevivência",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Tática",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Tecnologia",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Perícias",
+              "rotulo": "Vontade",
+              "tipo": "numero",
+              "valor": 0
+            },
+            {
+              "grupo": "Descrição",
+              "rotulo": "Aparência"
+            },
+            {
+              "grupo": "Descrição",
+              "rotulo": "Personalidade"
+            },
+            {
+              "grupo": "Descrição",
+              "rotulo": "Histórico"
+            },
+            {
+              "grupo": "Descrição",
+              "rotulo": "Objetivo"
+            }
+          ]
+        },
+        "condicoes": [
+          {
+            "nome": "Machucado",
+            "cor": "#ef4444",
+            "icone": "coracao-partido"
+          },
+          {
+            "nome": "Morrendo",
+            "cor": "#ef4444",
+            "icone": "caveira"
+          },
+          {
+            "nome": "Sangrando",
+            "cor": "#ef4444",
+            "icone": "sangue",
+            "efeito": "sangrando"
+          },
+          {
+            "nome": "Perturbado",
+            "cor": "#a855f7",
+            "icone": "fantasma"
+          },
+          {
+            "nome": "Enlouquecendo",
+            "cor": "#a855f7",
+            "icone": "cerebro"
+          },
+          {
+            "nome": "Abalado",
+            "cor": "#a855f7",
+            "icone": "medo"
+          },
+          {
+            "nome": "Apavorado",
+            "cor": "#a855f7",
+            "icone": "medo"
+          },
+          {
+            "nome": "Atordoado",
+            "cor": "#f59e0b",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Desprevenido",
+            "cor": "#f59e0b",
+            "icone": "alvo"
+          },
+          {
+            "nome": "Agarrado",
+            "cor": "#f59e0b",
+            "icone": "corrente"
+          },
+          {
+            "nome": "Caído",
+            "cor": "#f59e0b",
+            "icone": "pegadas"
+          },
+          {
+            "nome": "Fatigado",
+            "cor": "#f59e0b",
+            "icone": "cama"
+          },
+          {
+            "nome": "Envenenado",
+            "cor": "#22c55e",
+            "icone": "veneno",
+            "efeito": "envenenado"
+          },
+          {
+            "nome": "Cego",
+            "cor": "#ffffff",
+            "icone": "olho-fechado"
+          },
+          {
+            "nome": "Paralisado",
+            "cor": "#3b82f6",
+            "icone": "cadeado"
+          },
+          {
+            "nome": "Inconsciente",
+            "cor": "#3b82f6",
+            "icone": "lua"
+          }
+        ]
+      }
+    ],
+    "fichasPdf": [
+      {
+        "id": "agente",
+        "titulo": {
+          "pt-BR": "Ficha de agente editável",
+          "en": "Fillable agent sheet"
+        },
+        "reconhecer": [
+          "untitled13",
+          "untitled131",
+          "untitled142",
+          "untitled165",
+          "untitled340"
+        ],
+        "nome": "untitled1",
+        "atributos": [
+          {
+            "sigla": "AGI",
+            "campo": "untitled13"
+          },
+          {
+            "sigla": "FOR",
+            "campo": "untitled12"
+          },
+          {
+            "sigla": "INT",
+            "campo": "untitled14"
+          },
+          {
+            "sigla": "PRE",
+            "campo": "untitled11"
+          },
+          {
+            "sigla": "VIG",
+            "campo": "untitled15"
+          }
+        ],
+        "medidores": [
+          {
+            "nome": "PV",
+            "atual": "untitled135",
+            "maximo": "untitled134",
+            "cor": "#ef4444"
+          },
+          {
+            "nome": "PE",
+            "atual": "untitled137",
+            "maximo": "untitled136",
+            "cor": "#f59e0b"
+          },
+          {
+            "nome": "SAN",
+            "atual": "untitled142",
+            "maximo": "untitled141",
+            "cor": "#3b82f6"
+          }
+        ],
+        "detalhes": [
+          {
+            "grupo": "Identidade",
+            "rotulo": "Jogador",
+            "campo": "untitled2"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "Origem",
+            "campo": "untitled129"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "Classe",
+            "campo": "untitled130"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "NEX",
+            "campo": "untitled131",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "PE por rodada",
+            "campo": "untitled132",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "Deslocamento",
+            "campo": "untitled133"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "Patente",
+            "campo": "untitled247"
+          },
+          {
+            "grupo": "Identidade",
+            "rotulo": "Pontos de prestígio",
+            "campo": "untitled246",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Combate",
+            "rotulo": "Defesa",
+            "campo": "untitled138",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Combate",
+            "rotulo": "Proteção",
+            "campo": "untitled143"
+          },
+          {
+            "grupo": "Combate",
+            "rotulo": "Resistências",
+            "campo": "untitled144"
+          },
+          {
+            "grupo": "Combate",
+            "rotulo": "DT de rituais",
+            "campo": "untitled165",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Acrobacia",
+            "campo": "untitled45",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Adestramento",
+            "campo": "untitled46",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Artes",
+            "campo": "untitled47",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Atletismo",
+            "campo": "untitled48",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Atualidades",
+            "campo": "untitled49",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Ciências",
+            "campo": "untitled50",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Crime",
+            "campo": "untitled51",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Diplomacia",
+            "campo": "untitled52",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Enganação",
+            "campo": "untitled53",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Fortitude",
+            "campo": "untitled54",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Furtividade",
+            "campo": "untitled55",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Iniciativa",
+            "campo": "untitled56",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Intimidação",
+            "campo": "untitled57",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Intuição",
+            "campo": "untitled58",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Investigação",
+            "campo": "untitled59",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Luta",
+            "campo": "untitled60",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Medicina",
+            "campo": "untitled61",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Ocultismo",
+            "campo": "untitled62",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Percepção",
+            "campo": "untitled63",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Pilotagem",
+            "campo": "untitled64",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Pontaria",
+            "campo": "untitled65",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Profissão",
+            "campo": "untitled66",
+            "tipo": "numero",
+            "descricao": "untitled44"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Reflexos",
+            "campo": "untitled67",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Religião",
+            "campo": "untitled68",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Sobrevivência",
+            "campo": "untitled69",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Tática",
+            "campo": "untitled70",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Tecnologia",
+            "campo": "untitled71",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Perícias",
+            "rotulo": "Vontade",
+            "campo": "untitled72",
+            "tipo": "numero"
+          },
+          {
+            "grupo": "Descrição",
+            "rotulo": "Aparência",
+            "descricao": {
+              "juntar": [
+                "untitled321",
+                "untitled322",
+                "untitled323",
+                "untitled324",
+                "untitled325"
+              ]
+            }
+          },
+          {
+            "grupo": "Descrição",
+            "rotulo": "Personalidade",
+            "descricao": {
+              "juntar": [
+                "untitled326",
+                "untitled329",
+                "untitled330",
+                "untitled331",
+                "untitled332"
+              ]
+            }
+          },
+          {
+            "grupo": "Descrição",
+            "rotulo": "Histórico",
+            "descricao": {
+              "juntar": [
+                "untitled327",
+                "untitled333",
+                "untitled334",
+                "untitled335",
+                "untitled336"
+              ]
+            }
+          },
+          {
+            "grupo": "Descrição",
+            "rotulo": "Objetivo",
+            "descricao": {
+              "juntar": [
+                "untitled328",
+                "untitled337",
+                "untitled338",
+                "untitled339",
+                "untitled340"
+              ]
+            }
+          }
+        ],
+        "listas": [
+          {
+            "grupo": "Ataques",
+            "itens": [
+              {
+                "nome": "untitled145",
+                "campo": {
+                  "juntar": [
+                    "untitled150",
+                    "untitled155"
+                  ]
+                },
+                "descricao": "untitled160"
+              },
+              {
+                "nome": "untitled146",
+                "campo": {
+                  "juntar": [
+                    "untitled151",
+                    "untitled156"
+                  ]
+                },
+                "descricao": "untitled161"
+              },
+              {
+                "nome": "untitled147",
+                "campo": {
+                  "juntar": [
+                    "untitled152",
+                    "untitled157"
+                  ]
+                },
+                "descricao": "untitled162"
+              },
+              {
+                "nome": "untitled148",
+                "campo": {
+                  "juntar": [
+                    "untitled153",
+                    "untitled158"
+                  ]
+                },
+                "descricao": "untitled163"
+              },
+              {
+                "nome": "untitled149",
+                "campo": {
+                  "juntar": [
+                    "untitled154",
+                    "untitled159"
+                  ]
+                },
+                "descricao": "untitled164"
+              }
+            ]
+          },
+          {
+            "grupo": "Habilidades e rituais",
+            "itens": [
+              {
+                "nome": "untitled166",
+                "campo": "untitled167",
+                "descricao": "untitled169"
+              },
+              {
+                "nome": "untitled170",
+                "campo": "untitled189",
+                "descricao": "untitled227"
+              },
+              {
+                "nome": "untitled171",
+                "campo": "untitled190",
+                "descricao": "untitled228"
+              },
+              {
+                "nome": "untitled172",
+                "campo": "untitled191",
+                "descricao": "untitled229"
+              },
+              {
+                "nome": "untitled173",
+                "campo": "untitled192",
+                "descricao": "untitled230"
+              },
+              {
+                "nome": "untitled174",
+                "campo": "untitled193",
+                "descricao": "untitled231"
+              },
+              {
+                "nome": "untitled175",
+                "campo": "untitled194",
+                "descricao": "untitled232"
+              },
+              {
+                "nome": "untitled176",
+                "campo": "untitled195",
+                "descricao": "untitled233"
+              },
+              {
+                "nome": "untitled177",
+                "campo": "untitled196",
+                "descricao": "untitled234"
+              },
+              {
+                "nome": "untitled178",
+                "campo": "untitled197",
+                "descricao": "untitled235"
+              },
+              {
+                "nome": "untitled179",
+                "campo": "untitled198",
+                "descricao": "untitled236"
+              },
+              {
+                "nome": "untitled180",
+                "campo": "untitled199",
+                "descricao": "untitled237"
+              },
+              {
+                "nome": "untitled181",
+                "campo": "untitled200",
+                "descricao": "untitled238"
+              },
+              {
+                "nome": "untitled182",
+                "campo": "untitled201",
+                "descricao": "untitled239"
+              },
+              {
+                "nome": "untitled183",
+                "campo": "untitled202",
+                "descricao": "untitled240"
+              },
+              {
+                "nome": "untitled184",
+                "campo": "untitled203",
+                "descricao": "untitled241"
+              },
+              {
+                "nome": "untitled185",
+                "campo": "untitled204",
+                "descricao": "untitled242"
+              },
+              {
+                "nome": "untitled186",
+                "campo": "untitled205",
+                "descricao": "untitled243"
+              },
+              {
+                "nome": "untitled187",
+                "campo": "untitled206",
+                "descricao": "untitled244"
+              },
+              {
+                "nome": "untitled188",
+                "campo": "untitled207",
+                "descricao": "untitled245"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
