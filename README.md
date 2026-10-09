@@ -1,12 +1,14 @@
 # Ordem Paranormal para o ATO20
 
-Plugin que põe Ordem Paranormal no ATO20, em duas partes. É só o
-`manifest.json`, sem código.
+Plugin que põe Ordem Paranormal no ATO20, em três partes. É só o
+`manifest.json` e a imagem do ritual, sem código.
 
 - **O sistema:** ao criar a campanha (ou depois, em Configuração da campanha,
   Sistema), ela nasce com AGI, FOR, INT, PRE e VIG, os medidores PV, PE e SAN,
   a ficha de agente nos detalhes (Identidade, Combate, as 28 perícias,
   Habilidades e rituais, Ataques e Descrição) e 16 condições do jogo.
+- **O ritual:** os atributos aparecem na ficha dentro do ritual, cada número
+  no círculo dele, na ficha do mestre e no celular de quem joga.
 - **A ficha em PDF:** na lista de Personagens, **Importar ficha em PDF** cria
   o personagem a partir da ficha de agente editável, com o PDF anexado como a
   ficha dele. Com o sistema aplicado, tudo cai nos detalhes do molde.
@@ -25,6 +27,16 @@ Plugin que põe Ordem Paranormal no ATO20, em duas partes. É só o
 
 Aplicar junta ao que a campanha já tem: o que tiver o mesmo nome fica como o
 mestre deixou.
+
+## O ritual
+
+Com o sistema aplicado, a ficha desenha AGI, FOR, INT, PRE e VIG no ritual, e
+não nos cartões. O mestre clica no número para mudar; o botão direito no
+círculo troca a sigla, escreve a descrição ou apaga o atributo. Um atributo
+que não está no ritual (SOR, por exemplo) fica num cartão logo abaixo.
+
+Numa campanha que já existia, aplique o sistema de novo (Configuração da
+campanha, Sistema): o que ela já tem fica como está, e o ritual entra.
 
 ## A ficha
 
@@ -52,7 +64,7 @@ O inventário fica de fora por enquanto: ele segue no PDF anexado.
 
 ## Instalar
 
-Pede o ATO20 com a API de plugins 10.
+Pede o ATO20 com a API de plugins 11.
 
 1. Clone o repositório (ou baixe o zip dele):
 

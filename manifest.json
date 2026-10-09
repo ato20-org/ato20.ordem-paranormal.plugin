@@ -1,8 +1,8 @@
 {
   "id": "ordem-paranormal",
   "nome": "Ordem Paranormal",
-  "versao": "0.1.0",
-  "apiVersao": 10,
+  "versao": "0.2.0",
+  "apiVersao": 11,
   "repositorio": "https://github.com/ato20-org/ato20.ordem-paranormal.plugin",
   "descricao": {
     "pt-BR": "Ordem Paranormal no ATO20: a campanha nasce com AGI, FOR, INT, PRE e VIG, PV, PE e SAN, a ficha de agente nos detalhes e as condições do jogo. E a ficha de agente editável em PDF vira personagem.",
@@ -431,7 +431,52 @@
             "cor": "#3b82f6",
             "icone": "lua"
           }
-        ]
+        ],
+        "estiloDosAtributos": "ordem-paranormal/ritual"
+      }
+    ],
+    "estilosDeAtributos": [
+      {
+        "id": "ritual",
+        "titulo": "Ritual",
+        "imagem": "atributos/ritual.png",
+        "proporcao": 1,
+        "lugares": [
+          {
+            "sigla": "AGI",
+            "x": 0.501,
+            "y": 0.164,
+            "tamanho": 0.085
+          },
+          {
+            "sigla": "FOR",
+            "x": 0.194,
+            "y": 0.382,
+            "tamanho": 0.085
+          },
+          {
+            "sigla": "INT",
+            "x": 0.815,
+            "y": 0.383,
+            "tamanho": 0.085
+          },
+          {
+            "sigla": "PRE",
+            "x": 0.292,
+            "y": 0.751,
+            "tamanho": 0.085
+          },
+          {
+            "sigla": "VIG",
+            "x": 0.703,
+            "y": 0.753,
+            "tamanho": 0.085
+          }
+        ],
+        "texto": {
+          "cor": "#ffffff",
+          "contorno": "#000000"
+        }
       }
     ],
     "fichasPdf": [
