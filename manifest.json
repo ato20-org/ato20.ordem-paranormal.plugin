@@ -1,9 +1,10 @@
 {
   "id": "ordem-paranormal",
   "nome": "Ordem Paranormal",
-  "versao": "0.2.0",
+  "versao": "0.2.1",
   "apiVersao": 11,
   "repositorio": "https://github.com/ato20-org/ato20.ordem-paranormal.plugin",
+  "icone": "icone.png",
   "descricao": {
     "pt-BR": "Ordem Paranormal no ATO20: a campanha nasce com AGI, FOR, INT, PRE e VIG, PV, PE e SAN, a ficha de agente nos detalhes e as condições do jogo. E a ficha de agente editável em PDF vira personagem.",
     "en": "Ordem Paranormal in ATO20: the campaign starts with AGI, FOR, INT, PRE and VIG, HP, EP and SAN, the agent sheet as details and the game's conditions. And the fillable agent sheet PDF becomes a character."
