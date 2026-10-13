@@ -13,7 +13,11 @@ Plugin que põe Ordem Paranormal no ATO20, em três partes. É só o
   o personagem a partir da ficha de agente editável, com o PDF anexado como a
   ficha dele. Com o sistema aplicado, tudo cai nos detalhes do molde.
 
+![A ficha da Helena no Mestre e no celular de quem joga, com os atributos no ritual](docs/ritual.png)
+
 ## O sistema
+
+![Configuração da campanha, Sistema: o Ordem Paranormal pronto para aplicar](docs/sistema.png)
 
 | | Começa com |
 | --- | --- |
@@ -46,6 +50,8 @@ formulário continuam entrando como anexo.
 
 O PDF da ficha não vem no plugin: ela é da Jambô Editora.
 
+![A prévia do Importar ficha em PDF, com uma ficha de exemplo: atributos, medidores e detalhes antes de criar](docs/importar-pdf.png)
+
 ## O que vira o quê
 
 | Na ficha | No personagem |
@@ -64,7 +70,12 @@ O inventário fica de fora por enquanto: ele segue no PDF anexado.
 
 ## Instalar
 
+No ATO20: Configurações → Plugins → **Catálogo**, e **Instalar** no Ordem
+Paranormal. Quando sair versão nova, o mesmo botão vira **Atualizar**.
+
 Pede o ATO20 com a API de plugins 11.
+
+Num ATO20 sem o catálogo:
 
 1. Clone o repositório (ou baixe o zip dele):
 
