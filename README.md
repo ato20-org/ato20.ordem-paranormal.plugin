@@ -1,5 +1,12 @@
 # Ordem Paranormal para o ATO20
 
+<img src="docs/selo-comunidade.png" alt="Selo da Licença da Comunidade de Ordem Paranormal: não oficial, não canônico" width="160" align="right">
+
+**Este é um conteúdo não oficial, publicado sob a Licença da Comunidade de
+Ordem Paranormal.** Ordem Paranormal é do Rafael "Cellbit" Lange, e o livro de
+regras é da Jambô Editora. O plugin é de fã, gratuito, e não tem parceria nem
+aprovação de nenhum dos dois. Ver [Licença e fontes](#licença-e-fontes).
+
 Plugin que põe Ordem Paranormal no ATO20, em três partes. É só o
 `manifest.json` e a imagem do ritual, sem código.
 
@@ -88,3 +95,24 @@ Num ATO20 sem o catálogo:
 Funciona ao lado do Segredo na Floresta: o medidor que a campanha já tem com
 o mesmo nome (PV, PE, SAN) continua com o estilo que o mestre escolheu, as
 barras de pincel por exemplo, e a ficha só diz quanto.
+
+## Licença e fontes
+
+Publicado sob a [Licença da Comunidade de Ordem Paranormal](https://ordemparanormal.com.br/licenca),
+com o [selo dela](https://ordemparanormal.com.br/selo-licenca-ordem) no topo
+desta página. Universo, nomes, personagens e criaturas são do Cellbit; o livro
+de regras é da Jambô Editora. Para jogar, [compre o livro](https://jamboeditora.com.br).
+
+De onde vem o que o plugin traz:
+
+- **O livro de regras** (Jambô, 2022): os atributos, as perícias, as condições
+  e os campos da ficha de agente.
+- **[C.R.I.S. - Ordem Paranormal](https://crisordemparanormal.com)** e
+  **[Ordem Paranormal Wiki](https://ordemparanormal.fandom.com/pt-br)**: as
+  ameaças do bestiário, que chega na próxima versão. O texto do wiki é
+  [CC BY-SA](https://www.fandom.com/pt-br/licensing-pt-br), e o que vier dele
+  segue nessa licença, com o crédito ao wiki.
+
+Se você tem direito sobre algo que está aqui e quer que saia, abra uma
+[issue](https://github.com/ato20-org/ato20.ordem-paranormal.plugin/issues):
+sai sem discussão.
