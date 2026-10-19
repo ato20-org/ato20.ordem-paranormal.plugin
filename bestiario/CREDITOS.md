@@ -105,3 +105,16 @@ os sites de onde os arquivos vieram. Esta lista é regravada a cada ameaça tran
 | Degolificada | retrato | `bestiario/degolificada-retrato.webp` | C.R.I.S., [ficha](https://crisordemparanormal.com/ameaca/degolificada) | <https://crisordemparanormal.com/img/creatures/degolificada-profile.webp> | 2026-10-19 |
 | Degolificada | peça no mapa | `bestiario/degolificada-miniatura.webp` | C.R.I.S., [ficha](https://crisordemparanormal.com/ameaca/degolificada) | <https://crisordemparanormal.com/img/creatures/degolificada.webp> | 2026-10-19 |
 
+## Símbolos dos elementos
+
+O emblema de cada aura do bestiário, em `bestiario/elementos/`. Os originais foram
+recortados, reduzidos a 128 px e tiveram o fundo trocado por transparência; o símbolo
+ficou na tinta que contrasta com a pasta (preta no dourado de Conhecimento).
+
+| Elemento | Arquivo | Origem | Endereço | Tirada em |
+| --- | --- | --- | --- | --- |
+| Sangue | `bestiario/elementos/sangue.webp` | Ordem Paranormal Wiki "Sangue.png" | <https://ordemparanormal.fandom.com/pt-br/wiki/Arquivo:Sangue.png> | 2026-10-19 |
+| Morte | `bestiario/elementos/morte.webp` | Ordem Paranormal Wiki "Morte.png" | <https://ordemparanormal.fandom.com/pt-br/wiki/Arquivo:Morte.png> | 2026-10-19 |
+| Conhecimento | `bestiario/elementos/conhecimento.webp` | Ordem Paranormal Wiki "Conhecimento.png" | <https://ordemparanormal.fandom.com/pt-br/wiki/Arquivo:Conhecimento.png> | 2026-10-19 |
+| Energia | `bestiario/elementos/energia.webp` | Ordem Paranormal Wiki "Energia.png" | <https://ordemparanormal.fandom.com/pt-br/wiki/Arquivo:Energia.png> | 2026-10-19 |
+| Medo | `bestiario/elementos/medo.webp` | Ordem Paranormal Wiki "Medo.png" | <https://ordemparanormal.fandom.com/pt-br/wiki/Arquivo:Medo.png> | 2026-10-19 |
