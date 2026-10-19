@@ -1,0 +1,2054 @@
+{
+  "grupos": [
+    {
+      "nome": "Ameaça"
+    },
+    {
+      "nome": "Combate"
+    },
+    {
+      "nome": "Perícias"
+    },
+    {
+      "nome": "Ações",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Poderes",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Descrição",
+      "exibicao": "lista"
+    }
+  ],
+  "moldes": [
+    {
+      "id": "anfitriao",
+      "nome": "Anfitrião",
+      "tags": [
+        "Energia",
+        "VD 413"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/anfitriao-retrato.webp",
+      "miniatura": "bestiario/anfitriao-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 7
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 6
+        },
+        {
+          "sigla": "PRE",
+          "valor": 6
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1413
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 413
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Relíquia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {10d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 59
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano, Energia, condições de paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{6d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{7d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{7d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{6d20>+25}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Teatro (Amphitruo)",
+          "valor": "Padrão",
+          "descricao": "O Anfitrião envia a imagem de um texto praticamente incompreensível para a mente do alvo, que deve decorá-lo em poucos segundos e recitá-lo com perfeição ou sofre {10d6} pontos de dano mental (Artes DT 35 ou Vontade DT 45 evita)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Queimar (Aeneas)",
+          "valor": "Padrão",
+          "descricao": "O Anfitrião dispara chamas em um cone em alcance médio. Todos os seres nessa área sofrem {10d6+20} pontos de dano de Energia (Reflexos DT 45 reduz à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Corte Caótico",
+          "valor": "Padrão",
+          "descricao": "Agredir (Liber). Corpo a corpo.\nTeste: {7d20>+45}\nDano: {3d12+20} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Romance Forçado (Liber)",
+          "valor": "Livre",
+          "descricao": "Se acertar um ser com seu golpe caótico, o Anfitrião pode escolher outro ser que consiga ver. Os dois seres devem decidir entre si quem sofrerá o dano do ataque (isso deve ser feito antes do dano ser definido)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Lança e Adaga",
+          "valor": "Padrão",
+          "descricao": "Agredir (Plautus). Corpo a corpo, 2x.\nTeste: {7d20>+45}\nDano: {2d12+20} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Eu sou o Caos (Plautus)",
+          "valor": "Livre",
+          "descricao": "Se acertar um ataque de lança e adaga em um ser desprevenido ou flanqueado, o Anfitrião causa +{4d12} pontos de dano de Energia."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Corte de Água",
+          "valor": "Padrão",
+          "descricao": "Agredir (Silenus). Corpo a corpo.\nTeste: {7d20>+45}\nDano: {5d12+20} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Afogamento (Silenus)",
+          "valor": "Livre",
+          "descricao": "Um ser que sofra dano de corte de água fica asfixiado (Fortitude DT 35 evita). Um ser que esteja afixiado dessa forma pode repetir o teste de Fortitude no fim de cada um de seus turnos; se passar, a condição termina."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Teletransporte",
+          "valor": "Movimento",
+          "descricao": "O Anfitrião se transporta para outro ponto em alcance médio."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Transformar a Morte",
+          "descricao": "O caos ilógico do Anfitrião é a única coisa capaz de enfrentar a onipresença temporal do Deus da Morte e resolver o seu Enigma de Medo."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Potência de Energia",
+          "descricao": "O modificador do Anfitrião para todos os testes de perícia baseados em Agilidade e Intelecto é +35, e para testes baseados nos demais atributos, é +25."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Ato 1",
+          "descricao": "O Anfitrião inicia um combate se dividindo em 5 facetas separadas: Amphitruo, Aeneas, Liber, Silenus e Plautus. Cada um desses possui as mesmas estatísticas que o Anfitrião, mas possuem 250 PV cada e resistência a dano 20. Além disso, cada um só pode usar habilidades e ataques que tenham seu nome. Quando todos forem destruídos, o Anfitrião retorna para sua forma única e inicia o Ato 2 (veja abaixo)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Ato 2",
+          "descricao": "No segundo Ato, o Anfitrião retorna para sua forma única, com todos seus PV. Ele pode usar todas as habilidades de sua ficha, incluindo aquelas de suas cinco facetas, e pode executar 3 ações padrão por rodada, desde que sejam diferentes."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Trilha Sonora (Ato 2)",
+          "descricao": "Durante o Ato 2, a trilha sonora do Anfitrião toca em todo o ambiente. No início de cada turno do Anfitrião, cada ser em alcance longo sofre {2d10} pontos de dano mental."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Roleta Maluca (Ato 2)",
+          "descricao": "No começo do turno do Anfitrião, cada ser em alcance longo sofre um efeito determinado aleatoriamente. Jogue {1d6} para cada ser na área; efeitos iguais são cumulativos:\n\n1 - Sofre -5 na Defesa até o final da cena.\n\n2 - Deve usar uma ação completa fazendo coisas sem sentido ou sofre {4d10} pontos de dano mental no final do seu turno\n\n3 - Sofre {4d20} pontos de dano de Energia.\n\n4 - Sofre -1d20 em Pontaria até o final da cena.\n\n5 - Sofre -1d20 em Luta até o final da cena.\n\n6 - Nada acontece."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "UMA ENTIDADE PARANORMAL EXTREMAMENTE PODEROSA E COMPLETAMENTE INSANA, O ANFITRIÃO É UMA MANIFESTAÇÃO PARANORMAL QUE SE ATRELA A CONSCIÊNCIAS HUMANAS DENTRO DA REALIDADE. OBCEADO EM SE DIVERTIR COM A AGONIA E O CAOS, O ANFITRIÃO REALIZA DIVERSOS JOGOS COM REGRAS TOTALMENTE IMPREVISÍVEIS A4H4HA4A4 E QUE ESTÃO FORA ATÉ MESMO DO SEU PRÓPRIO CONTROLE.\n\nNINGUÉM PODE A4H4A4 CONTROLAR TUDO, A IMPROBABILIDADE PRECISA TRANSFORMAR A REALIDADE. O ANFITRIÃO É UMA FIGURA INCESSANTE POR TODA A HISTÓRIA DA REALIDADE, PORÉM, SUAS MANIFESTAÇÕES PARECEM ESTAR AHA4 EM CONSTANTE CONFLITO, COM SUAS DIFERENTES MANIFESTAÇÕES SEMPRE DIFERINDO EM PERSONALIADDE, APARÊNCIA E OBJETIVOS, MAS REFERENCIANDO-SE UMAS ÀS OUTRAS.\n\nSURPREENDENTEMENTE, APESAR DE SEU PODER INCALCULÁVEL, MUITOS QUE ENCONTRARAM O ANFITRIÃO TIVERAM A POSSIBILIDADE DE SAIR COM SUAS VIDAS, MAS NUNCA SEM MARCAS, EM ESPECIAL EM SUAS MENTES. OS JOGOS DO ANFITRIÃO SÃO SÁDICOS E CRUÉIS, E NÃO SE CONHECE NENHUM LIMITE PARA SUAS CAPACIDADES DOENTIAS. HA4HA4H4HA4HA4HA4HA\n\nAPESAR DE SE COMUNICAR FREQUENTEMENTE COM HUMANOS E OCULTISTAS DENTRO DA REALIDADE, O ANFITRIÃO PARECE TER UMA PERCEPÇÃO CRONOLÓGICA DISTORCIDA, COM RELATOS ANACRÔNICOS ASSOCIADOS À SUA APARIÇÃO POR TODA A HISTÓRIA.\n\nDE UM JEITO OU DE OUTRO, O ANFITRIÃO PARECE TER UMA PERSONALIDADE EXTREMAMENTE INTERESSANTE E SEMPRE TOMAR AS ESCOLHAS CORRETAS, MESMO QUE ELE NÃO FAÇA A MÍNIMA IDEIA DO QUE ESTÁ FAZENDO E NUNCA TENHA NENHUM PLANEJAMENTO.\n\nO CAOS SEMPRE ESTARÁ AO SEU LADO. É INEVITÁVEL."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "O Anfitrião é a personificação do caos e da irracionalidade, capaz de transformar tudo que toca de forma abstrata e incompreensível. A única maneira possível de enfrentá-lo de forma justa é sob a proteção soberana do Equilíbrio. Isso é algo que apenas a manifestação que rege as correntes da Realidade, a Máscara do Desespero, pode oferecer."
+        }
+      ]
+    },
+    {
+      "id": "anarquico",
+      "nome": "Anárquico",
+      "tags": [
+        "Energia",
+        "VD 20"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/anarquico-retrato.webp",
+      "miniatura": "bestiario/anarquico-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 0
+        },
+        {
+          "sigla": "VIG",
+          "valor": 1
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 30
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 14, {2d6} mental, NEX 25%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 21
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Energia 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "-2d20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "-2d20"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada Errática",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {2d12} Impacto"
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Comportamento Errático",
+          "descricao": "No começo do seu turno, o anárquico é tomado pelo fluxo de Energia em seu corpo e age de modo aleatório. Role {1d6} para determinar o que ele faz. Se não puder realizar a ação, fica parado se contorcendo, mas recebe resistência a dano 5 até o início do seu próximo turno.\n\n1,2 - O anárquico pula sobre o personagem mais próximo, fazendo a ação investida (ou a ação agredir, se estiver muito próximo do personagem). Se não conseguir atacar alguém, corre na direção do personagem mais próximo.\n\n3,4 - O anárquico projeta uma luz prismática de dentro de si na direção de um ser em alcance médio. O alvo sofre {2d8} pontos de dano de Energia e fica atordoado por uma rodada (Fortitude DT 14 reduz o dano à metade e evita a condição).\n\n5 - Uma explosão de Energia emana do anárquico. Cada ser em alcance curto sofre {2d6} pontos de dano de Energia (Reflexos DT 14 reduz à metade). Seres adjacentes ao anárquico sofrem +{1d6} pontos de dano.\n\n6 - Uma risada descontrolada toma o anárquico enquanto ele faz a ação agredir contra o personagem mais próximo. Até o final de seu próximo turno, o anárquico fica desprevenido, mas seus ataques ficam completamente imprevisíveis e o defensor não pode se esquivar deles."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Quando uma pessoa morre em situações extremamente inoportunas e azaradas em um ambiente com a Membrana danificada, o seu corpo logo é consumido pela entidade de Energia, tendo todo o oxigênio e líquido dentro de seu cadáver substituído pela surrealidade da entidade.\n\nA sua pele toma um aspecto semi-transparente e as veias e órgãos internos tomam um aspecto colorido, brilhoso e destacado ao redor de todo o corpo, os olhos se tornam arregalados e emitem uma luz plasmática que varia em um espectro de cores extenso. A sua boca se distorce em um formato forçado e rasgado como um sorriso, e sua saliva toma um aspecto acídico e brilhante, como se a criatura vazasse plasma de Energia de dentro de si.\n\nAnárquicos são rápidos e imprevisíveis, com movimentos erráticos que os tornam muito difíceis de serem atingidos. Seu corpo todo treme enquanto emite gritos e grunhidos distorcidos, como se algum filtro sintético estivesse deformando seus sons."
+        }
+      ]
+    },
+    {
+      "id": "anarquico-descontrolado",
+      "nome": "Anárquico Descontrolado",
+      "tags": [
+        "Energia",
+        "VD 120"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/anarquico-descontrolado-retrato.webp",
+      "miniatura": "bestiario/anarquico-descontrolado-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 120
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 120
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 21, {4d6} mental, NEX 50%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 28
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, corte 10, Energia 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada Energética",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+15}\nDano: {4d12} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Aceleração",
+          "valor": "Livre",
+          "descricao": "Sempre que um personagem sofre dano da pancada energética, entra em estado de aceleração e pode sofrer dano colateral. Em seu próximo turno, se realizar uma ação de movimento e uma ação padrão, ou uma ação completa), o personagem acelerado sofre {4d12} pontos de dano de Energia."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Autodestruição",
+          "valor": "Movimento",
+          "descricao": "O anárquico concentra Energia no seu corpo e se autodestrói, causando {8d12} pontos de dano de Energia em todos os personagens em alcance curto (Reflexos DT 25 reduz à metade). Personagens adjacentes ao anárquico descontrolado sofrem -2d20 neste teste de resistência. O anárquico descontrolado morre após usar essa habilidade."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Quando o corpo de alguém com alto nível de exposição paranormal é transformado pela Energia para se tornar um anárquico após um desastre extremamente inoportuno, a intensidade das possibilidades se potencializam em uma forma ainda mais caótica e absurda: um anárquico descontrolado.\n\nTomando uma forma translúcida completamente alucinada, essa criatura se manifesta de maneira hiperativa e caótica, com seu corpo todo vibrando e flutuando em momentos de euforia.\n\nEncontros com um anárquico descontrolado já causaram inúmeras fatalidades, graças à sua natureza imprevisível. Isso é potencializado pela capacidade da criatura estourar seu próprio corpo em uma explosão de Energia quando não encontra mais nenhuma outra possibilidade para causar o caos."
+        }
+      ]
+    },
+    {
+      "id": "anomalia",
+      "nome": "Anomalia",
+      "tags": [
+        "Energia",
+        "VD 380"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/anomalia-retrato.webp",
+      "miniatura": "bestiario/anomalia-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 0
+        },
+        {
+          "sigla": "INT",
+          "valor": 5
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1000
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 380
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {9d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 0
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "0m / 0q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano, todas as condições"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "0d20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "0d20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Romper Consciência",
+          "valor": "Livre",
+          "descricao": "No início do turno da anomalia, ela sorteia um ser que esteja em sua linha de visão e tenta romper sua razão transformando suas ondas cerebrais. A vítima sofre {10d6} pontos de dano mental (Vontade DT 41 reduz à metade) e, se ficar insana devido a este dano, é absorvida pela anomalia."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Manipular Ondas da Existência",
+          "valor": "Livre",
+          "descricao": "No final do turno da anomalia, ela manipula as ondas eletromagnéticas que compõem a própria existência. Ela pode ativar, desativar ou operar até seis objetos tecnológicos em alcance médio. Como alternativa, pode sobrecarregar estes objetos, gerando uma poderosa descarga que causa {2d12} pontos de dano de Energia por objeto em todos os seres na área (Reflexos DT 30 reduz à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Manifestar o Impossível",
+          "valor": "Completa",
+          "descricao": "A anomalia invoca uma ou mais criaturas de Energia cujo VD total some até 240. As criaturas aparecem em alcance curto da anomalia e agem a partir da próxima rodada, seguindo seus impulsos caóticos."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Imaterial",
+          "descricao": "A anomalia possui um corpo físico desprezível e escondido atrás de uma imensidão de Energia paranormal. Ela é imune a dano e a todas as condições. A anomalia não faz testes e não age da mesma maneira que outras criaturas. Sua própria existência é uma impossibilidade e um confronto com ela é surreal e indescritível. A única forma de derrotá-la é resolvendo seu Enigma de Medo."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Existência Impossível",
+          "descricao": "A anomalia não se desloca de maneira normal. Ela existe somente dentro de um objeto que possa ser aberto por uma porta. Enquanto a porta estiver aberta, a anomalia é manifestada e pode usar seus poderes. Uma vez manifestada, a anomalia ficará perseguindo aqueles que a manifestaram, surgindo sempre que abrirem uma porta ou compartimento e levando-os à loucura."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Existe uma lenda de uma dimensão alternativa, um espaço que poderia ser acessado por puro acaso. Uma possibilidade minúscula, inacreditável, de que ao interagir com uma passagem, você poderia acessar outro lugar que não pretendia. Como se em todas as vezes que as portas do elevador se abriram, ou quando você se prepara para sair de casa, ou até mesmo quando abre o microondas para pegar comida, você estivesse jogando na loteria da probabilidade anárquica.\n\nE se seu infortúnio for inacreditável, você terá sido escolhido por uma anomalia.\n\nExceto que a anomalia não é uma dimensão, ele é uma manifestação paranormal, um monstro. Uma criatura com uma forma tão caótica que a Realidade tenta conter escondida por trás da menor das possibilidades, para que sua falta de lógica possa ser ignorada.\n\nA anomalia é indescritível para aqueles que a vivenciaram. Sua forma não é contida por barreiras físicas de um corpo compreensível. Não existem registros de testemunhas sobreviventes dessa manifestação, mas aqueles que de alguma forma conseguiram registrar o momento em que a presenciaram conseguiram apenas rir enlouquecidos enquanto os filamentos de suas mentes eram destroçados em segundos.\n\nÉ impossível determinar se uma anomalia é uma manifestação instantânea que se desfaz após escolher uma vítima ou se está constantemente na Realidade, apenas esperando pela impossibilidade de sua manifestação. Na verdade, é impossível ter qualquer dado concreto e lógico sobre a Anomalia.\n\nMas algo sempre estará presente: o medo de que, na próxima vez que você abrir aquela porta, a anomalia escolha você."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A anomalia não deveria existir. Ela é o próprio caos colapsando com a Realidade, e não existe lógica para defini-la. A única forma de combater essa criatura é mergulhar na anomalia para entendê-la no Outro Lado. Quando o Enigma de Medo da anomalia for resolvido, ela se transforma em um ser ou objeto aleatório por {2d4} rodadas. Durante esse tempo, ela perde sua imunidade a dano e condições e usa as estatísticas do ser ou objeto, com exceção de seus PV."
+        }
+      ]
+    },
+    {
+      "id": "anomiatico",
+      "nome": "Anomiático",
+      "tags": [
+        "Energia",
+        "VD 240"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/anomiatico-retrato.webp",
+      "miniatura": "bestiario/anomiatico-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 4
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 600
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 240
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 30, {6d8} mental, NEX 75%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 41
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "18m / 12q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, corte 10, Energia 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garra Desintegradora",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+30}\nDano: {4d12+20} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Comportamento Errático",
+          "valor": "Livre",
+          "descricao": "No começo do seu turno, o anomiático é tomado pelo fluxo de Energia em seu corpo e executa três comportamentos aleatórios. Role {1d6} na tabela abaixo três vezes; o anomiático então executa as ações indicadas na ordem em que forem roladas. Se não puder executar uma das ações, ele fica parado se contorcendo e perde aquela ação (mas não qualquer outra). Para cada ação que perder, o anomiático aumenta suas resistências a dano em 10 até seu próximo turno.\n\n1,2 - O anomiático salta até 18m em direção ao ser mais próximo. Se ficar adjacente a ele, faz uma ação agredir e ataca com suas garras desintegradoras.\n\n3 - O anomiático se transforma em um facho de Energia e se move até ficar adjacente a um ser escolhido aleatoriamente entre todos que o estejam enfrentando.\n\n4 - Uma parte do corpo do anomiático explode, causando dano de Energia em todos os seres ao redor. O dano exato depende da distância do ser em relação ao anomiático: {4d12+20} para seres em alcance médio, {6d12+20} para seres em alcance curto e {8d12+20} para seres adjacentes. Seres em alcance médio ou curto têm direito a um teste de Reflexos (DT 30) para reduzir o dano à metade. O anomiático perde 50 PV quando executa esta ação.\n\n5 - Uma risada descontrolada toma o anomiático. Ele fica desprevenido até o início do seu próximo turno. Enquanto estiver desprevenido, todos os seus ataques são mais imprevisíveis e o defensor não pode se esquivar deles.\n\n6 - O anomiático toca um ser adjacente. O alvo acumula uma quantidade absurda de Energia e sofre {10d12+20} pontos de dano de Energia (Fortitude DT 30 reduz à metade)."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma criatura originada de um corpo humano que foi completamente transformado pela Energia. Quando alguém com um nível extremamente alto de exposição paranormal deveria se tornar um anárquico, o caos se multiplica infinitamente dentro da sua existência, distorcendo por completo as noções de regras, leis e razão.\n\nUm anomiático é um espectro da loucura e seu comportamento é totalmente insano. Relatos dos poucos sobreviventes o descrevem como um vulto de luz que se teleporta de forma desenfreada por todo o ambiente, rindo caoticamente enquanto flutua e se desintegra por todos os lugares. Com a capacidade de se mover em alta velocidade, ele busca atacar todos os seus inimigos de forma aleatória, como se tentasse corromper até mesmo a própria noção de sobrevivência.\n\nUma manifestação rara capaz de estragos incalculáveis, tentar montar uma estratégia contra o anomiático provavelmente só vai gerar um desastre ainda maior. Apenas lembre-se: se você ouvir uma risada distorcida e desafinada correndo como um curto elétrico ao seu redor, prepare-se para o imprevisível."
+        }
+      ]
+    },
+    {
+      "id": "ciborgue",
+      "nome": "Ciborgue",
+      "tags": [
+        "Energia",
+        "VD 80"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/ciborgue-retrato.webp",
+      "miniatura": "bestiario/ciborgue-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 160
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 80
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Sangue, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 15, {2d6} mental, NEX 40%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 25
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Condições de paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, corte 10, Energia 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Braço Laminado",
+          "valor": "Padrão",
+          "descricao": "Estado Alpha - Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {1d12+10} Corte\nCrítico: 18"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Punho Energizado",
+          "valor": "Padrão",
+          "descricao": "Estado Beta - Agredir. Corpo a corpo.\nTeste: {3d20>+10}\nDano: {2d8+10} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Estado Beta - Investida Energética",
+          "valor": "Completa",
+          "descricao": "Estado Beta - Investida Energética. Corpo a corpo.\nTeste: {4d20>+10}\nDano: {4d8+10} Impacto\n\nO ciborgue avança até 24m (18) e faz um ataque de punho energizado com bônus de +1d20 no teste de ataque. Se acertar, causa +{2d8} de dano (para um total de {4d8+10}) e derruba o alvo (Fortitude DT 20 evita a queda)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Canhão",
+          "valor": "Padrão",
+          "descricao": "Estado Gama - Agredir. Distância, longo.\nTeste: {3d20>+10}\nDano: {4d12+5} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Raio Energético",
+          "valor": "Padrão",
+          "descricao": "Estado Delta - Agredir. Distância, médio.\nTeste: {3d20>+10}\nDano: {1d12+5} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Criar Barreira",
+          "valor": "Movimento",
+          "descricao": "O ciborgue expande suas correntes de Energia e cria uma barreira paranormal. Ele recebe +5 na Defesa até o início de seu próximo turno."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Reiniciar",
+          "valor": "Movimento",
+          "descricao": "O ciborgue encerra uma condição que o esteja afetando."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Desorientar",
+          "valor": "Livre",
+          "descricao": "Um ser que sofra dano do raio energético fica alquebrado. Se já estiver alquebrado, fica atordoado por uma rodada (Vontade DT 20 evita)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Estado de Combate",
+          "descricao": "No começo do turno do ciborgue, ele assume um estado de combate disponível dentre os quatro abaixo. Um estado de combate deixa de estar disponível quando sua fraqueza é resolvida (veja Enigma de Medo). O estado de combate do ciborgue define quais ações ele pode fazer, conforme a coluna ao lado.\n\nEstado Alpha. Focado em atacar inimigos próximos.\n\nEstado Beta. Focado em perseguir e atacar inimigos distantes.\n\nEstado Gama. Focado em ataques à distância.\n\nEstado Delta. Estado tático e defensivo."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Regeneração Energética",
+          "descricao": "No começo do turno do ciborgue, ele recupera 20 PV. Se perder três ou mais estados de combate, o ciborgue perde esta habilidade."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "O avanço da tecnologia e a obsessão com melhorias cibernéticas dentro da Realidade podem levar aos resultados mais bizarros. O ciborgue se originou de um cientista seduzido pelo poder da tecnologia que se tornou tão obstinado com a sua eficiência que amputou seus próprios membros e os substituiu por mecanismos ativados através de Energia paranormal.\n\nA dor causada pelo processo agressivo eventualmente distorceu seu ser em uma criatura descontrolada, com seu corpo formado de um grande aglomerado de partes mecânicas e orgânicas asquerosas.\n\nO ciborgue é uma criatura brutal, mas suas mutações robóticas parecem causar transformações espontâneas. Isso faz com que a criatura mude seu comportamento a qualquer momento, assim como a forma de atacar suas vítimas.\n\nEssa é uma criatura extremamente perigosa e não deve ser enfrentada sem preparo ou estudo do corpo que originou sua manifestação. A Energia fluindo por seu corpo torna o contato físico extremamente perigoso, com a criatura sendo capaz de liberar pulsos elétricos fortes o suficiente para desacordar uma pessoa adulta."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "O ciborgue é programado pela Energia para alterar seu estado de combate com frequência. Cada estado possui uma fraqueza específica, determinada quando ele é criado pela Entidade. Exemplos de fraquezas incluem sofrer 15 pontos de dano de um tipo específico em um único ataque ou ser exposto a uma substância ou material específico. Uma fraqueza só pode ser resolvida se o ciborgue estiver no estado de combate correspondente. Quando a fraqueza for resolvida, ele não poderá assumir mais esse estado de combate. Quando ficar sem nenhum estado de combate, ele se desativa: sua Defesa é reduzida para 10 e seu deslocamento para 0m."
+        }
+      ]
+    },
+    {
+      "id": "empecilho",
+      "nome": "Empecilho",
+      "tags": [
+        "Energia",
+        "VD 20"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 1
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 1
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 50
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Enorme"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 14, {2d6} mental, NEX 40%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 14
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Enxame",
+          "descricao": "Uma aglomeração de criaturas que agem em conjunto. Em termos de regras, pode entrar no espaço ocupado por um ser. No fim do seu turno, o exame usa o poder Desmantelar. Um enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano e sofre apenas metade do dano de ataques com armas. Porém, sofre 50% a mais de dano por efeitos de área."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Desmantelar",
+          "descricao": "O enxame de emepecilhos faz uma manobra desarmar ({3d20>+7}) contra todos os seres em seu espaço que estejam empunhando um equipamento tecnológico, como uma arma de fogo ou acessório. Se vencer, o enxame rouba o item e começa a desmonta-lo, causando {1d6} pontos de dano automaticamente ao objeto (ignora RD). É possível recuperar o objeto vencendo uma manobra desarmar contra o enxame."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Essas criaturinhas grotescas já receberam muitos nomes (imps, duendes, goblins, fadas), e se manifestam quando um dispositivo tecnológico, eletrônico ou não, vai gerar caos se falhar ou funcionar de forma inesperada. Alguns pesquisadores afirmam que Empecilhos podem ser a causa de muitos acidentes inexplicáveis com elevadores e aviões."
+        }
+      ]
+    },
+    {
+      "id": "infecticidio",
+      "nome": "Infecticídio",
+      "tags": [
+        "Energia",
+        "VD 280"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/infecticidio-retrato.webp",
+      "miniatura": "bestiario/infecticidio-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 600
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 280
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Enorme"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {8d6} mental, NEX 85%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 25
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, corte 20, Energia 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancadas Infectadas",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {5d20>+30}\nDano: {4d12+20} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Infecção",
+          "descricao": "Um ser que sofra dano das pancadas é infectado pelo vírus do infecticídio (Fortitude DT 30 evita). Um ser que passe no teste de resistência fica imune a essa doença até final da cena.\n\nVírus do Infecticídio. Contaminação por contato, Fortitude DT 30. O vírus do infecticídio é muito resistente, e só pode ser combatido em condições de temperaturas extremamente baixas. Testes de Fortitude só contam para curar esta doença se forem feitos em ambientes com temperatura abaixo de 0º.\n\nEstágio I. Os pontos de vida máximos do personagem são reduzidos em {2d10}. Se em qualquer estágio a doença reduzir seus PV a 0, ele morre instantaneamente.\n\nEstágio II. Os pontos de vida máximos do personagem são reduzidos em mais {2d1}\n\nEstágio III ou superior. Os pontos de vida máximos do personagem são reduzidos em mais {2d10}. Além disso, ele passa a transmitir o vírus por contato."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Horda",
+          "descricao": "O infecticídio é uma horda de criaturas infectadas por um vírus de Energia. Ele sofre apenas metade do dano de ataques e habilidades que afetem apenas um ser, mas sofre o dobro do dano de efeitos de área. Além disso, sempre que erra um ataque, ainda causa metade do dano (exceto se o defensor usou uma reação para se esquivar)."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "No meio científico, o debate para definir se um vírus pode ser considerado de fato um ser vivo perante nossa biologia nunca foi definido por completo. Mas não resta dúvida de que as manifestações do Outro Lado podem tomar essa forma para invadir a Realidade.\n\nComo uma doença paranormal, o infecticídio se origina como um vírus digital dentro de dispositivos eletrônicos. Através disso, infecta seres vivos da Realidade, distorcendo suas formas físicas e formando uma espécie de horda descontrolada com uma mente ensandecida e compartilhada.\n\nAqueles que foram contagiados pelo infecticídio apresentam sintomas após algumas horas. Eles começam como tremedeira nas mãos, mudança constante na cor da pupila para tons esverdeados ou rosados, descontrole psicológico e alucinações. Por fim, a vítima é tomada por completo e se torna parte da horda de infectados.\n\nOs seus corpos então se tornam deformados, com os olhos tomando uma forma manchada com cores pulsantes e os dentes se tornando pontudos e brilhosos. O contágio da criatura pode ser feito através de contato direto com sangue ou saliva, como uma doença comum. Porém, ela também é capaz de se espalhar como um vírus digital, infectando dispositivos tecnológicos — como celulares e computadores — e, a partir deles, infectar seus usuários.\n\nÉ possível exterminar o infecticídio por completo apenas eliminando todos aqueles que foram dominados pela criatura e congelando seus corpos para que o vírus perca sua capacidade de transmissão."
+        }
+      ]
+    },
+    {
+      "id": "perturbado-de-energia",
+      "nome": "Perturbado de Energia",
+      "tags": [
+        "Energia",
+        "VD 40"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/perturbado-de-energia-retrato.webp",
+      "miniatura": "bestiario/perturbado-de-energia-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 1
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 0
+        },
+        {
+          "sigla": "VIG",
+          "valor": 0
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 60
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 40
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 15, {2d8} mental, NEX 30%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 19
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 5, corte 5, Energia 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "-2d20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "-2d20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "-2d20"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Toque Plasmático",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+10}\nDano: {2d12} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Implantar Confusão",
+          "valor": "Livre",
+          "descricao": "Uma vez por rodada, o perturbado de Energia tenta agarrar um personagem que acabou de sofrer dano de seu toque plasmático (teste {4d20>+10}). Se conseguir, o perturbado começa a implantar imagens na mente do alvo e fazer com que ele reviva experiências traumáticas. O personagem sofre {2d8} pontos de dano mental (Vontade DT 15 reduz à metade) e recebe vulnerabilidade a dano de Energia até o fim da cena."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Quando uma alma é enlouquecida de forma brusca e agressiva, sua psique pode ser tão violentada que a percepção da Realidade se esvai antes mesmo de perceber que não está viva. O resultado disso é um perturbado de Energia, uma forma plasmática inconsistente e desesperada, mergulhada em confusão e que não entende nem mesmo o que é.\n\nO perturbado se agarra a qualquer consciência próxima numa tentativa desesperada de compartilhar e aliviar a sua discórdia mental, mesclando a percepção da Realidade e fazendo seus alvos reviverem memórias traumáticas em um estado de confusão.\n\nComo uma forma completamente caótica, os perturbados são inconsistentes e não conseguem agir com coerência, afetando os alvos mais próximos que perceberem nos seus arredores. Tudo para tentar encontrar uma faísca de sentido e ordem mais uma vez, nem que por apenas um segundo."
+        }
+      ]
+    },
+    {
+      "id": "sukkalgir",
+      "nome": "Sukkalgir",
+      "tags": [
+        "Energia",
+        "VD 160"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/sukkalgir-retrato.webp",
+      "miniatura": "bestiario/sukkalgir-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 220
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 160
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 25, {4d8} mental, NEX 55%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 34
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "18m / 12q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Balístico, corte, perfuração"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Impacto 10, Energia 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida do Outro Lado",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {2d12} Mental"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrão",
+          "descricao": "Se a sukkalgir acertar um ataque com sua mordida em um ser Médio ou menor, pode agarrar o alvo (teste {3d20>+15})."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Grito de Desespero",
+          "valor": "Completa",
+          "descricao": "A sukkalgir grita em desespero. Cada ser em alcance médio sofre {3d12} pontos de dano mental (Vontade DT 20 reduz à metade; estar sob cobertura fornece +5 nesse teste)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Aura Desesperada",
+          "descricao": "Qualquer ser que comece seu turno em alcance curto da sukkalgir sofre {2d12} pontos de dano mental (Vontade DT 25 reduz à metade)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Espírito Plasmático",
+          "descricao": "A sukkalgir é parcialmente intangível, e pode atravessar obstáculos sólidos como paredes."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma alma torturada através do fogo, as sukkal se originaram na antiga Suméria como resultado de um processo enlouquecedor em que textos eram cravados com brasa ardente em na pele de vítimas, registrando os feitos e massacres de seu captor.\n\nUm ser destinado a sofrer pela agonia do fogo que tomou seu corpo pela eternidade, uma sukkal emite um grito enlouquecedor e constante, capaz de desmantelar a mente até mesmo daqueles mais acostumados com manifestações do Outro Lado.\n\nSeu corpo é formado de Energia tomando um aspecto similar a uma labareda de cores impossíveis, constantemente pairando acima do chão enquanto as palavras e escritas macabras flutuam por sua pele de maneira caótica. Em seu rosto, um enorme sorriso desesperado se rasga em sua boca anormalmente grande que parece nunca cessar com o grito desesperador de uma mente atormentada."
+        }
+      ]
+    },
+    {
+      "id": "telopsia",
+      "nome": "Telopsia",
+      "tags": [
+        "Energia",
+        "VD 340"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/telopsia-retrato.webp",
+      "miniatura": "bestiario/telopsia-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 560
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 340
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Morte, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, {10d6} mental, NEX 99%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 48
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Condições de paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, corte 20, Energia 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Toque Desintegrador",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {4d20>+35}\nDano: {6d12+30} Energia"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Viajar pela Tela",
+          "valor": "Movimento",
+          "descricao": "O telopsia pode se desmaterializar e se materializar em outra tela ou visor em alcance longo. Em seguida, ele se desloca 9m."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Tela Zumbificadora",
+          "valor": "Padrão",
+          "descricao": "O telopsia projeta imagens enlouquecedoras em sua tela. Todos os seres em alcance médio sofrem {6d6} pontos de dano mental e ficam confusos até o final da cena (Vontade DT 30 reduz o dano à metade e evita a condição). Um ser que já esteja confuso e falhe no teste de resistência fica também fascinado."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Prender na Tela",
+          "valor": "Completa",
+          "descricao": "O telopsia usa ondas de Energia para desintegrar um ser em alcance curto e materializá-lo dentro de sua tela (Fortitude DT 30 evita). Um ser dentro da tela fica paralisado e sofre {2d12} pontos de dano mental no início de cada um de seus turnos. Cada vez que o telopsia sofre 50 ou mais pontos de dano em um turno, o ser preso pode repetir o teste de Fortitude; se passar, escapa da tela e se materializa em um ponto a sua escolha adjacente ao telopsia."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Você já deve ter escutado a lenda do filme amaldiçoado: telopsia. Uma fita VHS amaldiçoada que contém uma gravação misteriosa e terrível, causando a todos aqueles que a assistiram uma morte aterrorizante pouco tempo depois.\n\nOs relatos daqueles que de fato possuíram a fita se misturam com as inúmeras histórias fictícias daqueles que buscam atenção, mas algumas consistências aparecem naqueles que não estavam mentindo: todos morreram em seguida.\n\nNinguém parece conseguir descrever sequer a duração do conteúdo registrado, e qualquer tentativa resulta na vítima entrando em um ataque de histeria enlouquecedora, repetindo as mesmas palavras sem parar em um ataque de pânico: “Rebobinar através. Rebobinar através. Rebobinar através…”\n\nÉ impossível determinar uma origem da fita maldita, mas sua manifestação está sempre conectada à criatura que a acompanha. Descrito com a aparência de um homem bizarro vestindo um longo sobretudo preto, com um corpo esquelético e uma cabeça similar a uma televisão antiga, com imagens perturbadoras e enlouquecedoras sendo transmitidas em sua “tela”.\n\nTodos aqueles que assistiram ao filme eventualmente são encontrados pela criatura. Então, é ela que os assiste, enquanto distorce e desintegra a forma de suas vítimas. Delas, resta apenas uma mancha preta no formato de silhueta no local em que morreram."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A única maneira teorizada de derrotar o telopsia é de alguma forma destruir a própria fita amaldiçoada que se manifestou na Realidade, mas para isso é necessário investigar suas vítimas para encontrá-la, um trabalho árduo considerando que ninguém parece conseguir lembrar do que fez com ela após assistila. Se a fita for destruída, o telopsia tem seus PV reduzidos a 0 e também é destruído. Caso contrário, mesmo que seja derrotado em combate, se o seu Enigma de Medo não tiver sido resolvido, será apenas uma questão de tempo até o telopsia retornar."
+        }
+      ]
+    },
+    {
+      "id": "tempestuoso",
+      "nome": "Tempestuoso",
+      "tags": [
+        "Energia",
+        "VD 360"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/tempestuoso-retrato.webp",
+      "miniatura": "bestiario/tempestuoso-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 950
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 360
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, {8d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 56
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "24m / 16q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Condições de paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, corte 20, Energia 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+30}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras Radioativas",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {4d20+20} Energia\n\nAs garras radioativas do tempestuoso podem atingir alvos em alcance curto, mesmo sendo ataques corpo a corpo."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Raio de Energia Radioativa",
+          "valor": "Livre",
+          "descricao": "Quando acerta dois ataques de garras radioativas em um mesmo ser, o tempestuoso faz com que um raio de energia radioativa seja projetado deste ser em direção a outro alvo em alcance médio. Este alvo sofre {4d20+20} pontos de dano de Energia (Reflexos DT 40 reduz à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Expandir em Radiação",
+          "valor": "Completa",
+          "descricao": "O tempestuoso concentra energia radioativa em volta de si para depois expandi-la como uma explosão de Energia. Cada ser em alcance longo sofre {10d20+20} pontos de dano de Energia (Reflexos DT 40 reduz à metade). O próprio tempestuoso perde 100 PV quando usa esta habilidade."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Aura Radioativa",
+          "descricao": "Qualquer ser que comece seu turno em alcance curto do tempestuoso sofre {2d20+20} pontos de dano de Energia (Fortitude DT 40 reduz à metade)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Espectro Radioativo",
+          "descricao": "O tempestuoso manifesta um espectro de radiação à sua volta, que atua como uma extensão de seu corpo físico. Todos os ataques e habilidades corpo a corpo do tempestuoso podem ser feitos em alcance curto."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma tempestade do caos, essa criatura disforme se manifesta através de turbilhões descontrolados, causando transformação e estrago a todos os lugares que toca. Como uma nuvem de pura Energia, um tempestuoso parece ser uma supernova implodindo em uma forma humanoide, em constante transformação, contida apenas por algum tipo de tecnologia incompreensível e bizarra em diversos cabos metálicos conectados.\n\nRegistros de encontros com tempestuosos foram descritos por testemunhas como sons ensurdecedores que poderiam ser confundidos com raios violentos caindo em uma tempestade enfurecida.\n\nUm tempestuoso só pode ser originado em um ambiente com a Membrana extremamente danificada e em condições muito específicas, como usinas radioativas abandonadas, e seus efeitos perduram mesmo muito tempo depois, como se ele emitisse algum tipo de radiação paranormal ao seu redor, muito mais perigosa que radiação nuclear.\n\nO encontro com um tempestuoso exige um preparo imponderável, equipamentos de alta proteção e, acima de tudo, muita sorte."
+        }
+      ]
+    },
+    {
+      "id": "viajante",
+      "nome": "Viajante",
+      "tags": [
+        "Energia",
+        "VD 200"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/viajante-retrato.webp",
+      "miniatura": "bestiario/viajante-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 4
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 360
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 200
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Visão no escuro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {6d6} mental, NEX 60%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 34
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, corte 10, Energia 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+15}\nDano: {2d12+10} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrão",
+          "valor": "Livre",
+          "descricao": "Se o viajante acerta um ataque com sua pancada em um ser Médio ou menor, pode tentar agarrar o alvo (teste 2O+15)"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Devorar Memória",
+          "valor": "Completa",
+          "descricao": "O viajante entra na mente de um ser que esteja agarrando e começa a devorar suas memórias. A vítima sofre {4d12} pontos de dano mental e esquece completamente de uma pessoa (Vontade DT 29 reduz o dano à metade e evita o efeito). Para cada ser que o viajante deixar perturbado com esta habilidade, seu dano de pancada aumenta em +{1d12} até o fim da cena."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Invisibilidade Permanente",
+          "descricao": "O viajante é invisível. Ele recebe camuflagem total, +15 em Furtividade e seres que não possam vê-lo ficam desprevenidos contra seus ataques."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma criatura maligna e cruel, o viajante das Polaroids é um ser que distorce lentamente as memórias de um alvo, se transportando através de fotografias e consumindo o rosto de todos aqueles registrados nelas.\n\nApós gerar traumas e desespero o suficiente, o viajante se manifesta fisicamente, causando amnésia temporária em sua presa para confundi-la e desestruturá-la, diminuindo as suas chances de sobrevivência. Todas as fotografias que antes eram apenas rostos vazios se distorcem em sorrisos tétricos e macabros.\n\nO viajante é uma criatura bizarra, com um corpo esbranquiçado, membros alongados e uma cabeça com incontáveis rostos terríveis mesclados em expressões diferentes. Porém, ele é fisicamente invisível, e consegue andar em superfícies como paredes e tetos. Seus métodos cruéis envolvem matar e devorar suas vítimas rasgando seu rosto pelas extremidades da boca, abrindo um enorme sorriso perturbador.\n\nO viajante parece não se satisfazer com a carne de suas vítimas, e sim com suas memórias, buscando sempre arrancar o cérebro para explorá-lo, ou acessando suas mentes antes de assassiná-las. Se as fotos daqueles que você não reconhece mais sorrirem de forma macabra para você, ele está chegando, e você precisa se esconder."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A única maneira de enxergar o viajante é usando dispositivos de captura de imagem para fotografálo. Capturar a sua existência em uma imagem sem que ele esteja de fato viajando através dela é o suficiente para distraí-lo momentaneamente, fazendo com que se torne visível por alguns segundos. Quando o Enigma de Medo do viajante for resolvido ele perde a habilidade Invisibilidade Permanente até o início do próximo turno do personagem que capturou sua imagem."
+        }
+      ]
+    }
+  ]
+}

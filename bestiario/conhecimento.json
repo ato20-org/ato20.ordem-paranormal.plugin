@@ -1,0 +1,1959 @@
+{
+  "grupos": [
+    {
+      "nome": "Ameaça"
+    },
+    {
+      "nome": "Combate"
+    },
+    {
+      "nome": "Perícias"
+    },
+    {
+      "nome": "Ações",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Poderes",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Descrição",
+      "exibicao": "lista"
+    }
+  ],
+  "moldes": [
+    {
+      "id": "mascara-do-desespero",
+      "nome": "Máscara do Desespero",
+      "tags": [
+        "Conhecimento",
+        "VD 400"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/mascara-do-desespero-retrato.webp",
+      "miniatura": "bestiario/mascara-do-desespero-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 6
+        },
+        {
+          "sigla": "PRE",
+          "valor": 6
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1200
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 400
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Relíquia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Minúsculo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {10d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 55
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano, condições"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ciência",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ocultismo",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Religião",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Conjuração Verdadeira",
+          "valor": "Livre",
+          "descricao": "Uma vez por turno, a Máscara do Desespero pode conjurar um ritual de Conhecimento a sua escolha, de qualquer círculo. O ritual deve ter execução máxima de ação completa e custo máximo de 20 PE. A DT para resistir a ele é 45."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Onipresença",
+          "valor": "Movimento",
+          "descricao": "A Máscara do Desespero consegue se deslocar para qualquer local da Realidade, desde que haja algum tipo de sombra ou escuridão, independente da distância. Além disso, ela sabe exatamente tudo que está acontecendo na Realidade ao mesmo tempo. Isso faz com que nenhum personagem possa se esconder da relíquia, e ela ignora qualquer necessidade de ver ou ouvir para usar suas habilidades."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Reescrever Realidade",
+          "valor": "Padrão",
+          "descricao": "A Máscara do Desespero tem o poder único de reescrever a Realidade por completo, alterando as propriedades de seres e objetos em alcance médio. Contra objetos, ela pode mudar a composição, posição e estado da matéria de um objeto de até 1 tonelada. Objetos vestidos ou empunhados têm direito a um teste de Reflexos do portador (DT 45) para evitar este efeito. Contra seres, ela pode causar {10d6} pontos de dano de Conhecimento, {10d6} pontos de dano mental e uma condição qualquer (exceto morrendo e enlouquecendo) em um ser (Vontade DT 45 reduz cada dano à metade e evita a condição)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Destronar o Anfitrião",
+          "descricao": "A Máscara do Desespero é a única que consegue resolver o Enigma de Medo do Anfitrião."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Potência do Conhecimento",
+          "descricao": "O modificador da Máscara do Desespero para todos os testes de perícia baseados em Intelecto, Presença e Vigor é +35, e para testes baseados nos demais atributos, é +25."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "O paranormal não se manifesta na Realidade apenas na forma de monstros, mas também pode se vincular a objetos e ambientes. Porém, dificilmente um objeto assombrado é mais perigoso do que uma criatura do Outro Lado.\n\nInfelizmente, a Máscara do Desespero não é apenas um objeto. Conhecida também como a Relíquia do Conhecimento, ela é uma das manifestações mais antigas na Realidade. Alguns creem que a Máscara do Desespero existe desde antes mesmo da civilização humana se desenvolver.\n\nUma máscara indestrutível que contém toda a verdade do Outro Lado, um semblante desesperado e permanente que esconde os segredos incompreensíveis, as memórias de tudo que já existiu, a lucidez de todas as explicações, todas as respostas… todo o Conhecimento.\n\nAqueles que portam a Máscara lembram de tudo e sabem tudo. Mas saber tudo é perder tudo. Ao usar a Máscara do Desespero, a mente do usuário é soterrada pelo Conhecimento infinito e seu ego é inexistido. O portador se torna algo que se identifica apenas como Magistrada — a executora das regras, a arauta das promessas. Um ser paranormal de poder imensurável com apenas um objetivo: proteger o equilíbrio na Realidade."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição (continuação)",
+          "descricao": "O que exatamente é o “equilíbrio” e o que significa protegê-lo é um mistério até mesmo para aqueles que se envolveram diretamente com a Máscara. Porém, alguns fatos são inegáveis: aquele que porta a Máscara do Desespero tem o poder de alterar a realidade, as memórias, os eventos e os acontecimentos de maneira soberana. É impossível determinar que tipo de força seria necessária para derrotar ou impedir algo dessa magnitude; talvez apenas outra criatura paranormal à altura possa ter qualquer tipo de chance.\n\nA Máscara do Desespero parece estar associada a sombras. A presença do portador da Máscara resulta em sombras sendo distorcidas, e muitos que se conectaram com a Magistrada relatam terem sido transportados para um plano alternativo conhecido como “dimensão das Sombras”.\n\nA Magistrada é a única fonte compreensível do Conhecimento do Outro Lado na Realidade, e algumas verdades proferidas por ela são assustadoras. Por exemplo, é fato que a Máscara do Desespero leva esse nome não pelo sentimento que seu portador traz aos outros, mas sim como um presságio do resto da existência daquele que escolher portar a Máscara.\n\nA ETERNIDADE DO DESESPERO INFINITO DO CONHECIMENTO."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A Máscara do Desespero é indestrutível, e seu portador também, porém existem registros de duas possibilidades para enfrentá-la. Seria possível neutralizar alguém portando a Máscara apenas abalando diretamente o Equilíbrio, quebrando as regras da Realidade através do Medo, de forma inexplicável, ou então devastando a sua razão através da brutalidade do portador da Relíquia de Sangue, também conhecido como o Diabo. Quando o Enigma de Medo da Máscara do Desespero for resolvido, ela perde sua imunidade a dano e sua habilidade de Onipresença."
+        }
+      ]
+    },
+    {
+      "id": "anjo",
+      "nome": "Anjo",
+      "tags": [
+        "Conhecimento",
+        "VD 380"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/anjo-retrato.webp",
+      "miniatura": "bestiario/anjo-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 5
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1111
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 380
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Enorme"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, {10d6} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 57
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "24m / 16q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Conhecimento, condições de paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Dano 50"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+30}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Asas do Conhecimento",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {4d10+40} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Olhares do Saber",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, curto, 2x.\nTeste: {4d20>+40}\nDano: {6d8+20} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Faixas Detentoras",
+          "valor": "Livre",
+          "descricao": "Se o anjo acertar um ataque de asas do Conhecimento em um ser Médio ou menor, pode tentar agarrar o alvo (teste {5d20>+45}) usando as faixas que prendem suas asas. Um ser agarrado desta forma também fica fascinado. O anjo pode manter um ser agarrado desta forma por vez e fazer isso não impede que ele use suas asas do Conhecimento."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Chamas Reveladoras",
+          "valor": "Padrão",
+          "descricao": "O anjo manifesta um círculo de chamas douradas em volta de si, que se expande em alcance médio. Todos os seres nesta área sofrem {10d8} pontos de dano de Conhecimento (Vontade DT 43 reduz à metade). Um ser que sofra dano dessa habilidade fica com uma auréola reveladora em cima de sua cabeça. Até o final da cena, o anjo sabe exatamente onde estão todos os seres com auréola, o que significa que ele ignora furtividade e qualquer tipo de invisibilidade ou efeito ilusório."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Raio Dourado",
+          "valor": "Completa",
+          "descricao": "Uma vez por cena, o anjo dispara um raio dourado de seu olho central. Todos os seres em uma linha de 3m em alcance longo sofrem {15d8+50} pontos de dano de Conhecimento (Reflexos DT 43 reduz à metade)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Julgamento",
+          "descricao": "O anjo é uma criatura que se manifesta como fisicalização do Conhecimento e, portanto, é uma criatura que julga o saber. Sempre que um ser sofre dano de Conhecimento das asas do Conhecimento ou dos olhares do saber do Anjo, sofre também uma quantidade de dano mental igual à metade do dano de Conhecimento sofrido (após aplicar resistências). Um ser reduzido a Sanidade 0 desta formatem sua mente colapsadapelo julgamento do Anjoe inexiste, morrendo instantaneamente."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "No vasto catálogo dos registros da sociedade humana, poucas experiências paranormais têm o impacto e a relevância de um acontecimento específico: a visita de um anjo. Uma manifestação revelada através de uma transcendência espontânea, descrita por inúmeros ocultistas em locais, tempos e culturas completamente diferentes.\n\nCada um dos observadores que presenciou um anjo narra a experiência como um momento inesquecível, indescritível, revelador e ao mesmo tempo aterrorizante. Um anjo é uma criatura tão poderosa que é capaz de desmantelar a sanidade de uma pessoa apenas ao ser observado, derretendo os seus olhos, que escorrem como lágrimas douradas.\n\nEscritas enigmáticas apontam anjos como “o rosto da verdade impossível” ou “uma resposta indesejada”, como se eles representassem o Conhecimento do próprio Outro Lado manifestado como uma criatura. Isso indicaria que um anjo na verdade é apenas uma projeção psicológica de mentes enlouquecidas pelo Conhecimento, porém, as evidências de encontros com um anjo em grupo descrevendo a mesma experiência contradizem isso.\n\nNão existem registros de um anjo se manifestando desde o século XIII, e quando se trata do Outro Lado e suas criaturas, é sempre complexo catalogar fatos concretos. O paranormal parece mudar e se adaptar como um fluxo ilógico e tentar entender suas regras é o caminho para a insanidade. Mas se existe uma coisa que se pode determinar sobre anjos é que todos que encontraram um deles foram tocados por algo maligno e profundo, e nunca mais foram os mesmos. Algo no cerne de sua existência foi inerentemente alterado para sempre."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Seres puros de Conhecimento, os anjos podem ser enganados por seu alinhamento de Justiça Perfeita. Um anjo que falhe em julgar corretamente pode cair e ser alcançado por mortais. Quando o Enigma de Medo do anjo for resolvido, ele perde sua resistência a dano, seu deslocamento de voo e sua habilidade Julgamento."
+        }
+      ]
+    },
+    {
+      "id": "bicho-papao",
+      "nome": "Bicho-Papão",
+      "tags": [
+        "Conhecimento",
+        "VD 300"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/bicho-papao-retrato.webp",
+      "miniatura": "bestiario/bicho-papao-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 750
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 300
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {7d8} mental, NEX 90%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 41
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "15m / 10q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, corte 20, impacto 20, Conhecimento 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{5d20>+18}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras Atormentadoras",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {5d20>+35}\nDano: {4d10+10} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Atormentar",
+          "valor": "Movimento",
+          "descricao": "O bicho-papão envia sussurros e perturbações para um ser em alcance curto. O alvo sofre {3d8} pontos de dano mental (Vontade DT 30 reduz à metade). Caso o bicho-papão esteja escondido do alvo, este dano aumenta em +{3d8}."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Saltar e Assustar",
+          "valor": "Completa",
+          "descricao": "Se estiver escondido de um ser em alcance curto, o bicho-papão pode sair do esconderijo e se aproximar deste ser. Enquanto faz isso, seu corpo aumenta e se retorce, assumindo uma forma assustadora. O ser do qual o bichopapão estava escondido sofre {10d8} pontos de dano mental (Vontade DT 35 reduz à metade)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Tamanho Adaptável",
+          "descricao": "O bicho-papão consegue se esconder em locais menores que ele, reduzindo seu corpo para qualquer categoria de tamanho menor de maneira paranormal. Além disso, seu deslocamento não é reduzido por andar furtivamente ou escalar."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Tormento Infantil",
+          "descricao": "O bicho-papão fica desprevenido se estiver ouvindo uma cantiga de ninar ou outra canção infantil. Além disso, se estiver ouvindo o choro de uma criança, ele usará todas as suas ações disponíveis para encontrar e silenciar a fonte do choro."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Destruir Mente",
+          "descricao": "O bicho-papão destrói e devora a mente assustada de seus alvos. Sempre que acerta um alvo perturbado com suas garras atormentadoras, o bicho-papão causa também {1d8} pontos de dano mental por acerto."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Originado da história que pais contam para seus filhos não desobedecerem, o Medo gerado por tantas crianças se manifestou em uma aberração poderosíssima, que espreita em telhados de casas com crianças pequenas.\n\nUma figura encapuzada e alongada, similar a uma centopeia de braços e pernas humanoides, sempre rastejando por telhados e se infiltrando por dutos de ventilação, chaminés e janelas esquecidas abertas, se alocando em qualquer local abstruso do ambiente, conseguindo se esconder por completo mesmo em espaços menores que seu tamanho físico. O bicho-papão prova que você nunca sabe o que pode estar escondido debaixo da cama.\n\nO bicho-papão é uma criatura inteligente, que se comunica com suas vítimas através de sussurros e cantigas macabras durante o sono delas, implantando medos, paranoias e alucinações paranormais que apenas crescem com o passar dos dias.\n\nPorém, algumas cantigas infantis costumam manter a criatura entretida e distraída por alguns momentos. Ela também pode ser enfurecida pelo som de uma criança chorando, podendo ser facilmente enganada ou atraída por esse som.\n\nQuando um alvo da criatura já está com sua sanidade destroçada pela perturbação constante, o bicho-papão se revela para sua vítima da forma mais apavorante possível, causando um desespero descomunal logo antes de devorá-la. Afinal, aqueles com mais medo são mais deliciosos."
+        }
+      ]
+    },
+    {
+      "id": "espreitador",
+      "nome": "Espreitador",
+      "tags": [
+        "Conhecimento",
+        "VD 220"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/espreitador-retrato.webp",
+      "miniatura": "bestiario/espreitador-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 500
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 220
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 30, {7d6} mental, NEX 70%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 34
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+10}\nDano: {1d6+2} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Correr pelas frestas",
+          "valor": "Movimento",
+          "descricao": "O espreitador pode se teletransportar para qualquer espaço em alcance longo, desde que exista uma pequena fresta em seu caminho (uma fresta é um espaço Pequeno ou menor, completamente delimitado por outro objeto ou superfície, como a fresta de porta entreaberta ou um pequeno buraco que atravessa uma parede)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Espreitar",
+          "valor": "Completa",
+          "descricao": "Uma vez por cena, se estiver adjacente a um ser que esteja dormindo, o espreitador causa {10d6} pontos de dano mental neste ser (Vontade DT 30 reduz à metade). Se a vítima ficar enlouquecendo devido a este dano, o espreitador pode criar uma cópia observada dela."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Cópia Observada",
+          "valor": "Padrão",
+          "descricao": "O espreitador manifesta uma cópia de um ser que tenha deixado enlouquecendo com sua habilidade Espreitar. A cópia utiliza a mesma ficha do ser, mas causa dano de Conhecimento em vez de seu dano normal, não pode conjurar rituais ou usar habilidades paranormais e dura até o fim da cena."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma forma asquerosa, curvada, cinza, com uma aparência terrível. A pele é rugosa e pelancuda. A cabeça contém dezenas de olhos de diferentes tamanhos e formatos não naturais, todos contendo pupilas amarelas que se multiplicam enquanto ele espreita suas vítimas. A criatura inteira treme o tempo todo, causando a impressão de estar com frio, ansiosa ou com medo.\n\nDos olhos, uma enxurrada de lágrimas escorre pela pele nojenta, formando poças no chão. E dentro de uma boca aberta cheia de dentes longos e tortos, um grande olho amarelo treme e se move acelerado, como se tentasse observar o ambiente inteiro de uma vez só. Os olhos aparecem mais algumas vezes ao redor do corpo, como nos ombros e joelhos da criatura. Nas mãos, dedos bizarramente longos e perturbadores tremem e se esfregam, como se ela estivesse no meio de uma crise de pânico e ansiedade.\n\nÉ possível ouvir um som engasgado do fundo da garganta dele, abafado pelo grande olho na boca enquanto respira.\n\nO espreitador é uma criatura obcecada que, quando se manifesta, escolhe um alvo para assombrar. Então, persegue todos aqueles que se envolverem com o ser ou objeto assombrado, enquanto devora a sanidade da vítima ao impedir suas horas de sono.\n\nAqueles que têm o azar de serem observados pelo espreitador sofrem de insônia severa e têm constantes vislumbres de olhos amarelos os espreitando através de frestas, com suas pupilas se multiplicando se encaradas, e gotas de saliva que são confundidas com lágrimas escorrendo e pingando no chão.\n\nO espreitador busca observar suas vítimas de perto durante a noite, perturbando seu sono e devorando a sua sanidade aos poucos, sem nunca ser percebido."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Para derrotar o espreitador, é necessário que o alvo que está sendo espreitado o atraia para fora de seu esconderijo simulando estar dormindo na escuridão. Especificamente no horário das 2h11, a criatura sai de seu esconderijo para espreitar suas vítimas de perto, caso sinta que o ambiente é seguro. Quando isso acontece, a porta do esconderijo da qual saiu deve ser fechada antes que o espreitador consiga retornar, deixando-o encurralado e obrigado a combater os agentes ou tentar fugir para outra fresta. Quando encurralado, ele perde sua imunidade a dano."
+        }
+      ]
+    },
+    {
+      "id": "estrangeiro",
+      "nome": "Estrangeiro",
+      "tags": [
+        "Conhecimento",
+        "VD 340"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/estrangeiro-retrato.webp",
+      "miniatura": "bestiario/estrangeiro-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 5
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 750
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 340
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Energia, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, {10d6} mental, NEX 99%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 50
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "15m / 10q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ciência",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ocultismo",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{3d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Toque Sutil",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {5d20>+35}\nDano: {4d8+10} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Rajada Psíquica",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, extremo, 2x.\nTeste: {5d20>+35}\nDano: {4d10+20} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Comandar",
+          "valor": "Livre",
+          "descricao": "O Estrangeiro é capaz de comandar mentalmente seres com mente inferior à sua. Sempre que causa dano em um ser com sua rajada psíquica, o Estrangeiropode dominar a mente do alvo. O alvo deve passar em um teste de Vontade (DT 35) ou será forçado a cumprir uma ordem do Estrangeiro, entre as opções a seguir, emitida como parte desta ação. O ser obedece a ordem em seu próximo turno. Seres com Intelecto 5 ou mais são imunes a essa habilidade\n\nAtacar. O ser ataca um aliado com a arma que tem em mãos, mas não gasta PE nesse ataque.\n\nRender-se. O ser cai no chão e arremessa suas armas em uma direção aleatória em alcance curto.\n\nFugir. O ser se afasta do Estrangeiro da maneira mais eficiente possível."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Apagar Memória",
+          "valor": "Livre",
+          "descricao": "Um ser que fique insano por conta dos ataques e efeitos do Estrangeiro tem consequências diferentes do habitual. A vítima tem a mente completamente controlada pelo Estrangeiro, que passa a controlar as ações do personagem. Como alternativa, o Estrangeiro pode apagar a memória da vítima e devolver um pouco de Sanidade ({1d4}) a ela, fazendo-a duvidar da existência do Estrangeiro e de seu encontro com esta criatura."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Oblívio",
+          "valor": "Livre",
+          "descricao": "Um ser que sofra dano do Toque Sutil esquece momentaneamente a existência do Estrangeiro (Vontade DT 30 evita). A vítima considera o Estrangeiro invisível e esquece qualquer interação que teve com ele. No final de cada um de seus turnos, o ser deve repetir o teste de Vontade. Se passar, volta a perceber a presença da criatura e encerra este efeito, mas sofre {6d6} pontos de dano mental. Uma vítima que esteja incubando uma larva de Estrangeiro (veja Incubar) não tem direito a repetir o teste de Vontade no final de seus turnos."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Incubar",
+          "valor": "Completa",
+          "descricao": "O Estrangeiro toca um ser adjacente e que esteja alheio a sua presença (veja Oblívio) e coloca uma larva dentro dele. Enquanto o ser estiver incubando uma larva, o Estrangeiro tem total acesso a sua mente, lendo pensamentos e memórias dele, mesmo à distância. A larva consome a Sanidade do hospedeiro, causando {1d6} pontos de dano mental no início de cada cena. Quando a Sanidade do hospedeiro é reduzida a 0, um novo Estrangeiro eclode de sua cabeça, matando-o instantaneamente."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Mensagens misteriosas em horários específicos. Sinais incompreensíveis captados por receptores. Fenômenos bizarros em ambientes isolados, sem vítimas aparentes. O que acontece quando uma entidade paranormal decide se comunicar ativamente com a Realidade?\n\nJunto com a rápida expansão de tecnologias de comunicação, sinais misteriosos e incompreensíveis começaram a ser captados vindo das direções mais longínquas do Universo. Isso levou os governos a rapidamente prepararem equipes dispostas a estabelecer uma comunicação com criaturas alienígenas, mas a resposta recebida do Outro Lado não foi exatamente a esperada.\n\nO ser nomeado Estrangeiroé uma manifestação paranormal muitíssimo inteligente, com motivações complexas e misteriosas. Ao contrário de muitas criaturas, o Estrangeiro parece ter desenvolvido algum tipo de linguagem própria e também parece ser capaz de aprender novas linguagens.\n\nAqueles que descreveram um encontro presencial com um Estrangeiro relataram uma abdução, sempre em um mesmo horário da madrugada. Uma forma bizarra parecia os observar de fora de sua janela, mesmo aqueles que moram em andares altos de prédios, e conseguiam escutar um som específico e assustador."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição (continuação)",
+          "descricao": "Todos os dispositivos digitais parecem reagir à presença do Estrangeiro, com sigilos misteriosos surgindo e se alterando em suas telas, como se formassem mensagens incompreensíveis em uma tentativa de comunicação da criatura.\n\nPorém, os relatos param de fazer sentido após essa descrição. Todos parecem experienciar o contato com o Estrangeiro de maneiras diferentes, eventualmente retornando às suas vidas normais, mas sentindo que algo não está igual. Um desconforto constante, mas inidentificável. Como se algo estivesse faltando, ou melhor, como se algo estivesse… crescendo.\n\nO Estrangeiro parece ter a capacidade de estar em vários lugares ao mesmo tempo, e age como se viesse de algum tipo de civilização superior com uma estrutura hierárquica própria, por isso todos os seus encontros sempre estão associados a possibilidades de alienígenas extraterrestres.\n\nSeria o Estrangeiroapenas uma manifestação paranormal originada do Medo inerte de uma sociedade alienígena superior, capaz de destruir a humanidade, ou existem segredos que nós mesmos ainda não podemos compreender sobre a nossa própria Realidade?"
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "As intenções do Estrangeiro são complexas e devem ser decifradas para que ele possa ser derrotado. Investigar os sinais deixados pela criatura e aprender a entender sua linguagem e suas mensagens crípticas é a única forma de tentar se comunicar com esse ser e compreender a maneira de utilizar suas tecnologias paranormais para derrotá-lo. Um Estrangeiro cujas intenções sejam decifradas perde sua imunidade a dano (mas permanece imune a dano de Conhecimento) e não pode usar sua ação Incubar."
+        }
+      ]
+    },
+    {
+      "id": "existido",
+      "nome": "Existido",
+      "tags": [
+        "Conhecimento",
+        "VD 20"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/existido-retrato.webp",
+      "miniatura": "bestiario/existido-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 1
+        },
+        {
+          "sigla": "FOR",
+          "valor": 1
+        },
+        {
+          "sigla": "INT",
+          "valor": 4
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 36
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 14, {1d6} mental, NEX 25%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 13
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 5, corte 5, impacto 5, Conhecimento 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ciências",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ocultismo",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {1d20>+5}\nDano: {1d4+1} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Brilho Enlouquecedor",
+          "valor": "Livre",
+          "descricao": "Uma vez por rodada, o existido faz suas marcas douradas brilharem. Todos os seres em alcance médio capazes de vê-lo sofrem {1d6} pontos de dano mental (Vontade DT 14 reduz à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Fortalecimento Paranormal",
+          "valor": "Movimento",
+          "descricao": "Até o fim da cena, o existido recebe +1d20 em todos os testes baseados em Agilidade, Força e Vigor e suas pancadas causam +{2d4} pontos de dano de Conhecimento. O existido só pode usar esta habilidade se tiver causado dano mental a algum personagem com seu Brilho Enlouquecedor nesta cena."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Existe um ditado sussurrado no submundo ocultista. Em todas as línguas, todos os lugares e todos os tempos, uma ideia nunca pode ser esquecida quando se trata do Outro Lado:\n\n“Saber tudo é perder tudo.”\n\nUma vez humano, hoje apenas uma casca buscando desesperadamente existir, o existido faz o que for possível para continuar sendo observado por alguém consciente.\n\nUm existido é alguém que foi longe demais, ultrapassou a barreira do Conhecimento e entendeu o Outro Lado por completo. Aquele que lembrou da verdade impossível e que não consegue esquecê-la, não importa o quanto tente.\n\nTudo que um existido pode fazer é continuar repetindo seu próprio nome, na tentativa de ser reconhecido, lembrado. Os textos ao redor de seu corpo trazem frases que ao longo da história foram origem de Medo. Quando o existido sente sua vida ameaçada, essas palavras tatuadas começam a brilhar em um tom dourado, e ele se defende com violência daqueles que buscam destruir a casca que um dia representou a mentira de sua existência."
+        }
+      ]
+    },
+    {
+      "id": "lembrado",
+      "nome": "Lembrado",
+      "tags": [
+        "Conhecimento",
+        "VD 100"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/lembrado-retrato.webp",
+      "miniatura": "bestiario/lembrado-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 4
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 180
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 100
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {4d6} mental, NEX 45%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 22
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, corte 10, impacto 10, Conhecimento 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ciências",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ocultismo",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+5}\nDano: {2d4+7} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Expandir Aura",
+          "valor": "Padrão",
+          "descricao": "O lembrado expande sua aura. Seres em alcance curto sofrem {6d6} pontos de dano mental (Vontade DT 20 reduz à metade)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Aura Manifestadora",
+          "descricao": "O lembrado é cercado por uma aura dourada de faces flutuantes, que gritam com todos aqueles que se aproximam. Personagens em alcance curto do lembrado sofrem -2d20 em todos os testes."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Existem aqueles dentro da Realidade que vivem com um grande nível de exposição paranormal em suas mentes. É inevitável que essas pessoas criem uma espécie de resistência psicológica aos traumas gerados pelo Conhecimento do Outro Lado. Uma barreira mental capaz de suportar as lembranças mais enlouquecedoras.\n\nMas o que acontece quando essa barreira se quebra, e o Conhecimento o consome por completo? Como uma enxurrada de segredos proibidos, a mente humana se desintegra com as verdades impossíveis e as lembranças do que nunca deveria ser.\n\nO processo que transformaria alguém em um existido amplificado pela contenção psicológica de uma alta exposição paranormal gera uma manifestação ainda mais intensa dentro da Realidade: o lembrado.\n\nUm ser amaldiçoado pelo desespero, que não se importa com a frivolidade da existência, o lembrado aspira apenas se tornar uma história memorável. Gritando o nome que lhe foi entregue pelo Outro Lado, os lembrados são capazes de cometer as atrocidades mais absurdas apenas para jamais serem esquecidos."
+        }
+      ]
+    },
+    {
+      "id": "ocioso",
+      "nome": "Ocioso",
+      "tags": [
+        "Conhecimento",
+        "VD 260"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/ocioso-retrato.webp",
+      "miniatura": "bestiario/ocioso-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 1
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 390
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 260
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {8d6} mental, NEX 80%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 37
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "0m / 0q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, corte 20, impacto 20, Conhecimento 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Retaliação",
+          "valor": "Reação",
+          "descricao": "Retaliação. Corpo a corpo.\nTeste: {5d20>+30}\nDano: {4d10+20} Impacto\n\nToda vez que for atacado ou alvo de uma habilidade, o ocioso se teletransporta para ficar adjacente ao atacante e faz um ataque corpo a corpo contra ele (teste {5d20>+30}, dano {4d10}+20 de impacto não letal)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Permanecer Próximo",
+          "valor": "Livre",
+          "descricao": "Uma vez por rodada, o ocioso pode se teletransportar para qualquer ponto dentro do campo de visão do alvo."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Aterrorizar",
+          "valor": "Completa",
+          "descricao": "O ocioso fica lá. Parado. Seu corpo distorcido e olhar profundo parecem entrar na alma do alvo, que sofre {4d10+10} pontos de dano mental se estiver adjacente."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Sempre Presente",
+          "descricao": "No começo de uma cena, o ocioso escolhe um personagem que possa ver para ser seu alvo. O alvo é o único ser que consegue enxergar o ocioso; para todos os demais, ele é invisível."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "O ocioso é uma manifestação paranormal que aterroriza e desestabiliza seus alvos aos poucos, os observando passivamente em todos os ambientes que estiverem. Ao contrário da maioria das criaturas de Conhecimento, ele não aparenta ter vontade própria ou sequer realizar ações independentes.\n\nOs relatos daqueles que são perseguidos pela criatura dizem que ela apenas observa, parada. Eles a conseguem ver em todos os ambientes, a todos os momentos, enquanto ninguém mais pode, como uma alucinação constante.\n\nVítimas do ocioso desenvolvem um comportamento claustrofóbico, passando a habitar apenas ambientes abertos, já que entrar em qualquer lugar pequeno, como elevadores ou armários, significaria que o ocioso também estaria lá dentro com eles. Observando de perto, muito perto.\n\nApesar de aparentar ser uma ilusão, o ocioso é real e extremamente perigoso, mas apenas para aqueles que conseguem vê-lo. Tentando lidar com o ocioso, pessoas já arrancaram ou costuraram os próprios olhos, visto que a criatura parece deixar de existir quando seu alvo está de olhos fechados.\n\nO ocioso não ataca ativamente, mas se for atacado de qualquer forma irá reagir, muitas vezes incapacitando o seu alvo, mas ainda o mantendo vivo. Por causa disso, muitas vítimas da criatura são encontradas mortas sozinhas em casa, com suas pernas ou colunas quebradas e mensagens desesperadas e enlouquecidas próximas de seu corpo, deixadas enquanto morriam de fome e sede sem poder se movimentar, sendo observadas pelo ocioso até o fim de suas vidas.\n\n“Ele nunca se move, mas está sempre lá.”"
+        }
+      ]
+    },
+    {
+      "id": "parasita-de-culpa",
+      "nome": "Parasita de Culpa",
+      "tags": [
+        "Conhecimento",
+        "VD 60"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/parasita-de-culpa-retrato.webp",
+      "miniatura": "bestiario/parasita-de-culpa-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 0
+        },
+        {
+          "sigla": "INT",
+          "valor": 4
+        },
+        {
+          "sigla": "PRE",
+          "valor": 4
+        },
+        {
+          "sigla": "VIG",
+          "valor": 1
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 90
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 60
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Sangue, Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {2d6} mental, NEX 35%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 15
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "6m / 4q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano (exceto causado pelo hospedeiro)"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{4d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{1d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {1d20>}\nDano: {1d4} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Fixar",
+          "valor": "Completa",
+          "descricao": "O parasita se aproxima de um personagem dormindo. O personagem tem direito a um teste de Percepção (com penalidade de -2d20, por estar dormindo), oposto ao teste de Furtividade do parasita (2O+15). Se passar, desperta antes que o parasita se fixe nele, fazendo com que a criatura fuja. Se falhar, torna-se hospedeiro do parasita (veja Devorar Culpa)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Atormentar",
+          "valor": "Completa",
+          "descricao": "Se estiver fixado a um hospedeiro, o parasita atormenta a mente do personagem e de todos que ele estiver mantendo inconscientes. No início de cada cena do sonho, todos os personagens dentro do sonho sofrem {2d6} pontos de dano mental (Vontade DT 20 reduz à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Cópias do Hospedeiro",
+          "valor": "Completa",
+          "descricao": "Se estiver fixado a um hospedeiro, o parasita manifesta uma cópia feita de Conhecimento desse personagem. A cópia possui as mesmas estatísticas do original, mas tem 20 PV e todo dano que causa é de Conhecimento. O parasita pode manifestar no máximo quatro cópias por vez. Se manifestar uma cópia dentro do sonho, ela usa o valor de Presença do parasita no lugar dos seus atributos e causa dano mental em vez do normal."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Devorar Culpa",
+          "descricao": "O parasita se alimenta da culpa e dos traumas de um hospedeiro. Caso se fixe em um personagem dormindo, o parasita expande sua influência. Todos os personagens dormindo em alcance médio ficarão presos em um sonho compartilhado (veja Enigma de Medo) até que o parasita seja derrotado ou o hospedeiro morra ou enlouqueça."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma criatura disforme, que se alimenta da culpa despertada em suas vítimas através de pesadelos e ilusões terríveis. O parasita de culpa normalmente utiliza de alucinações baseadas em sentimentos não resolvidos dentro da mente de sua vítima, distorcendo figuras e acontecimentos de seu passado para criar uma situação desesperadora.\n\nParasitas de culpa possuem motivações e métodos diferentes, mas todos são reconhecíveis pelo seu objetivo: causar pressão psicológica originada pela culpa e se fortalecer com isso.\n\nCada manifestação também tem métodos específicos e únicos para ser derrotado, como desvendar a ilusão e enfrentar a verdade, ou abraçar a culpa por completo. O que é curioso é o comportamento encontrado em alguns parasitas de culpa: eles tendem a se dissipar ou não se importarem de ser destruídos após se alimentarem da culpa de alguém.\n\nÉ um mistério o que poderia levar uma criatura paranormal a assumir esse comportamento autodestrutivo, mas as sequelas deixadas pelos traumas dificilmente são superadas. Mesmo sabendo que se tratavam de ilusões, as memórias ainda são reais."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Para derrotar o parasita de culpa, os personagens devem perceber que estão vivendo um sonho compartilhado, e identificar qual personagem dentro do sonho é o hospedeiro do parasita. Após descobrir isso, o hospedeiro deve confrontar as manifestações e derrotá-las dentro do sonho, sozinho.\n\nUm sonho compartilhado é uma sequência de cenas que ocorrem na mente dos personagens. Com exceção dos próprios personagens, tudo que existe no sonho é um construto de Conhecimento. Enquanto estiverem dentro do sonho, os agentes agem normalmente, conforme o tipo de cena que o sonho está simulando. O mestre determina como os personagens podem descobrir que estão em um sonho, e quais ameaças enfrentarão nele."
+        }
+      ]
+    },
+    {
+      "id": "rastejador-sombrio",
+      "nome": "Rastejador Sombrio",
+      "tags": [
+        "Conhecimento",
+        "VD 180"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/rastejador-sombrio-retrato.webp",
+      "miniatura": "bestiario/rastejador-sombrio-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 330
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 180
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 25, {6d6} mental, NEX 60%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 41
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, corte 10, impacto 10, Conhecimento 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Ocultismo",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Toque da Dor",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {4d20>+20}\nDano: {4d8+5} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Desespero",
+          "valor": "Livre",
+          "descricao": "O toque do rastejador desperta uma sensação de dor e agonia em suas vítimas. Sempre que um ser sofre dano do toque da dor, sofre a mesma quantidade de dano mental (Vontade DT 25 reduz o dano mental à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Rastejar",
+          "valor": "Livre",
+          "descricao": "O rastejador usa as sombras para se aproximar de seus alvos. Até o início do seu próximo turno, se estiver sob cobertura ou camuflagem parcial, o rastejador recebe +10 em Furtividade e não terá o deslocamento reduzido por se mover furtivamente."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Tentáculos das Sombras",
+          "valor": "Movimento",
+          "descricao": "O rastejador coloca suas garras no chão e as fibras que compõem seu corpo são projetadas pelas sombras a até três seres em alcance médio, que ficam agarrados por elas (Reflexos DT 28 evita). Com uma ação de movimento, o rastejador pode arrastar até três vítimas agarradas dessa maneira para outros pontos em alcance médio de si. Em seu turno, um ser pode tentar se soltar como normal. No final de cada um dos seus turnos, um ser que esteja agarrado desta forma sofre {4d6} pontos de dano mental."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Vulnerabilidade a luz",
+          "descricao": "Enquanto estiver exposto diretamente a uma fonte de luz forte, capaz de iluminar a criatura por completo, o rastejador sofre -10 em Defesa e perde as habilidades Desespero, Rastejar e Tentáculos das Sombras."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Você já se sentiu perseguido enquanto andava sozinho na rua ao entardecer, mas ao observar seus arredores, apenas o vento te acompanhava numa calçada deserta? Talvez você não estivesse tão sozinho, afinal.\n\nO rastejador sombrio é uma entidade maligna que se aproxima lentamente de suas vítimas, se escondendo em sombras distorcidas. Ele é inteligente e apresenta um comportamento sádico, escolhendo sempre causar a maior quantidade de dor que é capaz em suas vítimas, tanto psicológica quanto f ísica.\n\nOs poucos sobreviventes de um encontro com essa criatura relatam avistar pelo canto do olho uma forma humanoide nas sombras, trajando o que parecem ser vestimentas humanas: um sobretudo e um chapéu escondendo seu rosto. Mas, ao se revelar, uma enorme boca se abre em seu rosto acinzentado, que usa para se camuflar nas sombras. Dentro de suas roupas também é possível perceber longos tentáculos capazes de infiltrar junto ao chão e paredes, tomando um aspecto de sombra, como se a própria ausência da luz se movimentasse em direção às suas vítimas.\n\nO rastejador, porém, não consegue se camuflar com facilidade em ambientes completamente iluminados, agindo de forma muito mais irracional e animalesca se encurralado em um ambiente desfavorável."
+        }
+      ]
+    },
+    {
+      "id": "silhueta",
+      "nome": "Silhueta",
+      "tags": [
+        "Conhecimento",
+        "VD 360"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/silhueta-retrato.webp",
+      "miniatura": "bestiario/silhueta-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 5
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 500
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 360
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, {8d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 55
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Conhecimento, condições de paralisia, manobras de combate"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Dano 30"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Reescrever a Realidade",
+          "valor": "Livre",
+          "descricao": "Enquanto estiver se deslocando, a silhueta pode reescrever e mudar a Realidade com seus sigilos de Conhecimento. Todos os objetos em alcance curto podem ser transformados em outros, desde que conservem o mesmo tamanho. Seres vivos e o equipamento que estiverem vestindo ou portando não são afetados por essa habilidade."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Toque Devastador",
+          "valor": "Padrão",
+          "descricao": "A silhueta raramente age de maneira agressiva, mas quando precisa remover algo de seu caminho ela simplesmente o toca, causando o dano de sua aura tangível. A silhueta pode tocar até dois seres e/ou objetos com esta ação."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Aura Tangível",
+          "descricao": "Qualquer ser ou item que tocar na silhueta sofre {20d12} pontos de dano de Conhecimento (Fortitude DT 42 reduz à metade) e, se reduzido a 0 PV, é instantaneamente desintegrado. Um ser ou item só sofre esse dano uma vez por turno."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Conhecimento Verdadeiro",
+          "descricao": "A silhueta alcançou o Outro Lado através do Conhecimento e, por isso, sabe tudo. Ela faz testes baseados em Intelecto e Presença com +25 e testes baseados em Agilidade, Força e Vigor com +20."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A ausência consciente de si mesma. Uma silhueta é um acontecimento terrível e extremamente raro, uma manifestação desesperadora de alguém que foi inexistido pelo Conhecimento, mas que perdura dentro da Realidade através do eco de suas memórias.\n\nComo um desconforto visual para quem a observa, uma silhueta é uma forma humanoide vazia, cercada por sigilos do Outro Lado que flutuam como se reescrevessem a Realidade a cada instante, reprogramando os seus arredores a cada movimento dessa criatura. Ela é lenta, calma e vazia, mas emite um som constante que lembra o badalar de sinos distantes distorcidos por um eco sintético.\n\nSeu comportamento aparenta ser passivo, porém tudo que toca a silhueta sofre um efeito devastador, inexistindo a matéria como consequência da exposição ao Conhecimento vazando de sua forma\n\nA percepção do vazio ao se deparar com uma silhueta muitas vezes pode causar traumas psicológicos e existenciais — quando você olha para o abismo do Conhecimento por tempo demais, o Outro Lado também o observa de volta."
+        }
+      ]
+    },
+    {
+      "id": "vulto",
+      "nome": "Vulto",
+      "tags": [
+        "Conhecimento",
+        "VD 40"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/vulto-retrato.webp",
+      "miniatura": "bestiario/vulto-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 1
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 60
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 40
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 19
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 5, corte 5, Conhecimento 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Toque Macabro",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+10}\nDano: {2d6} Conhecimento"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Plantar Paranoia",
+          "valor": "Completa",
+          "descricao": "O vulto procura implantar medo e paranoia na mente de suas vítimas ao chacoalhar a Membrana e fazer aparecer coisas que não estão lá de verdade. Cada personagem em alcance médio fica abalado (Vontade DT 15 evita). Se o personagem já estiver abalado, ficará apavorado. Se o vulto estiver escondido ao usar essa habilidade, cada personagem sofre 1d20 no teste de Vontade."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Aura Tangível",
+          "descricao": "O vulto procura pessoas assustadas para que possa se alimentar dos sentimentos disparados pelos sustos. Seus ataques contra criaturas sob efeito de qualquer condição de medo causam +{2d6} pontos de dano de Conhecimento."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Em ambientes com a Membrana danificada, às vezes pode ser difícil discernir fatos da paranoia do seu próprio cérebro. Sons inexistentes, temperatura inconstante e até mesmo vultos em movimento são relatos constantes daqueles que se aventuram em ambientes com a conhecida neblina gerada pela fragilidade da Membrana.\n\nE é nessa paranoia que um vulto pode ser gerado. Uma criatura que sequer estava no ambiente, mas graças ao Medo gerado pelo delírio de um observador, é criada pelo Outro Lado através da imaginação assustada e fértil, que então se transforma em uma casca física.\n\nUm vulto é uma manifestação paranormal que toma forma através do susto de uma possibilidade, aparecendo como uma criatura humanoide formada de névoa sólida capaz de causar estragos reais."
+        }
+      ]
+    }
+  ]
+}

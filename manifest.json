@@ -2,7 +2,7 @@
   "id": "ordem-paranormal",
   "nome": "Ordem Paranormal",
   "versao": "0.2.1",
-  "apiVersao": 11,
+  "apiVersao": 12,
   "repositorio": "https://github.com/ato20-org/ato20.ordem-paranormal.plugin",
   "icone": "icone.png",
   "descricao": {
@@ -434,6 +434,150 @@
           }
         ],
         "estiloDosAtributos": "ordem-paranormal/ritual"
+      }
+    ],
+    "bestiario": [
+      {
+        "id": "sangue",
+        "titulo": {
+          "pt-BR": "Sangue",
+          "en": "Blood"
+        },
+        "arquivo": "bestiario/sangue.json",
+        "aura": "sangue",
+        "sistema": "ordem"
+      },
+      {
+        "id": "morte",
+        "titulo": {
+          "pt-BR": "Morte",
+          "en": "Death"
+        },
+        "arquivo": "bestiario/morte.json",
+        "aura": "morte",
+        "sistema": "ordem"
+      },
+      {
+        "id": "conhecimento",
+        "titulo": {
+          "pt-BR": "Conhecimento",
+          "en": "Knowledge"
+        },
+        "arquivo": "bestiario/conhecimento.json",
+        "aura": "conhecimento",
+        "sistema": "ordem"
+      },
+      {
+        "id": "energia",
+        "titulo": {
+          "pt-BR": "Energia",
+          "en": "Energy"
+        },
+        "arquivo": "bestiario/energia.json",
+        "aura": "energia",
+        "sistema": "ordem"
+      },
+      {
+        "id": "medo",
+        "titulo": {
+          "pt-BR": "Medo",
+          "en": "Fear"
+        },
+        "arquivo": "bestiario/medo.json",
+        "aura": "medo",
+        "sistema": "ordem"
+      },
+      {
+        "id": "realidade",
+        "titulo": {
+          "pt-BR": "Realidade",
+          "en": "Reality"
+        },
+        "arquivo": "bestiario/realidade.json",
+        "aura": "realidade",
+        "sistema": "ordem"
+      }
+    ],
+    "auras": [
+      {
+        "id": "sangue",
+        "titulo": {
+          "pt-BR": "Sangue",
+          "en": "Blood"
+        },
+        "cor": "#b3121f",
+        "emblema": "bestiario/elementos/sangue.webp",
+        "luz": {
+          "efeito": "fluxo",
+          "cores": [
+            "#dc2626"
+          ]
+        }
+      },
+      {
+        "id": "morte",
+        "titulo": {
+          "pt-BR": "Morte",
+          "en": "Death"
+        },
+        "cor": "#3f3f46",
+        "emblema": "bestiario/elementos/morte.webp",
+        "luz": {
+          "efeito": "pulso",
+          "cores": [
+            "#000000",
+            "#71717a"
+          ]
+        }
+      },
+      {
+        "id": "conhecimento",
+        "titulo": {
+          "pt-BR": "Conhecimento",
+          "en": "Knowledge"
+        },
+        "cor": "#d4a72c",
+        "emblema": "bestiario/elementos/conhecimento.webp",
+        "luz": {
+          "efeito": "fixa",
+          "cores": [
+            "#eab308"
+          ]
+        }
+      },
+      {
+        "id": "energia",
+        "titulo": {
+          "pt-BR": "Energia",
+          "en": "Energy"
+        },
+        "cor": "#7e22ce",
+        "emblema": "bestiario/elementos/energia.webp",
+        "luz": {
+          "efeito": "cintilar",
+          "cores": [
+            "#22d3ee",
+            "#a855f7",
+            "#ffffff"
+          ]
+        }
+      },
+      {
+        "id": "medo",
+        "titulo": {
+          "pt-BR": "Medo",
+          "en": "Fear"
+        },
+        "cor": "#f4f4f5",
+        "emblema": "bestiario/elementos/medo.webp"
+      },
+      {
+        "id": "realidade",
+        "titulo": {
+          "pt-BR": "Realidade",
+          "en": "Reality"
+        },
+        "cor": "#71717a"
       }
     ],
     "estilosDeAtributos": [

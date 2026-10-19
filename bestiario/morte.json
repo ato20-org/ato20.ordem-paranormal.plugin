@@ -1,0 +1,1933 @@
+{
+  "grupos": [
+    {
+      "nome": "Ameaça"
+    },
+    {
+      "nome": "Combate"
+    },
+    {
+      "nome": "Perícias"
+    },
+    {
+      "nome": "Ações",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Poderes",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Descrição",
+      "exibicao": "lista"
+    }
+  ],
+  "moldes": [
+    {
+      "id": "o-deus-da-morte",
+      "nome": "O Deus da Morte",
+      "tags": [
+        "Morte",
+        "VD 400"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/o-deus-da-morte-retrato.webp",
+      "miniatura": "bestiario/o-deus-da-morte-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 6
+        },
+        {
+          "sigla": "FOR",
+          "valor": 6
+        },
+        {
+          "sigla": "INT",
+          "valor": 5
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 7
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 2000
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 400
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Relíquia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {10d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 60
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "15m / 10q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Morte, condições de atordoamento e paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 20, impacto 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+30}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{6d20>+30}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{7d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+35}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Soco Espiral",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {6d20>+45}\nDano: {5d10+50} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrão",
+          "valor": "Livre",
+          "descricao": "Se o Deus da Morte acertar um ataque de soco espiral em um ser Médio ou menor, pode tentar agarrar o alvo (teste {6d20>+47})."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Controlar Relógio Interno",
+          "valor": "Livre",
+          "descricao": "No início de cada um de seus turnos, o Deus da Morte encerra até duas condições que o estejam afetando."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Controlar Mortos",
+          "valor": "Movimento",
+          "descricao": "O Deus da Morte controla qualquer criatura de Morte em alcance longo, fazendo-as percorrer seu deslocamento e realizar um ataque."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Espiral Descendente",
+          "valor": "Movimento",
+          "descricao": "O Deus da Morte acelera o tempo de um ser que esteja agarrando, mas faz com que ele sinta cada segundo passando, paralisado e sem poder agir. O ser envelhece 3d20 anos. Para cada ano envelhecido, sofre 1 ponto de dano mental."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Espiral Destrutiva",
+          "valor": "Padrão",
+          "descricao": "O Deus da Morte cria uma enorme espiral de Morte com 12m de raio em alcance longo. Todos os personagens dentro da área sofrem {10d10+50} pontos de dano de Morte (Fortitude DT 45 reduz à metade)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Ciclo Infinito",
+          "descricao": "O Deus da Morte recupera 50 PV no início de cada um de seus turnos. Quando é reduzido a 0 PV ou menos, ele se transforma em uma poça de Lodo. No começo do seu próximo turno, ele se manifesta no cadáver mais próximo do corpo original (ou no corpo com maior NEX a seu alcance), recuperando todos os seus PV e se curando de todas as condições. Quando seu Enigma de Medo for resolvido, ele perde a regeneração e a capacidade de se manifestar em um corpo próximo quando reduzido a 0 PV ou menos."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Destruir o Diabo",
+          "descricao": "O Deus da Morte é a única coisa capaz de causar a solução do Enigma de Medo do Diabo."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Potência da Morte",
+          "descricao": "O modificador do Deus da Morte para todos os testes de perícia baseados em Força, Vigor ou Presença é +35, e para testes baseados nos demais atributos, é +25."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Senhor do Tempo",
+          "descricao": "O Deus da Morte é um manipulador do tempo. No início de cada rodada, ele rola 1d20 e recebe um turno adicional na contagem de iniciativa correspondente ao resultado desta jogada."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "O Deus da Morte, também conhecido como Parasita de Dimensões, é uma entidade suprema e extremamente poderosa. Originalmente essa entidade se manifesta em uma aparência disforme que infecta o ambiente inteiro consumindo a entropia, ou seja, a energia potencial e o tempo de tudo que é vivo\n\nEssa entidade pode se tornar ainda mais perigosa ao parasitar o corpo morto de alguém com o nível de exposição paranormal extremamente elevado e que dedicou grande parte da sua vida à Morte, servindo como receptáculo para uma manifestação descomunal. O Lodo consome o cadáver original por completo, reforçando e remodelando sua estrutura com tendões pretos em espiral.\n\nEm seu semblante permanece revelado apenas o crânio exposto, com o Lodo rastejando e invadindo o interior da cabeça através dos orifícios, como lágrimas pretas nos olhos vazios. O Deus da Morte tem um comportamento totalmente apático, como se estivesse consciente de sua manifestação dentro da Realidade e não considerasse nada ao seu redor digno de sua presença.\n\nA proporção de seus poderes é praticamente imensurável, com algumas teorias afirmando que o Deus da Morte teria o poder de devastar civilizações completas se isso de alguma forma fosse de seu interesse, mas o seu comportamento segue inexplicável. Nada parece interessar o Deus da Morte além de consumir o tempo de vida daqueles dentro da Realidade.\n\nTudo termina, tudo retorna. Uma relíquia consciente e onipresente, capaz de imortalizar a sua existência inteira com a transferência de um receptáculo para outro, em um ciclo eterno de fim e renascimento dentro da Realidade. O Deus da Morte não viaja através do espaço, mas sim pelo tempo, graças à sua distorção temporal espiralizada não-linear, e por isso, pode estar manifestado em diversas formas e em diversos pontos da Realidade ao mesmo tempo.\n\nÉ POSSÍVEL DESTRUIR A PRÓPRIA MORTE?"
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "O Deus da Morte é a manifestação primordial da Morte na Realidade. Uma entidade que ultrapassa a compreensão humana, é o verdadeiro guardião da cronologia, capaz de manipular completamente a percepção temporal dentro da Realidade. O Deus da Morte é uma manifestação de poder imensurável e citar seu nome é o suficiente para fazer com que agentes experientes fiquem em silêncio completo. Ninguém sabe como destruí-lo, mas todas as suposições apontam que a resposta está em outra entidade.\n\nCaso seu Enigma de Medo enfim seja resolvido, o Deus da Morte perde suas habilidades Ciclo Infinito e Senhor do Tempo."
+        }
+      ]
+    },
+    {
+      "id": "aracnasita",
+      "nome": "Aracnasita",
+      "tags": [
+        "Morte",
+        "VD 80"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/aracnasita-retrato.webp",
+      "miniatura": "bestiario/aracnasita-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 140
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 80
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {4d6} mental, NEX 40%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 23
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{3d20>+8}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+15}\nDano: {2d10+10} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Estacar",
+          "valor": "Livre",
+          "descricao": "Quando causa dano com sua mordida, a aracnasita pode usar seu Lodo da Morte para prender o alvo no lugar. A vítima sofre +{1d10} pontos de dano de Morte e fica agarrada. Ela pode se soltar gastando uma ação padrão e um teste de Atletismo (DT 20). Personagens adjacentes podem gastar uma ação padrão para soltá-la com o mesmo teste (ou ajudá-la em seu próprio teste)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Desovar Aranhas",
+          "valor": "Reação",
+          "descricao": "Uma vez por cena, quando ficar machucada, a aracnasita desova diversas aranhas menores, que se espalham em sua volta gerando efeitos diversos. No início de cada turno da aracnasita após isso, ela executa um dos seguintes efeitos, nesta ordem.\n\nNo primeiro turno, as aranhas se espalham ao redor da aracnasita. Até o fim da cena, um personagem que inicie seu turno em alcance curto da criatura sofre {2d6} pontos de dano mental (Vontade DT 15 reduz à metade).\n\nA partir do segundo turno, as aranhas atacam os personagens ao redor da aracnasita. Até o fim da cena, um personagem que inicie seu turno em alcance curto da criatura sofre {2d8} pontos de dano de Morte (Fortitude DT 15 reduz à metade).\n\nNo terceiro turno, as aranhas menores se espalham ainda mais. Os dois efeitos acima agora afetam personagens que iniciem seu turno em alcance médio da aracnasita.\n\nA partir do quarto turno, caso um personagem morra em alance médio da aracnasita, será consumido por uma aranha, que irá se transformar em uma nova aracnasita com 70 PV e sem a habilidade Desovar Aranhas."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Disparar Teia",
+          "valor": "Movimento",
+          "descricao": "A aracnasita dispara uma teia em alcance curto. A teia ocupa uma área quadrada com 3m de lado. Personagens na área ou que entrem nela, ficam agarrados (Reflexos DT 20 evita). A teia é tomada pelo Lodo da Morte, fazendo com que qualquer personagem que inicie seu turno agarrado por ela sofra {2d8+10} pontos de dano de Morte. Um personagem pode escapar da teia causando 15 pontos de dano de corte a ela ou gastando uma ação padrão para rasgá-la (Atletismo DT 20). A teia dura até fim da cena."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Percepção Tátil",
+          "descricao": "A aracnasita percebe tudo que está em contato com sua teia. Ela ignora penalidades por visão ou condições de sentidos para objetos e seres em contato com a teia."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A distorção que a exposição paranormal pode causar a uma criatura na Realidade é imensurável e resultados assustadores podem fazer um pequeno aracnídeo se deformar a uma entidade parasitária enorme que se alimenta do tempo de vida humano para desenvolver-se em uma aberração gigantesca.\n\nA aracnasita, também nomeada aranha preta da Morte, é uma entidade originada de uma criatura da Realidade exposta a um símbolo de invocação de Morte, desenvolvendo um comportamento parasitário. Ainda em seu estado minúsculo e não desenvolvido, as aracnasitas almejam surpreender suas vítimas para se agarrar ao seu rosto e as manter desacordadas.\n\nEntão, a criatura lentamente absorve o corpo inteiro ainda vivo em uma espécie de casulo enorme na região de seu abdomên. Quanto mais tempo a aracnasita absorve de sua vítima, maior e mais poderosa ela se torna, capaz de se reproduzir de maneira acelerada, gerando inúmeras pequenas cópias de si mesma, com essas sendo incapazes de se reproduzir de forma independente e agindo como invocações associadas diretamente à criatura original.\n\nMesmo agentes experientes e preparados já foram pegos de surpresa e devorados por essa criatura terrível, por isso, as táticas para enfrentar uma aberração dessas devem ser estratégicas, especialmente em ambientes de desvantagem como florestas."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A aracnasita se forma a partir de uma aranha que entra em contato com o Lodo da Morte através de um símbolo poderoso e cresce quando captura um ser humano para paristar. Por isso, ela continua a manifestar esse Lodo por todo seu corpo e guarda uma grande quantidade em seu abdômem, onde fica a vítima que está sendo parasitada. O Lodo serve como uma proteção paranormal e faz com que seu corpo seja impossível de ser ferido. Ainda assim, existe uma forma de derrota-la.\n\nO Lodo da Morte em seu corpo procura fugir do fogo e do calor, movimentando-se lentamente para longe da fonte quente. Caso sofra dano de fogo, a aracnasita perde sua imunidade a dano até o início do próximo turno."
+        }
+      ]
+    },
+    {
+      "id": "carnical-preto-da-morte",
+      "nome": "Carniçal Preto da Morte",
+      "tags": [
+        "Morte",
+        "VD 200"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/carnical-preto-da-morte-retrato.webp",
+      "miniatura": "bestiario/carnical-preto-da-morte-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 400
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 200
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 30, {6d6} mental, NEX 65%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 38
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Balístico"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 10, impacto 10, Morte 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garra da Morte",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+25}\nDano: {4d10+20} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada Poderosa",
+          "valor": "Reação",
+          "descricao": "Quando desfere um acerto crítico com sua garra da Morte, o carniçal pode empurrar seu alvo 6m em qualquer direção. Se colidir com um objeto resistente, como uma parede ou um carro, a vítima sofre {4d6} pontos de dano de impacto. Se o objeto for outro ser, ambos sofrem esse dano."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Comando",
+          "valor": "Movimento",
+          "descricao": "O carniçal dá um comando para um ser em alcance curto, que deve obedecer da forma mais eficiente possível (Vontade DT 29 evita). Em termos de regras, isso gera um dos efeitos básicos do ritual Perturbação."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Hipnose",
+          "valor": "Padrão",
+          "descricao": "O carniçal domina a mente de um ser em alcance curto (Vontade DT 29 evita). A vítima fica sob controle telepático total do carniçal, e fará tudo que ele mandar, exceto tirar sua própria vida — em termos de jogo, fica sob controle do mestre. No final de cada turno do ser hipnotizado, ele pode repetir o teste de Vontade, com um bônus cumulativo de +1 por teste já realizado. Se passar, sai do comando do carniçal. O carniçal pode ter até três seres hipnotizados por vez. Caso o carniçal use essa habilidade em um alvo enlouquecendo, o ser falha automaticamente e fica sob domínio permanente do carniçal (até que o carniçal seja destruído). Um ser nesta condição pode até mesmo tirar a própria vida, se assim for comandado."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Reanimar Corpos",
+          "valor": "Completa",
+          "descricao": "Uma vez por cena, o carniçal usa a Morte para fazer com que até {2d4+2} corpos em alcance médio sejam reanimados. Os reanimados agem de maneira violenta e bestial, atacando o ser mais próximo até serem destruídos. Use a ficha do esqueleto de Lodo para esses corpos reanimados."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Físico Paranormal",
+          "descricao": "O carniçal possui um porte físico poderoso e pode saltar o dobro do deslocamento normal."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Instinto Mortal",
+          "descricao": "O carniçal age de maneira precisa e quase calculista, mas isso muda quando está machucado (com 200 PV ou menos). Nessa condição, ele usa a Hipnose como ação livre no começo de cada um de seus turnos e pode fazer um ataque adicional de garra da morte se atacar o mesmo alvo com suas duas garras."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Corpo Fechado",
+          "descricao": "Um ser que use a ação mirar para disparar na cabeça do carniçal ignora sua imunidade a dano balístico."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Originada de uma tentativa fracassada de dar consciência à entidade da Morte dentro da Realidade, o carniçal preto é uma criatura formada de Lodo entrelaçado a partir de um crânio humano apodrecido.\n\nOs sigilos de Conhecimento no símbolo usado para invocá-lo são o suficiente para que o Lodo tente replicar a estrutura humana, originando uma forma resistente, magra e definida que se assemelha muito à anatomia muscular humana exposta.\n\nÉ impossível determinar o nível de consciência do carniçal dentro da Realidade, mas a sua postura e comportamento inteligentes despertam mistério. Ele caminha com um ar de superioridade e arrogância, como se aqueles em seu caminho não fizessem juz à sua presença.\n\nRelatos de encontros com um carniçal apontam que a criatura age com estratégia, mas o maior determinante é o símbolo hipnótico cravado em sua cabeça, que parece clamar e distorcer a percepção daqueles que o observam, desviando seus ataques a aliados que nunca teriam coragem de ferir. Porém, o tempo também parece ser um grande fator para o carniçal. Como se a casca que origina a sua forma não pudesse conter a sua manifestação com facilidade, a criatura demonstra se tornar mais irracional com o passar do tempo."
+        }
+      ]
+    },
+    {
+      "id": "ceifador-espiral",
+      "nome": "Ceifador Espiral",
+      "tags": [
+        "Morte",
+        "VD 380"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/ceifador-espiral-retrato.webp",
+      "miniatura": "bestiario/ceifador-espiral-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 5
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 999
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 380
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {9d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 58
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "15m / 10q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Morte, condições de paralisia e lento"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Dano 50"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Foice da Morte",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {5d10+20} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Transporte pelo pó",
+          "valor": "Movimento",
+          "descricao": "Enquanto estiver dentro da área criada por sua habilidade Cinzas das Terras Desoladas, o Ceifador poderá usar uma ação de movimento para se transportar para outro espaço dentro dessa área. Quando terminar esse movimento, ele pode fazer um ataque com sua Foice da Morte como ação livre."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Contemplar a Espiral",
+          "valor": "Completa",
+          "descricao": "O Ceifador Espiral usa sua foice para manifestar a verdadeira espiral da Morte. Todos os seres em alcance médio que consigam vê-lo sofrem {10d10+30} pontos de dano mental (Vontade DT 43 reduz à metade). Um ser que tenha sofrido dano desta habilidade fica imune a ela até final da cena."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Cinzas das Terras Desoladas",
+          "valor": "Completa",
+          "descricao": "O Ceifador Espiral usa seus muitos braços para realizar um rito de invocação. Uma área de alcance longo em volta de si é tomada pelas cinzas das terras desoladas, um local acelerado pelo tempo onde tudo é transformado em pó. Cada ser dentro da área sofre {10d10+20} pontos de dano de Morte e fica enjoado (Fortitude DT 43 reduz o dano à metade e evita a condição). Um ser que termine seu turno dentro dessa área sofre 20 pontos de dano de Morte."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Decepar",
+          "descricao": "Se o Ceifador Espiral faz um acerto crítico com sua foice da Morte, o alvo é reduzido a 25 PV e perde 1 ponto de Força, Agilidade ou Vigor permanentemente (decida aleatoriamente). Caso o alvo tenha 25 PV ou menos, morre de imediato. Toda vez que o Ceifador Espiral mata uma criatura, recebe 50 PV temporários, e seus ataques de foice da Morte causam +{1d10} pontos de dano até o final da cena."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Você já enxergou o rosto da Morte? Aqueles que viveram experiências de quase morte afirmam ter enxergado a própria vida passando na frente de seus olhos. Mas existem também aqueles que tiveram experiências ainda mais intensas e por um momento visitaram o fim de sua vida, antes de serem trazidos de volta por algum processo de ressuscitação, como massagem cardíaca ou desfibriladores.\n\nAlguns desses raros casos descrevem lembranças de uma experiência ainda mais intensa. O que no princípio parecia ser uma visão de uma sequência de momentos da sua vida ia aos poucos se distorcendo, espiralizando e se revelando uma silhueta com aspecto cada vez mais definido. E então, se tornava claro. Todos os seus momentos sendo devorados por uma criatura, no fim de tudo. O rosto da Morte: o Ceifador Espiral.\n\nTodos aqueles que presenciaram o rosto se tornaram obcecados com a ideia da imortalidade, desesperados com a possibilidade de encontrar aquele ser outra vez. Registros de civilizações isoladas ao redor do mundo todo foram encontrados relatando a presença de uma manifestação paranormal que se assemelhava às descrições do Ceifador Espiral, mas a grande maioria dessas evidências estavam praticamente desintegradas pelos efeitos da Morte e foram encontradas no meio de amplos “desertos de cinzas” com dunas espiraladas.\n\nA falta de informações e evidências sobre essa criatura remete a apenas uma conclusão: se o Ceifador Espiral se manifesta em um ambiente na Realidade, tudo é levado pela Morte. Ninguém permanece vivo para contar a história, nenhuma estrutura persiste em pé para revelar o passado… Mas as cinzas e o Lodo marcam o legado eterno da Morte."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A espiral consome todos, pois é o próprio tempo reverso em si. Não se pode parar a espiral, pois cada corrida para um círculo externo é um caminho mais longo em direção ao fim. É cansar, ao invés de findar. Aqueles que quebram a espiral são aqueles que a transformam em uma linha. Mesmo que infinita, a linha é limitada. Ela é definida por suas beiradas e, portanto, existe escapatória. Transformar a espiral em linha, porém, é uma tarefa misteriosa, que requer esforço e energia quase inimagináveis.\n\nQuando seu Enigma de Medo for resolvido, o Ceifador Espiral perde sua resistência a dano e qualquer área de Terras Desoladas se torna terreno normal no final do seu próximo turno."
+        }
+      ]
+    },
+    {
+      "id": "enraizado",
+      "nome": "Enraizado",
+      "tags": [
+        "Morte",
+        "VD 120"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/enraizado-retrato.webp",
+      "miniatura": "bestiario/enraizado-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 140
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 120
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {4d6} mental, NEX 50%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 28
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 10, impacto 10, Morte 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Punho Espinhento",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {2d8+8} Impacto + {2d12} Morte"
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Imortalidade",
+          "descricao": "Quando o enraizado morre, se desfaz em uma poça de Lodo, galhos e raízes. Ele retornará após {1d2} rodadas com 70 PV. Se sofrer 20 pontos de dano de fogo ou de Energia somados enquanto estiver na forma de poça, será permanentemente destruído."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Veneno Pútrido",
+          "descricao": "A primeira vez que um personagem sofre dano do punho espinhento em uma cena, fica envenenado. No início de cada um de seus turnos, o personagem deve fazer um teste de Fortitude (DT 23). Se falhar, sofre {4d12} pontos de dano de Morte. Se passar, se cura do veneno."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A Morte se espalha de maneiras misteriosas, mas parece infectar em especial áreas com alta biodiversidade e flora extensiva, como florestas, as corrompendo e consumindo vagarosamente. Nem mesmo cadáveres putrefatos, sepultados há muitos anos, estão livres de se tornarem uma casca infectada pela entidade.\n\nUm enraizado é o resultado de um corpo enterrado próximo à vegetação infestada pela Morte, invadido por raízes grossas e preenchido com o Lodo que movimenta seus membros reforçados pela estrutura bizarra que se forma das raízes entrelaçadas, como um esqueleto de armadura."
+        }
+      ]
+    },
+    {
+      "id": "escutado",
+      "nome": "Escutado",
+      "tags": [
+        "Morte",
+        "VD 160"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/escutado-retrato.webp",
+      "miniatura": "bestiario/escutado-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 290
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 160
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Energia, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 25, {4d8} mental, NEX 55%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 29
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+20}\nDano: {3d6+10} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Cabeça Arremessada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, curto, 2x.\nTeste: {4d20>+15}\nDano: {1d10+10} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Vomitar Lodo",
+          "valor": "Movimento",
+          "descricao": "Uma vez por cena, na primeira rodada após ser manifestada, cada cópia do escutado despeja um jorro de Lodo em um ser em alcance curto. O alvo sofre {4d10+10} pontos de dano de Morte e fica lento até o fim da cena (Reflexos DT 25 reduz o dano à metade e evita condição)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Multiplicação Melódica",
+          "descricao": "No início do turno do escutado, se ele estiver ouvindo a melodia de sua criação, manifesta uma cópia sua em um ponto a sua escolha em alcance curto. A cópia possui 145 PV, não tem imunidade a dano e age junto com o escutado original, a partir do próximo turno dele. As cópias também possuem essa habilidade, gerando novas cópias caso aplicável. O escutado e suas cópias tentarão eliminar o ser que estiver tocando a melodia."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Originado de alguém que escutou a “Melodia Espiral” - uma música paranormal proibida, capaz de enlouquecer alguém que a ouve inteira - o escutado é um corpo humanoide retorcido e magro. Essa criatura anda de forma quadrúpede e invertida de forma bizarra, com uma cabeça capaz de se desprender do corpo original, deixando um rastro de Lodo vomitado.\n\nOs relatos daqueles que enfrentaram um escutado afirmam que ele aparenta ser imortal e atraído a todo tipo de melodia. Porém, ao escutar a melodia específica que causou sua origem, a proibida “Spiralem Melodiam”, a criatura fica em um estado extremamente agressivo, buscando a origem da música para destruí-la a todo custo.\n\nO escutado pode ser derrotado se for exposto a uma parte completa da melodia proibida."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Tocar a melodia do escutado exige gastar uma ação padrão e passar em um teste de Artes (DT 25) por rodada, ou ligar um aparelho como rádio ou celular que possua essa música. Enquanto a melodia estiver tocando, o escutado ficará se multiplicando. Porém, se escutar a melodia por 4 rodadas ininterruptas, perde sua imunidade a dano até o fim da cena e pode enfim ser derrotado.\n\nComo o escutado precisa escutar a melodia por 4 rodadas, terá a chance de se multiplicar quatro vezes. Isso significa que, se nenhuma cópia for destruída, no fim da quarta rodada haverá 16 criaturas (o original mais 15 cópias)! Para ter alguma chance de sobreviver, os agentes devem tentar destruir as cópias enquanto tocam a melodia, para impedir que elas também se multipliquem - e, obiviamente, parar de tocar a música assim que as 4 rodadas passarem e o escutado perder sua imunidade a dano."
+        }
+      ]
+    },
+    {
+      "id": "esqueleto-de-lodo",
+      "nome": "Esqueleto de Lodo",
+      "tags": [
+        "Morte",
+        "VD 20"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/esqueleto-de-lodo-retrato.webp",
+      "miniatura": "bestiario/esqueleto-de-lodo-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 1
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 40
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 14, {2d4} mental, NEX 25%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 14
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "6m / 4q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 5, impacto 5, Morte 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+5}\nDano: {2d6+2} Corte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Espiral de Lodo",
+          "valor": "Completa",
+          "descricao": "O esqueleto se transforma em uma poça de Lodo e se lança para frente como uma espiral perfurante que percorre até 9m em linha reta. Qualquer ser no caminho sofre {2d10} de dano de Morte (Reflexos DT 14 reduz à metade). O esqueleto então se reforma no fim do trajeto."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Imortalidade",
+          "descricao": "Quando o esqueleto morre, se desfaz em uma poça de Lodo e ossos. Ele retornará após {1d3} rodadas com 20 PV. Se sofrer dano de fogo ou de Energia enquanto estiver na forma de poça, será permanentemente destruído."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Um cadáver consumido pela Morte, tomando uma forma completamente esquelética e acinzentada. O Lodo escorre por todos os orifícios de seu corpo, deixando um rastro que parece perseguir a criatura por onde ela passa.\n\nSons bizarros podem ser escutados de dentro de seu crânio, como palavras sem sentido e rugidos invertidos em uma voz rasgada e rouca. O esqueleto de Lodo parece sempre se regenerar após ser destruído, porém, a regeneração pode ser desacelerada ou até mesmo interrompida se o Lodo for queimado ou exposto a Energia."
+        }
+      ]
+    },
+    {
+      "id": "marionete",
+      "nome": "Marionete",
+      "tags": [
+        "Morte",
+        "VD 280"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/marionete-retrato.webp",
+      "miniatura": "bestiario/marionete-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 700
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 280
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {8d6} mental, NEX 85%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 40
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "6m / 4q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 20, impacto 20, Morte 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Foice Óssea",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+30}\nDano: {10d8+10} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Reflexos guiados por corda",
+          "valor": "Reação",
+          "descricao": "Uma vez por rodada, quando um ser se aproxima da marionete o suficiente para ficar adjacente, ela pode fazer um ataque de foice da morte contra esse ser."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Ironia do Destino",
+          "valor": "Completa",
+          "descricao": "A marionete executa dois ataques com sua foice óssea em um ser adjacente. Se acertar o segundo ataque, ela agarra a vítima com a arma e pode se deslocar 6m carregando-a consigo. Enquanto estiver agarrando um ser, a marionete pode transferir parte de sua dor para ele — sempre que a criatura sofrer dano, se estiver agarrando um ser, o dano é dividido entre ela e o ser que ela estiver agarrando."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Momento Passivo",
+          "descricao": "Apesar de não ser rápida, a marionete não pode ter seu deslocamento reduzido e ignora qualquer tipo de terreno difícil. Além disso, ela não sofre dano ou efeitos que dependam que ela toque no chão."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A tristeza, apatia e negação originadas por um trauma também são capazes de gerar manifestações terríveis dentro da Realidade. A marionete é o resquício de uma memória distorcida por um acontecimento terrível, uma possibilidade roubada, o momento que nunca aconteceu.\n\nTomando a forma de um esqueleto retorcido preenchido por Lodo, a marionete é o resultado da rejeição do luto, a tentativa desesperada de trazer alguém de volta dos mortos, e com isso, sua aparência varia dependendo do responsável pela sua manifestação.\n\nPorém, algumas constantes sempre são reconhecíveis: no crânio da marionete, um fio força a mandíbula a ficar aberta, com Lodo preto escorrendo de dentro constantemente, e seus braços são erguidos como se pendurados por uma força invisível. No topo, uma enorme lâmina de ossos no formato de foice é amarrada a um dos braços, com a ponta sendo a única parte de seu corpo flutuante que toca o chão.\n\nÉ sempre possível reconhecer traços familiares daqueles que já se foram ao observar a marionete, e ceder à tentação dessa mentira pode ser a última coisa que você faça. Lembre-se: nada que foi levado pela Morte pode voltar ao que era antes."
+        }
+      ]
+    },
+    {
+      "id": "mumia-xipofaga",
+      "nome": "Múmia Xifópaga",
+      "tags": [
+        "Morte",
+        "VD 240"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/mumia-xipofaga-retrato.webp",
+      "miniatura": "bestiario/mumia-xipofaga-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 400
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 240
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 30, {6d8} mental, NEX 75%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 35
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 10, impacto 10, Morte 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia, fogo"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garra Enfaixada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+30}\nDano: {4d8+30} Corte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Vomitar Lodo",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, curto, 2x.\nTeste: {5d20>+25}\nDano: {3d6+30} Morte + {3d8} Mental"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrada Mumificadora",
+          "valor": "Livre",
+          "descricao": "Se a múmia acertar um ataque de garra enfaixada ela pode agarrar o alvo (teste 4O+30). Enquanto estiver agarrada assim, a vítima sofre {4d8+30} pontos de dano de Morte no início de cada um dos seus turnos e a múmia recupera essa mesma quantidade de PV. Caso o ser seja reduzido a 0 PV dessa forma, se torna um esqueleto de Lodo no começo do seu turno."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Amalgamar",
+          "valor": "Padrão",
+          "descricao": "Enquanto está com 0 PV, a múmia pode amalgamar um ser morto ou uma criatura de Morte adjacente. Se o fizer, ela se entrelaça com o alvo, tornando-se uma versão mais poderosa de si mesma; ela recupera 200 PV, passa a atacar três vezes com suas garras enfaixadas e seus ataques causam +5 pontos de dano cada. Uma múmia que já esteja amalgamada com outro ser pode se amalgamar mais uma vez, combinando-se com um total de dois seres. Ao se amalgamar pela segunda vez, ela recupera mais 200 PV, passa a atacar quatro vezes com suas garras enfaixadas e aumenta o bônus de dano em +5 (para um total de +10 por ataque)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Faixas da Permanência",
+          "descricao": "Uma múmia reduzida a 0 PV não é destruída. Em vez disso, pode continuar agindo até o final do seu próximo turno. Se não terminar seu próximo turno com pelo menos 1 PV, ela morrerá."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Ninguém sabe quando e como o paranormal se manifestou pela primeira vez na Realidade, mas evidências arqueológicas demonstram registros da presença do Outro Lado há milênios. Mesmo nos tempos do Antigo Egito, o ato de mumificação em busca da imortalidade possuía resultados macabros e indesejados.\n\nA obsessão pela vida eterna que se popularizou através do sepultamento de faraós, mas que secretamente também era exercida por seitas que cultuavam as entidades do Outro Lado, foi responsável pela histeria cultural do pavor à própria Morte, trazendo para a Realidade consequências horrorosas.\n\nO que possivelmente poderia levar pessoas a mumificar os próprios corpos entrelaçados enquanto ainda vivos? A origem da múmia xifópaga é um mistério perturbador, mas o seu comportamento é ainda mais macabro. Aqueles agarrados pela criatura e absorvidos até o fim de sua vida são fundidos ao seu corpo, se tornando mais um dos seres amalgamados nas amarras da eternidade distorcida da Morte."
+        }
+      ]
+    },
+    {
+      "id": "nidere",
+      "nome": "Nidere",
+      "tags": [
+        "Morte",
+        "VD 320"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/nidere-retrato.webp",
+      "miniatura": "bestiario/nidere-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 4
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 800
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 320
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Sangue, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Faro"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {8d6} mental, NEX 95%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 50
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "24m / 16q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 20, impacto 20, Morte 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{7d20>+23}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Sobrevivência",
+          "valor": "{6d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garra Invertida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+35}\nDano: {4d10+40} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida Invertida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+35}\nDano: {4d12+40} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Reverter",
+          "valor": "Livre",
+          "descricao": "Um ser que sofra dano das garras invertidas é afetado por um surto temporal capaz de apodrecer a carne. Ele fica enjoado até o final do seu próximo turno."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Rastrear e Abater",
+          "valor": "Livre",
+          "descricao": "O nidere causa +{6d6} pontos de dano contra seres desprevenidos."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Caçador Veloz",
+          "descricao": "O nidere pode se mover em seu deslocamento normal sem penalidade em Furtividade."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Regeneração Acelerada",
+          "descricao": "O nidere possui Cura Acelerada 50. Ele perde esta habilidade se resolverem seu Enigma de Medo."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Senso de Direção Perfeito",
+          "descricao": "Nideres nunca se perdem e recebem +2d20 em Percepção e Sobrevivência (já contabilizados na ficha). A criatura perde esta habilidade caso seu enigma de medo seja resolvido."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A origem dessa criatura remonta a cultos milenares de povos nativos da América do Sul. O culto se transformou em lenda e a lenda, em folclore. Hoje, a história do nidere é famosa entre grupos de amigos que decidem acampar na floresta, Porém, não é apenas uma história…\n\n“Nidere, o lobo invertido” é um monstro que se manifesta somente em ambientes selvagens, e em condições extremamente específicas. Dentre equipes de resgate florestais, é informalmente considerado como o maior responsável por desaparecimentos misteriosos de grupos de campistas.\n\nGraças à sua natureza misteriosa, há inúmeros grupos de caçadores, fóruns online e até mesmo programas de TV dedicados a encontrar evidências da existência de nideres, mas o Medo irracional e inconsciente no fundo das suas mentes os força a simular e forjar cenas falsas para entretenimento, agravando ainda mais o pavor gerado pela criatura.\n\nSimilar a um enorme lobo atroz e desfigurado, com seu corpo completamente retorcido em uma forma bizarra, os poucos relatos de sobreviventes descrevem o nidere apenas como um vulto negro na noite, olhos vermelhos refletindo na escuridão, e rosnados monstruosos distorcidos, como se estivessem invertidos de trás pra frente.\n\nNideres são caçadores brutais e eficazes, o predador alfa das criaturas paranormais. É tolice acreditar que é possível se preparar para enfrentar um nidere em combate direto, frente a frente. Um nidere só pode ser derrotado se seu lar for encontrado e o motivo da sua manifestação for desintegrada. Porém, tenha atenção: a maioria das pistas que levam ao seu lar normalmente são rastros propositais deixados pela própria criatura para atrair mais presas.\n\nEle sempre estará caçando você."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Para enfrentar um nidere, é preciso primeiro encontrar seu covil, que muitas vezes é formado por cavernas naturais nas profundezas da floresta, enquanto ele não estiver lá. Se o nidere enfrentar os personagens dentro do seu covil, a afinidade com seu lar labiríntico o tornará ainda mais mortal.\n\nPara acessar a origem da sua manifestação, é primeiro necessário entender a lógica distorcida por trás dos padrões misteriosos dos restos ósseos de suas vítimas deixados pendurados no lar pelo nidere. Estes ossos formam uma espécie de engenhoca bizarra criada pela própria criatura. É como se a criatura preparasse uma armadilha para atrair e distrair seus caçadores, com uma lógica que sempre tem uma conexão com as identidades das vítimas que devora, como um deasfio.\n\nQuando a origem for destruída, a criatura entrará em uma fúria incontrolável. Ela sofre -10 na Defesa e -2d20 em testes de resistência, e perde suas habilidades Regeneração Acelerada e Senso de Direção Perfeito, o que a torna suscetível a cair em armadilhas que seriam facilmente evitadas em seu estado original, possibilitando a sua captura e morte."
+        }
+      ]
+    },
+    {
+      "id": "sempiternal",
+      "nome": "Sempiternal",
+      "tags": [
+        "Morte",
+        "VD 360"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/sempiternal-retrato.webp",
+      "miniatura": "bestiario/sempiternal-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 5
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 4
+        },
+        {
+          "sigla": "PRE",
+          "valor": 5
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 990
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 360
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, {8d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 53
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Morte, condições lento e de paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 20, impacto 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{5d20>+30}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Dedos Alongados",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 4x.\nTeste: {5d20>+40}\nDano: {4d10} Morte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Correntes de Lodo",
+          "valor": "Movimento",
+          "descricao": "O sempiternal projeta vinhas de Lodo pelo chão, ocupando toda a área em alcance médio. Todos os seres na área sofrem {20d6} pontos de dano de Morte (Fortitude DT 40 reduz à metade). Um ser que fique machucado devido a este dano é infectado com o Lodo e recebe vulnerabilidade a Morte até o fim da cena. Um ser reduzido a 0 PVse torna um enraizado."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Toque Acelerador",
+          "descricao": "Sempre que um ser sofre dano dos dedos alongados, envelhece {1d10} anos. Se a vítima envelhecer 20 anos ou mais desta forma, fica fraca até o fim da cena. Se envelhecer 40 anos ou mais, fica debilitada até o fim da cena. E se envelhecer 60 anos ou mais, morre. Seres com afinidade com a Morte são imunes a este efeito."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "É comum encontrar ocultistas e pessoas com alto nível de exposição paranormal com sua aparência e percepção da Realidade deformadas pelo Outro Lado, mas o que aconteceria se essa exposição fosse estendida e repetida em ciclos por inúmeras gerações?\n\nUm sempiternal é o resultado da manifestação da Morte através de uma evolução gradual passada por inúmeras gerações de uma civilização isolada. O que um dia já foi humano, hoje é uma figura esquelética bizarra e retorcida com olhos pretos e pele acinzentada. Ele emite sons invertidos e macabros que aparentam ser uma linguagem distorcida que apenas aqueles também distorcidos pela Morte conseguem compreender.\n\nO sempiternal parece viver em algum tipo de sociedade com outras criaturas similares à ele, talvez como um vestígio de sua origem, mas qualquer rastro de necessidades básicas humanas foi completamente desfeito. O sempiternal não é humano, apesar de ter se originado de humanos. Ele não bebe, não come e não dorme.\n\nÉ importante notar que apesar de sua aparência magra, essa é uma criatura extremamente perigosa, em especial por ter desenvolvido uma espécie de sexto sentido: o sempiternal consegue manipular a própria percepção do tempo, percebendo a Realidade de forma acelerada ou desacelerada como bem entender.\n\nO sempiternal é um retrato da perversidade do paranormal dentro da Realidade. Será que existe um resquício de consciência humana por trás dos olhos destruídos pela Morte"
+        }
+      ]
+    },
+    {
+      "id": "succ",
+      "nome": "Succ",
+      "tags": [
+        "Morte",
+        "VD 40"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/succ-retrato.webp",
+      "miniatura": "bestiario/succ-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 1
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 65
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 40
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Corte 5, impacto 5, Morte 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Energia"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {4d20>+10}\nDano: {2d8+2} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Sucção",
+          "valor": "Livre",
+          "descricao": "Se acertar um personagem com sua mordida, o succ prende seus dentes no rosto da vítima e então tira o ar de seus pulmões. O personagem deve fazer um teste de Fortitude (DT 17). Se passar, consegue se soltar. Se falhar, fica inconsciente e, no início do próximo turno do succ, será reduzido a 0 PV e ficará morrendo. Enquanto estiver prendendo um personagem dessa forma, o succ não pode realizar ações, exceto reações, e seu deslocamento é reduzido para 3m. Se o succ sofrer 10 pontos de dano ou mais na mesma rodada, solta qualquer vítima que estiver prendendo."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Um ser quadrúpede com patas pontudas, pele enrugada e acinzentada, dois buracos onde deveriam estar seus pulmões, com um longo pescoço enrugado e invertebrado que leva a uma enorme boca circular com vários dentes em camadas internas.\n\nO succ é uma criatura que busca apenas sugar todo o ar de dentro dos pulmões de sua vítima. Por causa da sucção de tudo ao seu redor, emite um som alto e constante, facilmente confundido com o de um aspirador de pó."
+        }
+      ]
+    }
+  ]
+}

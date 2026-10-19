@@ -1,0 +1,2025 @@
+{
+  "grupos": [
+    {
+      "nome": "Ameaça"
+    },
+    {
+      "nome": "Combate"
+    },
+    {
+      "nome": "Perícias"
+    },
+    {
+      "nome": "Ações",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Poderes",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Descrição",
+      "exibicao": "lista"
+    }
+  ],
+  "moldes": [
+    {
+      "id": "o-diabo",
+      "nome": "O Diabo",
+      "tags": [
+        "Sangue",
+        "VD 400"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/o-diabo-retrato.webp",
+      "miniatura": "bestiario/o-diabo-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 6
+        },
+        {
+          "sigla": "FOR",
+          "valor": 6
+        },
+        {
+          "sigla": "INT",
+          "valor": 6
+        },
+        {
+          "sigla": "PRE",
+          "valor": 6
+        },
+        {
+          "sigla": "VIG",
+          "valor": 6
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1666
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 400
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Relíquia"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {10d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 66
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "18m / 12q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano, Sangue, condições de atordoamento e paralisia"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, impacto 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{6d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{6d20>+35}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Arma Sangrenta (corpo a corpo)",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {6d20>+45}\nDano: {2d10+50} Sangue\nCrítico: x3"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Chifre do Diabo",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {6d20>+45}\nDano: {2d8+50} Sangue\nCrítico: x3"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Arma Sangrenta (distância)",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, médio, 2x.\nTeste: {6d20>+45}\nDano: {2d10+50} Sangue\nCrítico: x3"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Explodir em Sangue",
+          "valor": "Livre",
+          "descricao": "O Diabo é capaz de controlar o sangue de qualquer ser com o qual ele tenha contato direto. Se ele causar dano em um personagem usando sua arma sangrenta, ou se tocar diretamente em uma ferida de um personagem, ele causa {10d6} pontos de dano de Sangue. O Diabo pode usar esta habilidade duas vezes por turno."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Sangrar",
+          "valor": "Livre",
+          "descricao": "Se o Diabo acertar um ataque com seu chifre, pode escolher soltar o apêndice e deixá-lo preso no personagem. Um personagem com um chifre preso em si sofre vulnerabilidades a Sangue até removê-lo. Fazer isso requer uma ação padrão e causa {8d8} pontos de dano de Sangue. O chifre do Diabo sempre cresce de volta no começo do seu turno."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Transportar pelo Sangue",
+          "valor": "Movimento",
+          "descricao": "O Diabo pode se movimentar através do Sangue, inclusive daquele que esteja saindo de dentro de um personagem. Com uma ação de movimento, o Diabo pode se deslocar para qualquer espaço que tenha uma grande quantidade de sangue exposta ou adjacente a um personagem machucado ou morrendo."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Senhor do Sangue",
+          "valor": "Padrão",
+          "descricao": "Uma vez por cena, o Diabo pode invocar e controlar uma ou mais criaturas de Sangue cujo VD total somado seja até 400. As criaturas aparecem em alcance médio do Diabo e agem a partir da próxima rodada, no turno do Diabo, seguindo a vontade dele."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pacto",
+          "valor": "Padrão",
+          "descricao": "O Diabo oferece ao alvo um pacto de Sangue. Se o pacto for aceito, o Diabo irá cumprir o que foi prometido, normalmente com resoluções distorcidas ao pé da letra. Em troca, o alvo sofre {10d6} pontos de dano mental e, se enlouquecer como resultado, se torna um servo obcecado pelo Diabo para o resto da vida."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Desejos de Sangue",
+          "valor": "Completa",
+          "descricao": "Todos os personagens em alcance médio do Diabo entram em uma fúria de Sangue e atacam outro personagem em alcance curto a escolha do Diabo (Vontade DT 45 evita). Um personagem afetado por esta habilidade deve usar sua ação com o maior potencial de dano, mas não pode conjurar rituais. Um personagem que passe no teste de Vontade fica imune a esta habilidade até final da cena."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Ardiloso",
+          "descricao": "O Diabo gosta de fazer pactos e ocasionalmente aparece para pessoas normais. Ele pode escolher não ativar sua Presença Perturbadora quando encontra um personagem."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Decepar Máscara",
+          "descricao": "A intensidade dos sentimentos do Diabo é a única coisa capaz de romper a calmaria do Equilíbrio e resolver o Enigma de Medo da Máscara do Desespero."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Potência de Sangue",
+          "descricao": "O Diabo recupera 50 PV no início de cada um de seus turnos. Além disso, seu modificador para todos os testes de perícia baseados em Força, Vigor ou Presença é +35, e para testes baseados nos demais atributos, é +25."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Você com certeza já ouviu falar desse ser conhecido por inúmeros nomes. O Príncipe do Ódio, o Imperador das Aberrações, o Portador do Trono ou o Sangue Encarnado. Aquele que rasga a Realidade com sua presença aterrorizante e devoradora.\n\nO Diabo é uma das manifestações do Outro Lado mais significativas na história da Realidade. Um ser que nunca foi derrotado, nunca foi controlado e nunca foi aprisionado, capaz de invocar e controlar qualquer criatura paranormal irracional associada ao elemento do Sangue dentro da Realidade.\n\nAs menções da figura maquiavélica de pele vermelha, chifruda, com um sorriso impetuoso rasgado acompanhado de um olhar macabro estão presentes em incontáveis culturas e lendas ao redor de toda a Realidade.\n\nO Diabo não age de maneira sutil, dispensando a graciosidade e o suspense. Ele não tem problemas em ser invocado em pessoa para lidar com qualquer situação que lhe desperte o interesse, e por isso se tornou a criatura paranormal mais popularmente conhecida em toda a Realidade. Todos já ouviram falar do Diabo, mas apenas alguns tiveram o desprazer e a agonia de conhecê-lo."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição (continuação)",
+          "descricao": "Sua presença sempre está associada a personalidades com estados mentais excessivamente transtornados. O Diabo se alimenta dos sentimentos extremos e descontrolados daqueles com quem interage, buscando intensificar ainda mais as emoções experienciadas.\n\nGraças a isso, é comum seguir o caminho de sangue e dor que traçam de volta à origem da maioria dos casos envolvendo o Diabo: um Pacto. O que leva alguém a buscar ajuda do ser mais bestial e abominável conhecido é debatível, mas muitas é arrogância, ódio, paixão ou, principalmente, desespero. O Diabo gosta de abusar daqueles que não se vêem com outras opções, assim como sente prazer em humilhar aqueles que acreditam poder superá-lo.\n\nAqueles que buscaram sua simpatia mergulharam em uma vida de abstinência e agonia interminável, mas aqueles que decidiram tomá-lo como um inimigo acabaram por sofrer consequências que consideraram piores do que a própria morte. No fim, existe uma regra inegável que se deve seguir impetuosamente com todo seu coração:\n\nVOCÊ NÃO DEVE SE ENVOLVER COM O DIABO."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Ninguém sabe como derrotar o Diabo. Registros antigos falam sobre símbolos sagrados que afastariam a Besta, mas nada parece funcionar de verdade. Se existe uma forma de derrotar essa criatura, esse é um segredo muito bem guardado. Sabe-se, entretanto, que a Morte é a entidade opressora do Sangue. Talvez a resposta não esteja no Sangue escarlate, mas sim no Lodo da Morte. Seria uma manifestação de Morte com força equivalente ao Diabo a chave para derrotá-lo?\n\nQuando o Enigma de Medo do Diabo for resolvido ele perde sua imunidade a dano e seus bônus de testes de resistência são reduzidos para +25."
+        }
+      ]
+    },
+    {
+      "id": "aberracao-de-carne",
+      "nome": "Aberração de Carne",
+      "tags": [
+        "Sangue",
+        "VD 40"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/aberracao-de-carne-retrato.webp",
+      "miniatura": "bestiario/aberracao-de-carne-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 1
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 70
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 40
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 19
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 5, impacto 5, Sangue 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {2d6+6} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrão",
+          "valor": "Reação",
+          "descricao": "Se a aberração de carne acertar um ataque de pancada, ela pode tentar agarrar o alvo (teste {3d20>+12}). Ela pode manter até dois personagens agarrados por vez."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Abocanhar",
+          "valor": "Movimento",
+          "descricao": "A aberração de carne leva até dois personagens agarrados para dentro de sua boca central, que são abocanhados e continuam agarrados. Quando é abocanhado, e no início de cada turno da aberração em que continuar agarrado desta forma, o personagem sofre {3d6} pontos de dano de perfuração (Fortitude DT 15 reduz à metade). Qualquer personagem adjacente a aberração de carne pode gastar uma ação padrão para fazer um teste de Atletismo (DT 20) para tentar tirar outro personagem de dentro da boca."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Originalmente, a aberração de carne foi um experimento fracassado para juntar dois corpos em um só. A dor agoniante das duas cobaias que se mantiveram conscientes durante todo o processo tormentoso se transformou numa fúria desoladora alimentada pelo Sangue.\n\nOs corpos tomaram uma aparência deformada, inchada e irreconhecível, com a pele completamente vermelha, seus olhos comidos, suas quatro pernas e quatro braços se movimentando com agressividade buscando agarrar tudo ao seu redor e uma enorme abertura se assemelhando a uma boca circular com incontáveis dentes se abrindo no ponto onde seus estômagos estavam costurados. A aberração de carne pode chegar a até dois metros e vinte de altura e é extremamente pesada. Dificilmente um alvo que for agarrado por seus braços enormes e abocanhado pela ruptura sairá inteiro para contar a história."
+        }
+      ]
+    },
+    {
+      "id": "aniquilacao",
+      "nome": "Aniquilação",
+      "tags": [
+        "Sangue",
+        "VD 380"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/aniquilacao-retrato.webp",
+      "miniatura": "bestiario/aniquilacao-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 4
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1200
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 380
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Colossal"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 45, {9d8} mental"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 58
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "15m / 10q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Dano 50"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+30}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {4d10+30} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Tentáculos Espinhentos",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {2d12+30} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Disparo de Espinhos",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, médio, 3x.\nTeste: {4d20>+40}\nDano: {2d10+20} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrão",
+          "valor": "Reação",
+          "descricao": "Se a Aniquilação acertar um ataque de tentáculos espinhentos, ela pode tentar agarrar o alvo (teste {5d20>+50}). Ela pode manter até quatro personagens agarrados por vez."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Instinto Aniquilador",
+          "valor": "Reação",
+          "descricao": "Sempre que um personagem em alcance curto da Aniquilação se movimenta mais do que 3m, a Aniquilação realiza um ataque de tentáculos espinhentos contra o personagem."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Apertar e Destruir",
+          "valor": "Livre",
+          "descricao": "No início do seu turno, a Aniquilação aperta os personagens agarrados com seus tentáculos, causando 40 pontos de dano de Sangue."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Bater as Asas",
+          "valor": "Movimento",
+          "descricao": "A Aniquilação bate suas asas, criando um som ensurdecedor. Cada personagem em alcance longo sofre {8d6} pontos de dano Mental, é empurrado 6m para longe da Aniquilação e fica atordoado por uma rodada (Fortitude DT 40 reduz o dano à metade e evita os efeitos)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Estrangulamento Final",
+          "valor": "Movimento",
+          "descricao": "A Aniquilação se desloca 15m enquanto seus inúmeros braços agarram e estrangulam personagens no caminho. Cada personagem que ficar adjacente a Aniquilação durante esse deslocamento fica agarrado e asfixiado (Reflexos DT 30 evita). Um personagem agarrado pode escapar gastando uma ação padrão e passando em um teste de Reflexos (DT 30)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Tempestade de Espinhos",
+          "valor": "Completa",
+          "descricao": "A Aniquilação lança todos os seus espinhos. Todos os personagens em alcance médio sofrem {20d6+20} pontos de dano de Sangue (Reflexos DT 40 reduz à metade). A Aniquilação só pode usar esta habilidade uma vez por cena e, quando a usa, perde seu disparo de espinhos até o fim da cena."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A maior criatura já registrada na história da Realidade. Apenas relatos de civilizações distantes foram encontrados como evidência desse ser que só pode ser descrito como um apocalipse paranormal.\n\nUma aberração incomparável, uma monstruosidade de tamanho descomunal, com mais de dez metros de altura, esse ser é conhecido por diversos nomes, como “A Besta do Apocalipse”, “O Dragão do Inferno” e “A Aniquilação”\n\nNão se tem informação de qual seria o acontecimento ou ritual aterrorizador capaz de invocar esse ser medonho, apenas registros históricos longínquos das ruínas devoradas que restaram da passagem dessa criatura.\n\nSeus enormes braços contém braços menores que se desviam dele, e esses mesmos braços contém mais inúmeros braços que brotam de todo o seu comprimento, se movendo de forma irregular, tentando agarrar qualquer coisa que passe perto da criatura. Ao redor de toda sua forma surgem espinhos alongados, especialmente dos enormes tentáculos que se entrelaçam na parte inferior do corpo, e no centro de seu corpo é possível enxergar uma enorme bocarra com dentes longos e afiados do tamanho de pessoas adultas.\n\nAs enormes asas são incapazes de erguer o seu corpo colossal, mas ao se agitarem causam um som ensurdecedor que pode ser escutado a quilômetros de distância, anunciando a sua chegada.\n\nNão existem registros de alguém que tenha sido capaz de matar ou dissipar a Aniquilação, e lendas perdidas no tempo regurgitam a possibilidade de que ela nunca tenha sido de fato derrotada, e está apenas dormente escondida em algum lugar da Realidade, aguardando pelo seu despertar."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "O Enigma de Medo da Aniquilação é desconhecido. Quando ele for resolvido, a Aniquilação perderá sua resistência a dano e sua habilidade Tempestade de Espinhos."
+        }
+      ]
+    },
+    {
+      "id": "carente",
+      "nome": "Carente",
+      "tags": [
+        "Sangue",
+        "VD 300"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/carente-retrato.webp",
+      "miniatura": "bestiario/carente-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 700
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 300
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {7d8} mental, NEX 90%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 40
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, impacto 20, Sangue 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Enganação",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras de Sangue",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+35}\nDano: {2d8+20} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Ferrão de Sangue",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {4d20>+35}\nDano: {2d12+20} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Tentáculo",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {4d20>+35}\nDano: {2d8+20} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Forma Infantil",
+          "valor": "Movimento",
+          "descricao": "O carente se contorce de volta para o corpo da pequena criança para passar em espaços pequenos, se retraindo e expandindo quando achar necessário. Além disso, o carente não consegue abrir a primeira porta para entrar em um lugar. Uma vez que essa porta é aberta e ele deixa de estar na forma infantil, pode ignorar essa restrição."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Rasteira de Tentáculo",
+          "valor": "Reação",
+          "descricao": "Uma vez por rodada, quando fica adjacente a dois ou mais seres, o carente faz um ataque de tentáculo contra um deles. Se o carente acertar o ataque, a vítima fica caída e é empurrada 6m para longe dele."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Sugada Mortal",
+          "valor": "Livre",
+          "descricao": "Usando seu ferrão, o carente consegue sugar fluidos e apodrecer os órgãos internos. Um ser atingido pelo ferrão de sangue fica debilitado e enjoado até o fim da cena (Fortitude DT 35 evita)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Você é minha mamãe?",
+          "valor": "Movimento",
+          "descricao": "O carente usa a parte que simula o corpo de uma criança para abraçar um ser adjacente, que fica paralisado até ser solto (Reflexos DT 25 evita). O carente pode manter o abraço indefinidamente, mas será forçado a soltar o alvo se sofrer dano de Energia."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Carência",
+          "descricao": "Qualquer ser que já esteve envolvido na gestação de outro ser recebe +1d20 em ataques contra o carente, porém o carente também recebe +1d20 em ataques contra esse ser."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Regeneração de Sangue",
+          "descricao": "O carente possui Cura Acelerada 20. Se o carente ficar inconsciente ou sofrer dano de Energia, esta habilidade deixa de funcionar até o fim da cena."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A criatura mais famosa do escritor de terror Daniel Hartmann, o carente é uma manifestação paranormal originada de uma história de terror que se tornou popular no mundo todo. É uma criatura nascida da inveja de um ser que nunca sentiu amor e, por isso, busca devorar os órgãos de pessoas que já foram mães para consumir o amor que nunca recebeu.\n\nApesar de brutal, um carente não tem a habilidade de abrir portas sozinho. Por causa disso, para enganar seus alvos, o carente originalmente toma a forma de uma pequena criança com lacerações em todo o seu rosto vazio, uma coluna entortada e uma camiseta azul com uma estampa infantil, mimicando o som de um menino ou menina doce e perdida batendo em portas buscando por sua mãe.\n\nPorém, quando alguém comete o grave erro de atender ao chamado e abrir a porta, de dentro do seu rosto rasteja uma criatura bizarra, grotesca e enorme, com mais de três metros de altura, uma pele gosmenta, garras pontudas e curvadas. É uma forma que se assemelha a um inseto monstruoso enorme, com um grande ferrão saindo de um rosto demoníaco. No topo, como uma espécie de isca, o corpo da criança fica pendurado, conectado a um tipo de tentáculo com garras.\n\nLembre-se, se você ouvir uma criança batendo à porta chamando pela sua mãe, NÃO ABRA A PORTA. Pois depois que a entrada do carente for permitida em um ambiente pela primeira vez, nada mais poderá impedi-lo de devorar aquilo de que carece."
+        }
+      ]
+    },
+    {
+      "id": "dama-de-sangue",
+      "nome": "Dama de Sangue",
+      "tags": [
+        "Sangue",
+        "VD 60"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/dama-de-sangue-retrato.webp",
+      "miniatura": "bestiario/dama-de-sangue-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 105
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 60
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Enorme"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Medo, Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {3d6} mental, NEX 35%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, impacto 10, Sangue 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Tentáculo",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {2d6+5} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Arremessar (Flor Rosa)",
+          "valor": "Movimento",
+          "descricao": "A dama de Sangue ergue um personagem em alcance curto e o arremessa a um ponto a sua escolha também em alcance curto. O personagem sofre {2d6} pontos de dano de impacto e fica caído (Reflexos DT 15 evita todo o efeito). A flor rosa murcha se a dama de Sangue entrar em contato com fertilizante. Isso faz a dama perder esta habilidade e sofrer -1d20 em Luta"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Chuva de Ácido (Flor Vermelha)",
+          "valor": "Movimento",
+          "descricao": "A dama espirra ácido que derrete carne e corrói metal. Todos os personagens em alcance curto sofrem {4d4} pontos de dano químico (Fortitude DT 15 reduz à metade). A flor vermelha murcha se a dama de Sangue entrar em contato com agrotóxico. Isso faz a dama perder esta habilidade e reduz suas resistências a dano em 5."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Espinhos (Flor Amarela)",
+          "valor": "Movimento",
+          "descricao": "A dama dispara espinhos em até três alvos em alcance médio. Cada alvo sofre {2d8} pontos de dano de perfuração (Reflexos DT 15 reduz à metade). A flor amarela murcha se a dama de Sangue sofrer 10 pontos de dano de fogo de um único efeito. Isso faz a dama perder esta habilidade e sofrer 1d20 em testes de Reflexos."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Grito Devastador (Flor Roxa)",
+          "valor": "Movimento",
+          "descricao": "A dama emite um grito agudo que afeta a mente e causa confusão. Todos os personagens em alcance curto ficam confusos (Vontade DT 15 evita). Um personagem que falhe no teste pode repeti-lo no final do seu turno. A flor roxa murcha se a dama de Sangue entrar em contato com o bulbo de bravo purpulis, uma planta roxa que cresce em algumas pedras. Isso faz a dama perder esta habilidade e sofrer 1d20 em testes de Vontade."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Miasma Fétido (Flor Azul)",
+          "valor": "Padrão",
+          "descricao": "A dama de Sangue expele um miasma fétido que contamina o ar. Todos os personagens em alcance curto ficam enjoados por {1d4+1} rodadas (Fortitude DT 15 reduz à 1 rodada). A flor azul murcha se a dama de Sangue sofrer dano de eletricidade ou Energia. Isso faz a dama perder esta habilidade e reduz seu deslocamento em 6m."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Prisão de Tentáculos (Flor Verde)",
+          "valor": "Padrão",
+          "descricao": "A criatura penetra o solo com seus tentáculos e escolhe um personagem em alcance curto. Esse personagem fica agarrado até que os tentáculos sejam destruídos (os tentáculos são acertados automaticamente e tem 20 PV). A flor verde murcha se for molhada em água corrente. Isso faz a dama perder esta habilidade e reduz sua Defesa em 5."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Visão Macabra (Flor Laranja)",
+          "valor": "Movimento",
+          "descricao": "O movimento hipnotizante da flor faz com que o personagem tenha delírios de imagens macabras e perturbadas. Todos os personagens em alcance médio sofrem {1d6} pontos de dano Mental (Vontade DT 15 reduz à metade). A flor laranja murcha se a dama de Sangue sofrer 10 pontos de dano de corte de um único efeito. Isso faz a dama perder esta habilidade e reduz seus PV totais em 20."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Consumir",
+          "descricao": "Quando invocada, a dama de Sangue não possui as habilidades da coluna ao lado. Sempre que consome um corpo, recebe uma das habilidades, na ordem da ficha (ou seja, ganha primeiro Arremessar, depois Chuva de Ácido e assim por diante). Para consumir um corpo, a dama de Sangue precisa estar adjacente ao cadáver e gastar uma ação padrão. No começo de seu turno, se não tiver consumido sete corpos, a dama de Sangue irá utilizar suas ações para se deslocar na direção de um corpo e consumi-lo. Assim que tiver consumido sete corpos, ela pode agir normalmente."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma criatura grotesca que nasce a partir de um corpo humano partido no meio, com os órgãos se misturando a plantas para dar origem a sete tentáculos com flores e espinhos, além de outro tentáculo maior, central, com uma grande flor dentada. Uma dama de Sangue é uma criatura nefasta que manifesta diversas habilidades paranormais.\n\nA dama de Sangue é uma criatura de Sangue, mas com elementos de Morte e Medo, criada a partir do culto a uma entidade antiga, por vezes confundida no folclore com um anjo.\n\nÉ criada a partir da transformação de uma pessoa que teve sementes de orquídea de Sangue alojadas em sua coluna. Esse hospedeiro é sacrificado em um ritual de Sangue, na qual as sementes rapidamente eclodem e consomem a carne da pessoa para que ela se transforme na criatura.\n\nA dama de Sangue está associada ao mito do Serafim Escarlate, que arrebata as almas dos mais jovens primeiro, seguindo o número sete por onde quer que passe. Além disso, o mito se fundiu com um culto a uma “Dama das Flores”, uma entidade capaz de fazer orquídeas florescerem."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A dama de sangue é uma criatura poderosa, invocada através de um ritual que envolve o sacrifício de sete pessoas para o desabrochar de sete flores. Porém, cada flor possui uma fraqueza, conforme descrito nas habilidades ao lado."
+        }
+      ]
+    },
+    {
+      "id": "enpap-x",
+      "nome": "Enpap-X",
+      "tags": [
+        "Sangue",
+        "VD 180"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/enpap-x-retrato.webp",
+      "miniatura": "bestiario/enpap-x-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 4
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 360
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 180
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Conhecimento"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 25, {6d6} mental, NEX 60%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 36
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, impacto 10, Sangue 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Socão",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 4x.\nTeste: {4d20>+20}\nDano: {2d10+10} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Correntes",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, curto, 3x.\nTeste: {2d20>+15}\nDano: {2d8+10} Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Acorrentar",
+          "valor": "Livre",
+          "descricao": "Se o enpap-X acertar um ataque de correntes em um personagem Médio ou menor, pode tentar agarrar o alvo à distância (teste {2d20>+17}). No começo do seu turno, o enpap-X estrangula cada personagem agarrado desta forma, causando {4d6} pontos de dano de impacto. O enpap-X pode manter até dois personagens agarrados simultaneamente"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Forma Desencadeada",
+          "valor": "Reação",
+          "descricao": "Quando faz um acerto crítico com um socão ou com uma corrente, o enpap-X pode derrubar o alvo ou empurrá-lo 3m na direção oposta."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Crescer",
+          "valor": "Reação",
+          "descricao": "Movido pelo Sangue incontrolável, o enpap-X desenvolve força conforme desfere seus golpes. Sempre que acertar um personagem com seu socão, o enpap-X recebe um bônus cumulativo de +{1d6} em suas próximas rolagens de dano até o fim do turno. Ou seja, se acertar o primeiro socão, no segundo recebe +{1d6} de dano. Se acertar o segundo, no terceiro recebe +{2d6}. E se acertar o terceiro, no quarto socão recebe +{3d6}."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Marcas do Terror",
+          "valor": "Movimento",
+          "descricao": "O enpap-X faz com que as marcas em seu corpo brilhem com uma luz dourada, revelando as atrocidades eternizadas em sua pele. Todos os personagem em alcance curto do enpap-X sofrem {4d6} pontos de dano mental (Vontade DT 25 reduz à metade). Um personagem que passe no teste de resistência fica imune a esta habilidade até o final da cena."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Transformação",
+          "descricao": "O enpap-X começa o combate como um existido comum. Quando ele é reduzido a 0 PV, porém, em vez de morrer, se transforma: passa a usar a ficha desta página (inclusive gerando o efeito de sua presença perturbadora) e recupera todos os seus PV, ficando com 360 PV."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Originada de uma lenda perdida da antiga Suméria, a aberração “enpap-X” surgiu da dor e tortura de um prisioneiro de guerra que era obrigado a marcar em sua pele os feitos terríveis cometidos pelo seu soberano.\n\nUm enpap-X pode surgir quando uma pessoa é forçada a viver aprisionada, torturada e acorrentada, estando constantemente exposta a brutalidades e manifestações paranormais, mas nunca de fato tendo a libertação de ter sua vida encerrada.\n\nO ódio, a dor e a angústia aos poucos transformam a mente dessa pessoa em uma tormenta enfurecida e enlouquecida, e as marcas registradas em seu corpo preenchem o vazio da sua mente consumida pelo ódio com apenas uma palavra, um nome lembrado pelo Conhecimento do Outro Lado: enpap-X.\n\nInicialmente agindo de forma controlada, acorrentado pelo seu possuidor, se libertado das suas correntes e ferido, enpap-X se transforma e se expande numa monstruosidade enorme de quatro braços que busca apenas a vingança contra qualquer um em sua frente, o preço de uma eternidade de sofrimento."
+        }
+      ]
+    },
+    {
+      "id": "kerberos",
+      "nome": "Kerberos",
+      "tags": [
+        "Sangue",
+        "VD 340"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/kerberos-retrato.webp",
+      "miniatura": "bestiario/kerberos-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 1150
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 340
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Enorme"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {10d6} mental, NEX 99%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 46
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "18m / 12q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, impacto 20, Sangue 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{5d20>+25}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+40}\nDano: {4d12+30} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Disparo de Espinhos",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, médio.\nTeste: {4d20>+35}\nDano: {4d8+20} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Devorar",
+          "valor": "Livre",
+          "descricao": "Uma vez por cena, quando reduz os PV de um personagem a 0 com sua mordida, o kerberos pode devorá-lo, matando-o instantaneamente e recuperando PV iguais à metade dos PV totais da vítima. A vítima tem direito a um teste de Fortitude (DT 40) para evitar o efeito."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Derrubar e Devorar",
+          "valor": "Completa",
+          "descricao": "O kerberos usa a manobra derrubar em um personagem a até 3m (teste {5d20>+45}). Se vencer o teste de manobra, o kerberos desfere três ataques de mordida contra o personagem. O dano destes ataques aumenta para {4d12+40}."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Ataque Flexível",
+          "descricao": "O kerberos é movido por sede de Sangue e desejo de matar. Ele pode executar até quatro ataques por rodada, combinando ataques corpo a corpo e à distância. Entretanto, ele nunca pode executar o mesmo ataque mais de três vezes na mesma rodada."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "O cão de três cabeças, o demônio do poço, o guardião do portão do inferno. Existem poucos relatos daqueles que encontraram um kerberos dentro da Realidade. Uma besta enorme, com mais de três metros de altura e sete metros de comprimento, seis enormes patas, uma cauda, espinhos e veias saltadas por toda a sua pele vermelha carnosa e gosmenta, e três enormes cabeças com bocas asquerosas e vis, uma diferente da outra.\n\nUm kerberos só pode ser manifestado em um “Inferno” — uma área paranormal tomada pelo Sangue, com a Membrana devastada graças a brutalidades impensáveis. Um kerberos, assim como na lenda grega, é o guardião de uma importante entrada, comumente protegendo a origem da distorção paranormal dessa região. Enfrentar um kerberos diretamente é praticamente suicídio, pois sua bestialidade é devastadora. Porém, kerberos são criaturas ilógicas e não tomam decisões estratégicas, se voltando apenas a proteger um ponto específico."
+        }
+      ]
+    },
+    {
+      "id": "minotauro",
+      "nome": "Minotauro",
+      "tags": [
+        "Sangue",
+        "VD 280"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/minotauro-retrato.webp",
+      "miniatura": "bestiario/minotauro-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 3
+        },
+        {
+          "sigla": "VIG",
+          "valor": 5
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 750
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 280
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 35, {8d6} mental, NEX 80%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 44
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, impacto 20, Sangue 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{3d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Atletismo",
+          "valor": "{5d20>+20}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Chifres",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+30}\nDano: {6d12+20} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Machado",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+32}\nDano: {4d12+20} Corte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Cravar Chifres",
+          "valor": "Livre",
+          "descricao": "Se fizer uma investida com seus chifres e acertar o ataque, o minotauro crava seus chifres no alvo, que fica agarrado. Enquanto mantém um ser agarrado dessa forma o minotauro não pode atacar com seus chifres. Porém, no final de cada turno da vítima no qual ela ainda esteja agarrada pelos chifres, ela sofre {4d12+20} pontos de dano de Sangue."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A forma de um animal enorme, furioso e bípede com mais de três metros, infectado com pústulas nojentas de Sangue e veias pulsantes por um lado inteiro de seu corpo, o minotauro é originário das lendas da mitologia grega sobre um monstro terrível que habita labirintos.\n\nEm seu braço esquerdo, um enorme machado está fundido em seus ossos e carne, com uma lâmina dupla capaz de destruir o mais resistente dos materiais. O minotauro realiza investidas brutais e enfurecidas que são praticamente impossíveis de conter, buscando manter seus alvos cada vez mais empalados em seus enormes chifres, enquanto usa seu instinto bestial para navegar dentro de seu labirinto, caçando vítimas para destroçar em pequenos pedaços e então devorá-las aos poucos.\n\nUma das primeiras criaturas com registros de ter sido mantida em uma espécie de cativeiro para ser estudada e analisada por investigadores paranormais, há milênios. Até hoje é impossível determinar o real motivo que levaria alguém a manter uma besta terrível como essa vivendo em qualquer lugar."
+        }
+      ]
+    },
+    {
+      "id": "mulher-afogada",
+      "nome": "Mulher Afogada",
+      "tags": [
+        "Sangue",
+        "VD 140"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/mulher-afogada-retrato.webp",
+      "miniatura": "bestiario/mulher-afogada-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 4
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 2
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 240
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 140
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Energia, Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 25, {4d8} mental, NEX 50%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 28
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 10, impacto 10, Energia 10, Sangue 20, perfuração 10"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{4d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+15}\nDano: {4d8+8} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {4d6+6} Corte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Jato de Sangue",
+          "valor": "Padrão",
+          "descricao": "Agredir. Distância, curto.\nTeste: {4d20>+10}\nDano: {4d8+8} Sangue"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Sugar Sangue",
+          "valor": "Movimento",
+          "descricao": "A mulher afogada devora o corpo de um personagem adjacente que tenha morrido nesta cena, recuperando 40 PV no processo."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Afogar em Sangue",
+          "valor": "Padrão",
+          "descricao": "A mulher afogada invade os orifícios do nariz e da boca de um personagem em alcance curto, afogando-o com Sangue. O personagem fica asfixiado. No início de cada um de seus turnos, pode fazer um teste de Fortitude (DT 24). Se passar, encerra a condição e faz a mulher afogada ser expelida na forma líquida para um espaço adjacente."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Arrancar Sangue",
+          "valor": "Reação",
+          "descricao": "Toda vez que a mulher afogada é arrancada de um corpo que ela esteja asfixiando com afogar em Sangue, ela carrega consigo parte do sangue da vítima, causando {6d6} pontos de dano de Sangue e deixando-a fraca."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Invadir Órgãos",
+          "valor": "Movimento",
+          "descricao": "A mulher afogada invade órgãos vitais de um personagem que ela esteja asfixiando com afogar em Sangue. O personagem sofre {6d6} pontos de dano de Sangue e fica enjoado."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Forma de Sangue",
+          "descricao": "Por padrão, a mulher afogada é encontrada na forma de líquido de Sangue. Nesta forma, ela possui resistência a balístico, corte, impacto, perfuração e Sangue 20; deslocamento 36m e pode percorrer canos, frestas e orifícios, como qualquer líquido; e recebe as habilidades Afogar em Sangue, Arrancar Sangue e Invadir Órgãos. Ela perde esta habilidade quando é invocada em sua forma física (após seu Enigma de Medo ser desvendado)."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma lenda urbana que se popularizou entre crianças graças a uma história usada por pais para evitar desperdício de água, mas que tomou proporções terríveis após um famoso escritor adaptar a lenda em um conto de terror.\n\nSua invocação está sempre associada a mulheres que morreram em afogamentos brutais e trágicos, de forma acidental ou intencional. Quando presente em um ambiente, a mulher afogada se movimenta em forma de Sangue líquido pelos encanamentos de casas assombradas, podendo ser identificada através da coloração avermelhada no fluido escorrendo das saídas de água.\n\nA mulher afogada também pode atacar em surtos de Sangue, puxando o seu alvo para dentro do encanamento, os afogando e depois devorando lentamente dentro dos canos. Por ser uma criatura de Medo, a mulher afogada exige um processo complexo para ser derrotada.\n\nPara ser invocada completamente em forma física, um processo da investigação da sua origem precisa ser completado, e um ritual envolvendo abrir diversas torneiras ao mesmo tempo precisa ser realizado associado aos elementos da sua manifestação."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "Quando a mulher afogada assombra um local, todas as fontes de água se tornam armadilhas potenciais: torneiras, canos, privadas, chuveiros... Tudo que estiver conectado a um sistema hidráuculo será um possível \"ponto de invocação\" da criatura e, caso um personagem se aproxime de um desses pontos, ela pode se manifestar em forma física de líquido de Sangue, agarrando esse personagem e tentando arrastá-lo para dentro dos canos onde o devorará aos poucos.\n\nTentar enfrentar a mulher afogada de forma direita é inútil, já que ela consegue se mover livremente por dentro dos encanamentos e se recuperar de seus ferimentos caso seja atacada. A única maneira de derrotá-la é bloquear todas as saídas de água e fechar o registro hidráulico do local, e então abrir todas as torneiras, forçando a sua manifestação física e a deixando sem lugar para fugir caso esteja próximo de ser derrotada."
+        }
+      ]
+    },
+    {
+      "id": "tita-de-sangue",
+      "nome": "Titã de Sangue",
+      "tags": [
+        "Sangue",
+        "VD 220"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/tita-de-sangue-retrato.webp",
+      "miniatura": "bestiario/tita-de-sangue-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 1
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 550
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 220
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Colossal"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 30, {7d6} mental, NEX 70%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 35
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 20, impacto 20, Sangue 20, perfuração 20"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{4d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>+10}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+25}\nDano: {4d12+10} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+25}\nDano: {4d8+10} Corte"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Estraçalhar",
+          "valor": "Livre",
+          "descricao": "Se o titã acertar um ser com sua mordida, ele estraçalha o alvo, que sofre {4d12+10} pontos de dano de perfuração e fica sangrando até final da cena (Reflexos DT 30 reduz o dano à metade e evita a condição)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Sede de Sangue",
+          "descricao": "Os ataques do titã causam +{4d6} pontos de dano de Sangue em personagens que estejam machucados ou sangrando."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "A maior versão já encontrada de um zumbi de Sangue, o titã é uma criatura monstruosa com mais de quatro metros de altura. Uma massa corporal de carne e Sangue endurecida e musculosa, com veias saltadas ao redor de todo seu corpo e uma enorme boca com quatro gigantes quelíceras capazes de desfigurar para sempre qualquer alvo, isto se este conseguir sair vivo de um de seus ataques brutais.\n\nManifestados apenas em locais com a membrana debilitada em que massacres e carnificinas terríveis aconteceram, os titãs de Sangue podem ser formados do aglomerado de vários corpos em apenas um, ou o resultado de uma pessoa de exposição paranormal extremamente elevada sendo devorada pelo Sangue."
+        }
+      ]
+    },
+    {
+      "id": "zumbi-de-sangue",
+      "nome": "Zumbi de Sangue",
+      "tags": [
+        "Sangue",
+        "VD 20"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/zumbi-de-sangue-retrato.webp",
+      "miniatura": "bestiario/zumbi-de-sangue-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 2
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 1
+        },
+        {
+          "sigla": "VIG",
+          "valor": 2
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 45
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 20
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 15, {2d6} mental, NEX 25%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 17
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "9m / 6q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 5, impacto 5, Sangue 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{1d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{1d20>+5}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+5}\nDano: {1d6+5} Corte"
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Quando cadáveres que morreram de forma muito brutal ou dolorosa são abandonados em uma área, servem como uma passagem para a entidade de Sangue devorá-los e tomar controle de sua forma física.\n\nSua pele se transforma num material gosmento e vermelho, seus ossos de desfazem se transformando em pura carne, seus olhos são destruídos, os dentes crescem e se tornam pontudos e suas unhas se estendem em grandes e perigosas garras.\n\nO tempo de transformação de um corpo para um zumbi de Sangue é irregular, ele depende do corpo sendo devorado e do ambiente em que a metamorfose acontece. É possível enfrentar um cadáver no meio do processo da metamorfose, o que resulta em um zumbi de Sangue mais frágil do que um corpo tomado por completo.\n\nZumbis de Sangue são cegos e detectam presenças pela movimentação da corrente de ar. Isso porque sua pele exposta é tão sensível que até os mais sutis movimentos do ar lhe causam dor e revelam a ele a posição de seus alvos.\n\nEssas criaturas se comportam de maneira bestial e agressiva, como feras descontroladas que buscam apenas devorar toda a carne. Sem raciocinar ou pensar estrategicamente em nenhum momento, são movidos apenas por um frenesi obsessivo e brutal."
+        }
+      ]
+    },
+    {
+      "id": "zumbi-de-sangue-bestial",
+      "nome": "Zumbi de Sangue Bestial",
+      "tags": [
+        "Sangue",
+        "VD 100"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/zumbi-de-sangue-bestial-retrato.webp",
+      "miniatura": "bestiario/zumbi-de-sangue-bestial-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 2
+        },
+        {
+          "sigla": "FOR",
+          "valor": 3
+        },
+        {
+          "sigla": "INT",
+          "valor": 0
+        },
+        {
+          "sigla": "PRE",
+          "valor": 2
+        },
+        {
+          "sigla": "VIG",
+          "valor": 3
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 200
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 100
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Grande"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 20, {4d6} mental, NEX 45%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 23
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "12m / 8q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Resistências",
+          "valor": "Balístico 5, impacto 5, Sangue 10, perfuração 5"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Vulnerabilidades",
+          "valor": "Morte"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "{2d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "{2d20>+15}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "{3d20>+10}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "{2d20>+5}"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Furtividade",
+          "valor": "{2d20>+13}"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida de Sangue",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+15}\nDano: {2d10+5} Perfuração"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Garras de Sangue",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {2d6+5} Corte"
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Furtivo e Letal",
+          "descricao": "Quando ataca um personagem desprevenido, o zumbi de Sangue bestial recebe +1d20 nos testes de ataque e, se acertar, cada ataque causa dois dados de dano adicional do mesmo tipo."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Instinto Predatório",
+          "descricao": "O zumbi de Sangue bestial não sofre penalidade em Furtividade por se mover seu deslocamento normal."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma versão maior, mais forte e brutal de um zumbi de Sangue, os bestiais costumam ser resultado de um cadáver que foi torturado brutalmente e sentiu dores indescritíveis antes de morrer, ou surgem do corpo de alguém com exposição paranormal elevada que foi devorado por completo pelo Sangue.\n\nUm zumbi de Sangue bestial é pesado — sua massa corporal cresce até atingir o triplo da massa do cadáver do qual se originou. Seu corpo se adapta a uma forma quadrúpede animalesca e o crânio inteiro do cadáver original é partido ao meio a partir do topo da cabeça, se transformando numa enorme bocarra com dentes capazes de decapitar um ser humano em apenas uma mordida.\n\nAo contrário de sua versão inferior, os bestiais tomam uma atitude mais estratégica em combates. Agem com instintos predatórios, muitas vezes se escondendo e esperando para pegar seus alvos desprevenidos em ataques surpresas."
+        }
+      ]
+    }
+  ]
+}
