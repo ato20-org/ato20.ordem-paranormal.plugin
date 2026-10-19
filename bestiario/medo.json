@@ -1,0 +1,207 @@
+{
+  "grupos": [
+    {
+      "nome": "Ameaça"
+    },
+    {
+      "nome": "Combate"
+    },
+    {
+      "nome": "Perícias"
+    },
+    {
+      "nome": "Ações",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Poderes",
+      "exibicao": "lista"
+    },
+    {
+      "nome": "Descrição",
+      "exibicao": "lista"
+    }
+  ],
+  "moldes": [
+    {
+      "id": "degolificada",
+      "nome": "Degolificada",
+      "tags": [
+        "Medo",
+        "VD 320"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
+      "retrato": "bestiario/degolificada-retrato.webp",
+      "miniatura": "bestiario/degolificada-miniatura.webp",
+      "atributos": [
+        {
+          "sigla": "AGI",
+          "valor": 3
+        },
+        {
+          "sigla": "FOR",
+          "valor": 5
+        },
+        {
+          "sigla": "INT",
+          "valor": 3
+        },
+        {
+          "sigla": "PRE",
+          "valor": 4
+        },
+        {
+          "sigla": "VIG",
+          "valor": 4
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "PV",
+          "maximo": 850
+        }
+      ],
+      "detalhes": [
+        {
+          "grupo": "Ameaça",
+          "rotulo": "VD",
+          "tipo": "numero",
+          "valor": 320
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tipo",
+          "valor": "Criatura"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Tamanho",
+          "valor": "Médio"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elemento",
+          "valor": "Medo"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Elementos secundários",
+          "valor": "Energia, Conhecimento, Sangue, Morte"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Sentidos",
+          "valor": "Percepção às cegas"
+        },
+        {
+          "grupo": "Ameaça",
+          "rotulo": "Presença Perturbadora",
+          "valor": "DT 40, 9d6 mental, NEX 95%+ é imune"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Defesa",
+          "tipo": "numero",
+          "valor": 45
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Deslocamento",
+          "valor": "6m / 4q"
+        },
+        {
+          "grupo": "Combate",
+          "rotulo": "Imunidades",
+          "valor": "Dano"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Percepção",
+          "valor": "4d20+15"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Iniciativa",
+          "valor": "3d20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Fortitude",
+          "valor": "4d20+20"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Reflexos",
+          "valor": "3d20+15"
+        },
+        {
+          "grupo": "Perícias",
+          "rotulo": "Vontade",
+          "valor": "4d20+25"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Pancada",
+          "valor": "Padrão",
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+35\nDano: 8d8+20 Impacto"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrar e Estrangular",
+          "valor": "Livre",
+          "descricao": "Se a degolificada acertar um ataque de pancada em um personagem Médio ou menor, ela pode tentar agarrar o alvo (teste 5d20+35). Enquanto estiver agarrado desta forma, o personagem também fica asfixiado. A degolificada pode manter até duas criaturas agarradas por vez."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Grito Rasgado",
+          "valor": "Livre",
+          "descricao": "A degolificada rompe a vedação de sua boca e emite um grito ensurdecedor. Cada personagem em alcance médio sofre 4d10+10 pontos de dano mental e um efeito determinado aleatoriamente rolando 1d4 na tabela a seguir (Vontade DT 35 reduz o dano à metade e evita o efeito). A degolificada só pode usar esta habilidade uma vez por cena.\n\n1 - Surdo dos dois ouvidos permanentemente\n\n2 - Surdo de um ouvido permanentemente\n\n3 - Surdo de dois ouvidos até o final da cena\n\n4 - Surdo de um ouvido até o final da cena"
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Desfiguramento Capilar",
+          "valor": "Movimento",
+          "descricao": "A degolificada usa seus longos cabelos para penetrar os orifícios faciais e seus olhos vazios para perturbar a alma de suas vítimas. Cada personagem agarrado por ela sofre 10d6+20 pontos de dano de perfuração (Fortitude DT 35 reduz à metade) e 6d10 pontos de dano mental (Vontade DT 35 reduz à metade)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Mordida",
+          "valor": "Padrão",
+          "descricao": "Agredir - Sangue. Corpo a corpo.\nTeste: 5d20+35\nDano: 10d10+20 Sangue\n\nSe a degolificada matar um alvo e mantê-lo agarrado até seu próximo turno, ela o absorve e se transforma em degolificada devoradora, assumindo uma forma de Sangue maior e mais agressiva. Nesta forma, ela ganha um ataque adicional de mordida (5d20+35, 10d10+20 Sangue) e ela recebe resistência a Sangue 20."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Agarrar - Morte",
+          "valor": "Movimento",
+          "descricao": "Após 3 erros consecutivos em ataques contra a degolificada, o tempo perdido dedicado a ela transforma-a em uma degolificada decrépita. Ela assume uma forma de Morte, esquelética e retorcida com Lodo preto. Nesta forma, o deslocamento dela aumenta para 12m (8q) e ela recebe resistência a Morte 20. Além disso, seus cabelos se transformam em Lodo que podem agarrar vítimas. Ela pode gastar uma ação de movimento para agarrar uma criatura em alcance curto (Reflexos DT 35 evita)."
+        },
+        {
+          "grupo": "Ações",
+          "rotulo": "Alucinação - Conhecimento",
+          "valor": "Livre",
+          "descricao": "Se receber a resposta errada ao tentarem resolver seu enigma, ela se transforma em degolificada gnóstica. Sigilos de Conhecimento do Outro Lado aparecem ao redor de seu corpo brilhando em dourado. Ao final de cada turno da degolificada, o alvo visível mais próximo recebe uma alucinação, enxergando uma ilusão relacionada ao enigma da degolificada. O personagem sofre 4d6 pontos de dano mental e fica atordoado até final de seu próximo turno (Vontade DT 35 reduz o dano à metade e evita a condição)."
+        },
+        {
+          "grupo": "Poderes",
+          "rotulo": "Criatura de Medo",
+          "descricao": "A degolificada é imune a dano, até que se resolva o mistério da sua origem."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição",
+          "descricao": "Uma das criaturas paranormais mais temidas, poucos encontraram uma degolificada e viveram para contar a história. Uma manifestação direta do Outro Lado, esta entidade é formada por todos os elementos paranormais conhecidos pela Realidade.\n\nUma figura humanoide, flutuando em velocidade constante a centímetros do chão. Sua aparência é fantasmagórica, com um corpo retorcido, curvado e dilacerado, com vestes rasgadas e sujas em cima de uma pele cinzenta e escamosa.\n\nDa sua cabeça, um enorme e liso cabelo preto tampando seu rosto cresce até o chão, se arrastando e se movendo como se tivesse vontade própria. Por trás dos longos fios negros, um rosto assombrado, com olhos ausentes revelando dois buracos vazios profundos e desesperados acima de uma boca que parece ser tapada ou costurada por uma espécie de extensão da sua própria pele.\n\nAo seu redor, ela carrega uma pesada neblina com rostos atormentados discerníveis como se ela estivesse cercada de dezenas de almas torturadas. Uma visão traumatizante.\n\nTodas as manifestações da degolificada registradas parecem apontar uma conexão forte com tragédias terríveis envolvendo pessoas muito jovens, como crianças ou adolescentes que morreram de forma cruel diretamente envolvidos em rituais paranormais. Mentes inocentes são fontes poderosíssimas de Medo.\n\nA degolificada parece se desenvolver e distorcer mais a cada vez que se manifesta na Realidade. Ela é uma criatura de Medo, e por isso, apenas confronto direto em combate não é o suficiente para derrotá-la.\n\nA origem da manifestação da degolificada precisa ser investigada e descoberta, e então ela deve ser confrontada com a verdade terrível que a invocou. Apenas após ser descortinada com a origem da sua manifestação a degolificada poderá ser dissipada ou combatida."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Descrição (continuação)",
+          "descricao": "Mesmo com relatos de agentes que tiveram sucesso em suas investigações, a frase que se repete como uma lenda despertando Medo por todos os agentes da Ordem é: “Se você vir longos cabelos pretos flutuando em sua direção… CORRA.\n\nMECÂNICA ESPECIAL: METAMORFOSE DA DEGOLIFICADA\n\nSANGUE: Se a degolificada matar um alvo e mantê-lo agarrado até seu próximo turno, ela o absorve e se transforma em degolificada devoradora, assumindo uma forma de Sangue maior e mais agressiva. Nesta forma, ela ganha um ataque adicional de mordida (5O+35, 10d10+20 Sangue) e ela recebe resistência a Sangue 20.\n\nMORTE: Após 3 erros consecutivos em ataques contra a degolificada, o tempo perdido dedicado a ela transforma-a em uma degolificada decrépita. Ela assume uma forma de Morte, esquelética e retorcida com Lodo preto. Nesta forma, o deslocamento dela aumenta para 12m (8q) e ela recebe resistência a Morte 20. Além disso, seus cabelos se transformam em Lodo que podem agarrar vítimas. Ela pode gastar uma ação de movimento para agarrar uma criatura em alcance curto (Reflexos DT 35 evita).\n\nENERGIA: Se a degolificada enlouquecer um alvo, ela se transforma em uma degolificada conturbada. Seu corpo assume um aspecto fantasmagórico, como chamas irracionais em constante transformação. Assumindo a forma de um espectro de Energia, ela pode atravessar paredes e ignorar coberturas, e o dano de seus ataques se transforma em dano de Energia. Além disso, recebe resistência a Energia 20.\n\nCONHECIMENTO: Se receber a resposta errada ao tentarem resolver seu enigma, ela se transforma em degolificada gnóstica. Sigilos de Conhecimento do Outro Lado aparecem ao redor de seu corpo brilhando em dourado. Ao final de cada turno da degolificada, o alvo visível mais próximo recebe uma alucinação, enxergando uma ilusão relacionada ao enigma da degolificada. O personagem sofre 4d6 pontos de dano mental e fica atordoado até final de seu próximo turno (Vontade DT 35 reduz o dano à metade e evita a condição)."
+        },
+        {
+          "grupo": "Descrição",
+          "rotulo": "Enigma do Medo",
+          "descricao": "A degolificada precisa ser confrontada com a causa de sua morte, de modo que não possa escapar desse confronto. Se for confrontada desta forma, ela perde sua imunidade a dano."
+        }
+      ]
+    }
+  ]
+}

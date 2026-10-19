@@ -2,7 +2,7 @@
   "id": "ordem-paranormal",
   "nome": "Ordem Paranormal",
   "versao": "0.2.1",
-  "apiVersao": 11,
+  "apiVersao": 12,
   "repositorio": "https://github.com/ato20-org/ato20.ordem-paranormal.plugin",
   "icone": "icone.png",
   "descricao": {
@@ -434,6 +434,62 @@
           }
         ],
         "estiloDosAtributos": "ordem-paranormal/ritual"
+      }
+    ],
+    "bestiario": [
+      {
+        "id": "sangue",
+        "titulo": {
+          "pt-BR": "Sangue",
+          "en": "Blood"
+        },
+        "arquivo": "bestiario/sangue.json",
+        "sistema": "ordem"
+      },
+      {
+        "id": "morte",
+        "titulo": {
+          "pt-BR": "Morte",
+          "en": "Death"
+        },
+        "arquivo": "bestiario/morte.json",
+        "sistema": "ordem"
+      },
+      {
+        "id": "conhecimento",
+        "titulo": {
+          "pt-BR": "Conhecimento",
+          "en": "Knowledge"
+        },
+        "arquivo": "bestiario/conhecimento.json",
+        "sistema": "ordem"
+      },
+      {
+        "id": "energia",
+        "titulo": {
+          "pt-BR": "Energia",
+          "en": "Energy"
+        },
+        "arquivo": "bestiario/energia.json",
+        "sistema": "ordem"
+      },
+      {
+        "id": "medo",
+        "titulo": {
+          "pt-BR": "Medo",
+          "en": "Fear"
+        },
+        "arquivo": "bestiario/medo.json",
+        "sistema": "ordem"
+      },
+      {
+        "id": "realidade",
+        "titulo": {
+          "pt-BR": "Realidade",
+          "en": "Reality"
+        },
+        "arquivo": "bestiario/realidade.json",
+        "sistema": "ordem"
       }
     ],
     "estilosDeAtributos": [
