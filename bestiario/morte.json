@@ -96,7 +96,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 10d8 mental"
+          "valor": "DT 45, {10d8} mental"
         },
         {
           "grupo": "Combate",
@@ -127,39 +127,39 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+30"
+          "valor": "{5d20>+30}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "6d20+30"
+          "valor": "{6d20>+30}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "7d20+35"
+          "valor": "{7d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+35"
+          "valor": "{5d20>+35}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Soco Espiral",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 6d20+45\nDano: 5d10+50 Morte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {6d20>+45}\nDano: {5d10+50} Morte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
           "valor": "Livre",
-          "descricao": "Se o Deus da Morte acertar um ataque de soco espiral em um ser Médio ou menor, pode tentar agarrar o alvo (teste 6d20+47)."
+          "descricao": "Se o Deus da Morte acertar um ataque de soco espiral em um ser Médio ou menor, pode tentar agarrar o alvo (teste {6d20>+47})."
         },
         {
           "grupo": "Ações",
@@ -183,7 +183,7 @@
           "grupo": "Ações",
           "rotulo": "Espiral Destrutiva",
           "valor": "Padrão",
-          "descricao": "O Deus da Morte cria uma enorme espiral de Morte com 12m de raio em alcance longo. Todos os personagens dentro da área sofrem 10d10+50 pontos de dano de Morte (Fortitude DT 45 reduz à metade)."
+          "descricao": "O Deus da Morte cria uma enorme espiral de Morte com 12m de raio em alcance longo. Todos os personagens dentro da área sofrem {10d10+50} pontos de dano de Morte (Fortitude DT 45 reduz à metade)."
         },
         {
           "grupo": "Poderes",
@@ -290,7 +290,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 4d6 mental, NEX 40%+ é imune"
+          "valor": "DT 20, {4d6} mental, NEX 40%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -316,56 +316,56 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "3d20+8"
+          "valor": "{3d20>+8}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+15\nDano: 2d10+10 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+15}\nDano: {2d10+10} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Estacar",
           "valor": "Livre",
-          "descricao": "Quando causa dano com sua mordida, a aracnasita pode usar seu Lodo da Morte para prender o alvo no lugar. A vítima sofre +1d10 pontos de dano de Morte e fica agarrada. Ela pode se soltar gastando uma ação padrão e um teste de Atletismo (DT 20). Personagens adjacentes podem gastar uma ação padrão para soltá-la com o mesmo teste (ou ajudá-la em seu próprio teste)."
+          "descricao": "Quando causa dano com sua mordida, a aracnasita pode usar seu Lodo da Morte para prender o alvo no lugar. A vítima sofre +{1d10} pontos de dano de Morte e fica agarrada. Ela pode se soltar gastando uma ação padrão e um teste de Atletismo (DT 20). Personagens adjacentes podem gastar uma ação padrão para soltá-la com o mesmo teste (ou ajudá-la em seu próprio teste)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Desovar Aranhas",
           "valor": "Reação",
-          "descricao": "Uma vez por cena, quando ficar machucada, a aracnasita desova diversas aranhas menores, que se espalham em sua volta gerando efeitos diversos. No início de cada turno da aracnasita após isso, ela executa um dos seguintes efeitos, nesta ordem.\n\nNo primeiro turno, as aranhas se espalham ao redor da aracnasita. Até o fim da cena, um personagem que inicie seu turno em alcance curto da criatura sofre 2d6 pontos de dano mental (Vontade DT 15 reduz à metade).\n\nA partir do segundo turno, as aranhas atacam os personagens ao redor da aracnasita. Até o fim da cena, um personagem que inicie seu turno em alcance curto da criatura sofre 2d8 pontos de dano de Morte (Fortitude DT 15 reduz à metade).\n\nNo terceiro turno, as aranhas menores se espalham ainda mais. Os dois efeitos acima agora afetam personagens que iniciem seu turno em alcance médio da aracnasita.\n\nA partir do quarto turno, caso um personagem morra em alance médio da aracnasita, será consumido por uma aranha, que irá se transformar em uma nova aracnasita com 70 PV e sem a habilidade Desovar Aranhas."
+          "descricao": "Uma vez por cena, quando ficar machucada, a aracnasita desova diversas aranhas menores, que se espalham em sua volta gerando efeitos diversos. No início de cada turno da aracnasita após isso, ela executa um dos seguintes efeitos, nesta ordem.\n\nNo primeiro turno, as aranhas se espalham ao redor da aracnasita. Até o fim da cena, um personagem que inicie seu turno em alcance curto da criatura sofre {2d6} pontos de dano mental (Vontade DT 15 reduz à metade).\n\nA partir do segundo turno, as aranhas atacam os personagens ao redor da aracnasita. Até o fim da cena, um personagem que inicie seu turno em alcance curto da criatura sofre {2d8} pontos de dano de Morte (Fortitude DT 15 reduz à metade).\n\nNo terceiro turno, as aranhas menores se espalham ainda mais. Os dois efeitos acima agora afetam personagens que iniciem seu turno em alcance médio da aracnasita.\n\nA partir do quarto turno, caso um personagem morra em alance médio da aracnasita, será consumido por uma aranha, que irá se transformar em uma nova aracnasita com 70 PV e sem a habilidade Desovar Aranhas."
         },
         {
           "grupo": "Ações",
           "rotulo": "Disparar Teia",
           "valor": "Movimento",
-          "descricao": "A aracnasita dispara uma teia em alcance curto. A teia ocupa uma área quadrada com 3m de lado. Personagens na área ou que entrem nela, ficam agarrados (Reflexos DT 20 evita). A teia é tomada pelo Lodo da Morte, fazendo com que qualquer personagem que inicie seu turno agarrado por ela sofra 2d8+10 pontos de dano de Morte. Um personagem pode escapar da teia causando 15 pontos de dano de corte a ela ou gastando uma ação padrão para rasgá-la (Atletismo DT 20). A teia dura até fim da cena."
+          "descricao": "A aracnasita dispara uma teia em alcance curto. A teia ocupa uma área quadrada com 3m de lado. Personagens na área ou que entrem nela, ficam agarrados (Reflexos DT 20 evita). A teia é tomada pelo Lodo da Morte, fazendo com que qualquer personagem que inicie seu turno agarrado por ela sofra {2d8+10} pontos de dano de Morte. Um personagem pode escapar da teia causando 15 pontos de dano de corte a ela ou gastando uma ação padrão para rasgá-la (Atletismo DT 20). A teia dura até fim da cena."
         },
         {
           "grupo": "Poderes",
@@ -457,7 +457,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 30, 6d6 mental, NEX 65%+ é imune"
+          "valor": "DT 30, {6d6} mental, NEX 65%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -488,44 +488,44 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garra da Morte",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+25\nDano: 4d10+20 Morte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+25}\nDano: {4d10+20} Morte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada Poderosa",
           "valor": "Reação",
-          "descricao": "Quando desfere um acerto crítico com sua garra da Morte, o carniçal pode empurrar seu alvo 6m em qualquer direção. Se colidir com um objeto resistente, como uma parede ou um carro, a vítima sofre 4d6 pontos de dano de impacto. Se o objeto for outro ser, ambos sofrem esse dano."
+          "descricao": "Quando desfere um acerto crítico com sua garra da Morte, o carniçal pode empurrar seu alvo 6m em qualquer direção. Se colidir com um objeto resistente, como uma parede ou um carro, a vítima sofre {4d6} pontos de dano de impacto. Se o objeto for outro ser, ambos sofrem esse dano."
         },
         {
           "grupo": "Ações",
@@ -543,7 +543,7 @@
           "grupo": "Ações",
           "rotulo": "Reanimar Corpos",
           "valor": "Completa",
-          "descricao": "Uma vez por cena, o carniçal usa a Morte para fazer com que até 2d4+2 corpos em alcance médio sejam reanimados. Os reanimados agem de maneira violenta e bestial, atacando o ser mais próximo até serem destruídos. Use a ficha do esqueleto de Lodo para esses corpos reanimados."
+          "descricao": "Uma vez por cena, o carniçal usa a Morte para fazer com que até {2d4+2} corpos em alcance médio sejam reanimados. Os reanimados agem de maneira violenta e bestial, atacando o ser mais próximo até serem destruídos. Use a ficha do esqueleto de Lodo para esses corpos reanimados."
         },
         {
           "grupo": "Poderes",
@@ -640,7 +640,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 9d8 mental"
+          "valor": "DT 45, {9d8} mental"
         },
         {
           "grupo": "Combate",
@@ -671,33 +671,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Foice da Morte",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+40\nDano: 5d10+20 Morte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {5d10+20} Morte"
         },
         {
           "grupo": "Ações",
@@ -709,18 +709,18 @@
           "grupo": "Ações",
           "rotulo": "Contemplar a Espiral",
           "valor": "Completa",
-          "descricao": "O Ceifador Espiral usa sua foice para manifestar a verdadeira espiral da Morte. Todos os seres em alcance médio que consigam vê-lo sofrem 10d10+30 pontos de dano mental (Vontade DT 43 reduz à metade). Um ser que tenha sofrido dano desta habilidade fica imune a ela até final da cena."
+          "descricao": "O Ceifador Espiral usa sua foice para manifestar a verdadeira espiral da Morte. Todos os seres em alcance médio que consigam vê-lo sofrem {10d10+30} pontos de dano mental (Vontade DT 43 reduz à metade). Um ser que tenha sofrido dano desta habilidade fica imune a ela até final da cena."
         },
         {
           "grupo": "Ações",
           "rotulo": "Cinzas das Terras Desoladas",
           "valor": "Completa",
-          "descricao": "O Ceifador Espiral usa seus muitos braços para realizar um rito de invocação. Uma área de alcance longo em volta de si é tomada pelas cinzas das terras desoladas, um local acelerado pelo tempo onde tudo é transformado em pó. Cada ser dentro da área sofre 10d10+20 pontos de dano de Morte e fica enjoado (Fortitude DT 43 reduz o dano à metade e evita a condição). Um ser que termine seu turno dentro dessa área sofre 20 pontos de dano de Morte."
+          "descricao": "O Ceifador Espiral usa seus muitos braços para realizar um rito de invocação. Uma área de alcance longo em volta de si é tomada pelas cinzas das terras desoladas, um local acelerado pelo tempo onde tudo é transformado em pó. Cada ser dentro da área sofre {10d10+20} pontos de dano de Morte e fica enjoado (Fortitude DT 43 reduz o dano à metade e evita a condição). Um ser que termine seu turno dentro dessa área sofre 20 pontos de dano de Morte."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Decepar",
-          "descricao": "Se o Ceifador Espiral faz um acerto crítico com sua foice da Morte, o alvo é reduzido a 25 PV e perde 1 ponto de Força, Agilidade ou Vigor permanentemente (decida aleatoriamente). Caso o alvo tenha 25 PV ou menos, morre de imediato. Toda vez que o Ceifador Espiral mata uma criatura, recebe 50 PV temporários, e seus ataques de foice da Morte causam +1d10 pontos de dano até o final da cena."
+          "descricao": "Se o Ceifador Espiral faz um acerto crítico com sua foice da Morte, o alvo é reduzido a 25 PV e perde 1 ponto de Força, Agilidade ou Vigor permanentemente (decida aleatoriamente). Caso o alvo tenha 25 PV ou menos, morre de imediato. Toda vez que o Ceifador Espiral mata uma criatura, recebe 50 PV temporários, e seus ataques de foice da Morte causam +{1d10} pontos de dano até o final da cena."
         },
         {
           "grupo": "Descrição",
@@ -802,7 +802,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 4d6 mental, NEX 50%+ é imune"
+          "valor": "DT 20, {4d6} mental, NEX 50%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -828,48 +828,48 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Punho Espinhento",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+15\nDano: 2d8+8 Impacto + 2d12 Morte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {2d8+8} Impacto + {2d12} Morte"
         },
         {
           "grupo": "Poderes",
           "rotulo": "Imortalidade",
-          "descricao": "Quando o enraizado morre, se desfaz em uma poça de Lodo, galhos e raízes. Ele retornará após 1d2 rodadas com 70 PV. Se sofrer 20 pontos de dano de fogo ou de Energia somados enquanto estiver na forma de poça, será permanentemente destruído."
+          "descricao": "Quando o enraizado morre, se desfaz em uma poça de Lodo, galhos e raízes. Ele retornará após {1d2} rodadas com 70 PV. Se sofrer 20 pontos de dano de fogo ou de Energia somados enquanto estiver na forma de poça, será permanentemente destruído."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Veneno Pútrido",
-          "descricao": "A primeira vez que um personagem sofre dano do punho espinhento em uma cena, fica envenenado. No início de cada um de seus turnos, o personagem deve fazer um teste de Fortitude (DT 23). Se falhar, sofre 4d12 pontos de dano de Morte. Se passar, se cura do veneno."
+          "descricao": "A primeira vez que um personagem sofre dano do punho espinhento em uma cena, fica envenenado. No início de cada um de seus turnos, o personagem deve fazer um teste de Fortitude (DT 23). Se falhar, sofre {4d12} pontos de dano de Morte. Se passar, se cura do veneno."
         },
         {
           "grupo": "Descrição",
@@ -951,7 +951,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, 4d8 mental, NEX 55%+ é imune"
+          "valor": "DT 25, {4d8} mental, NEX 55%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -972,45 +972,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+20\nDano: 3d6+10 Perfuração"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+20}\nDano: {3d6+10} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Cabeça Arremessada",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, curto, 2x.\nTeste: 4d20+15\nDano: 1d10+10 Impacto"
+          "descricao": "Agredir. Distância, curto, 2x.\nTeste: {4d20>+15}\nDano: {1d10+10} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Vomitar Lodo",
           "valor": "Movimento",
-          "descricao": "Uma vez por cena, na primeira rodada após ser manifestada, cada cópia do escutado despeja um jorro de Lodo em um ser em alcance curto. O alvo sofre 4d10+10 pontos de dano de Morte e fica lento até o fim da cena (Reflexos DT 25 reduz o dano à metade e evita condição)."
+          "descricao": "Uma vez por cena, na primeira rodada após ser manifestada, cada cópia do escutado despeja um jorro de Lodo em um ser em alcance curto. O alvo sofre {4d10+10} pontos de dano de Morte e fica lento até o fim da cena (Reflexos DT 25 reduz o dano à metade e evita condição)."
         },
         {
           "grupo": "Poderes",
@@ -1097,7 +1097,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 14, 2d4 mental, NEX 25%+ é imune"
+          "valor": "DT 14, {2d4} mental, NEX 25%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1123,44 +1123,44 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 2d20+5\nDano: 2d6+2 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+5}\nDano: {2d6+2} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Espiral de Lodo",
           "valor": "Completa",
-          "descricao": "O esqueleto se transforma em uma poça de Lodo e se lança para frente como uma espiral perfurante que percorre até 9m em linha reta. Qualquer ser no caminho sofre 2d10 de dano de Morte (Reflexos DT 14 reduz à metade). O esqueleto então se reforma no fim do trajeto."
+          "descricao": "O esqueleto se transforma em uma poça de Lodo e se lança para frente como uma espiral perfurante que percorre até 9m em linha reta. Qualquer ser no caminho sofre {2d10} de dano de Morte (Reflexos DT 14 reduz à metade). O esqueleto então se reforma no fim do trajeto."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Imortalidade",
-          "descricao": "Quando o esqueleto morre, se desfaz em uma poça de Lodo e ossos. Ele retornará após 1d3 rodadas com 20 PV. Se sofrer dano de fogo ou de Energia enquanto estiver na forma de poça, será permanentemente destruído."
+          "descricao": "Quando o esqueleto morre, se desfaz em uma poça de Lodo e ossos. Ele retornará após {1d3} rodadas com 20 PV. Se sofrer dano de fogo ou de Energia enquanto estiver na forma de poça, será permanentemente destruído."
         },
         {
           "grupo": "Descrição",
@@ -1237,7 +1237,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 8d6 mental, NEX 85%+ é imune"
+          "valor": "DT 35, {8d6} mental, NEX 85%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1263,33 +1263,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Foice Óssea",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+30\nDano: 10d8+10 Morte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+30}\nDano: {10d8+10} Morte"
         },
         {
           "grupo": "Ações",
@@ -1383,7 +1383,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 30, 6d8 mental, NEX 75%+ é imune"
+          "valor": "DT 30, {6d8} mental, NEX 75%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1409,45 +1409,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garra Enfaixada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+30\nDano: 4d8+30 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+30}\nDano: {4d8+30} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Vomitar Lodo",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, curto, 2x.\nTeste: 5d20+25\nDano: 3d6+30 Morte + 3d8 Mental"
+          "descricao": "Agredir. Distância, curto, 2x.\nTeste: {5d20>+25}\nDano: {3d6+30} Morte + {3d8} Mental"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrada Mumificadora",
           "valor": "Livre",
-          "descricao": "Se a múmia acertar um ataque de garra enfaixada ela pode agarrar o alvo (teste 4O+30). Enquanto estiver agarrada assim, a vítima sofre 4d8+30 pontos de dano de Morte no início de cada um dos seus turnos e a múmia recupera essa mesma quantidade de PV. Caso o ser seja reduzido a 0 PV dessa forma, se torna um esqueleto de Lodo no começo do seu turno."
+          "descricao": "Se a múmia acertar um ataque de garra enfaixada ela pode agarrar o alvo (teste 4O+30). Enquanto estiver agarrada assim, a vítima sofre {4d8+30} pontos de dano de Morte no início de cada um dos seus turnos e a múmia recupera essa mesma quantidade de PV. Caso o ser seja reduzido a 0 PV dessa forma, se torna um esqueleto de Lodo no começo do seu turno."
         },
         {
           "grupo": "Ações",
@@ -1540,7 +1540,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 8d6 mental, NEX 95%+ é imune"
+          "valor": "DT 35, {8d6} mental, NEX 95%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1566,49 +1566,49 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "7d20+23"
+          "valor": "{7d20>+23}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Sobrevivência",
-          "valor": "6d20+20"
+          "valor": "{6d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garra Invertida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+35\nDano: 4d10+40 Morte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+35}\nDano: {4d10+40} Morte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida Invertida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 5d20+35\nDano: 4d12+40 Morte"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+35}\nDano: {4d12+40} Morte"
         },
         {
           "grupo": "Ações",
@@ -1620,7 +1620,7 @@
           "grupo": "Ações",
           "rotulo": "Rastrear e Abater",
           "valor": "Livre",
-          "descricao": "O nidere causa +6d6 pontos de dano contra seres desprevenidos."
+          "descricao": "O nidere causa +{6d6} pontos de dano contra seres desprevenidos."
         },
         {
           "grupo": "Poderes",
@@ -1712,7 +1712,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, 8d8 mental"
+          "valor": "DT 40, {8d8} mental"
         },
         {
           "grupo": "Combate",
@@ -1743,44 +1743,44 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+30"
+          "valor": "{5d20>+30}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Dedos Alongados",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 4x.\nTeste: 5d20+40\nDano: 4d10 Morte"
+          "descricao": "Agredir. Corpo a corpo, 4x.\nTeste: {5d20>+40}\nDano: {4d10} Morte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Correntes de Lodo",
           "valor": "Movimento",
-          "descricao": "O sempiternal projeta vinhas de Lodo pelo chão, ocupando toda a área em alcance médio. Todos os seres na área sofrem 20d6 pontos de dano de Morte (Fortitude DT 40 reduz à metade). Um ser que fique machucado devido a este dano é infectado com o Lodo e recebe vulnerabilidade a Morte até o fim da cena. Um ser reduzido a 0 PVse torna um enraizado."
+          "descricao": "O sempiternal projeta vinhas de Lodo pelo chão, ocupando toda a área em alcance médio. Todos os seres na área sofrem {20d6} pontos de dano de Morte (Fortitude DT 40 reduz à metade). Um ser que fique machucado devido a este dano é infectado com o Lodo e recebe vulnerabilidade a Morte até o fim da cena. Um ser reduzido a 0 PVse torna um enraizado."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Toque Acelerador",
-          "descricao": "Sempre que um ser sofre dano dos dedos alongados, envelhece 1d10 anos. Se a vítima envelhecer 20 anos ou mais desta forma, fica fraca até o fim da cena. Se envelhecer 40 anos ou mais, fica debilitada até o fim da cena. E se envelhecer 60 anos ou mais, morre. Seres com afinidade com a Morte são imunes a este efeito."
+          "descricao": "Sempre que um ser sofre dano dos dedos alongados, envelhece {1d10} anos. Se a vítima envelhecer 20 anos ou mais desta forma, fica fraca até o fim da cena. Se envelhecer 40 anos ou mais, fica debilitada até o fim da cena. E se envelhecer 60 anos ou mais, morre. Seres com afinidade com a Morte são imunes a este efeito."
         },
         {
           "grupo": "Descrição",
@@ -1862,7 +1862,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, 3d6 mental, NEX 30%+ é imune"
+          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1888,33 +1888,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+5"
+          "valor": "{4d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 4d20+10\nDano: 2d8+2 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {4d20>+10}\nDano: {2d8+2} Perfuração"
         },
         {
           "grupo": "Ações",

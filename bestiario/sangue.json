@@ -96,7 +96,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 10d8 mental"
+          "valor": "DT 45, {10d8} mental"
         },
         {
           "grupo": "Combate",
@@ -127,57 +127,57 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "6d20+25"
+          "valor": "{6d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Arma Sangrenta (corpo a corpo)",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 6d20+45\nDano: 2d10+50 Sangue\nCrítico: x3"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {6d20>+45}\nDano: {2d10+50} Sangue\nCrítico: x3"
         },
         {
           "grupo": "Ações",
           "rotulo": "Chifre do Diabo",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 6d20+45\nDano: 2d8+50 Sangue\nCrítico: x3"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {6d20>+45}\nDano: {2d8+50} Sangue\nCrítico: x3"
         },
         {
           "grupo": "Ações",
           "rotulo": "Arma Sangrenta (distância)",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, médio, 2x.\nTeste: 6d20+45\nDano: 2d10+50 Sangue\nCrítico: x3"
+          "descricao": "Agredir. Distância, médio, 2x.\nTeste: {6d20>+45}\nDano: {2d10+50} Sangue\nCrítico: x3"
         },
         {
           "grupo": "Ações",
           "rotulo": "Explodir em Sangue",
           "valor": "Livre",
-          "descricao": "O Diabo é capaz de controlar o sangue de qualquer ser com o qual ele tenha contato direto. Se ele causar dano em um personagem usando sua arma sangrenta, ou se tocar diretamente em uma ferida de um personagem, ele causa 10d6 pontos de dano de Sangue. O Diabo pode usar esta habilidade duas vezes por turno."
+          "descricao": "O Diabo é capaz de controlar o sangue de qualquer ser com o qual ele tenha contato direto. Se ele causar dano em um personagem usando sua arma sangrenta, ou se tocar diretamente em uma ferida de um personagem, ele causa {10d6} pontos de dano de Sangue. O Diabo pode usar esta habilidade duas vezes por turno."
         },
         {
           "grupo": "Ações",
           "rotulo": "Sangrar",
           "valor": "Livre",
-          "descricao": "Se o Diabo acertar um ataque com seu chifre, pode escolher soltar o apêndice e deixá-lo preso no personagem. Um personagem com um chifre preso em si sofre vulnerabilidades a Sangue até removê-lo. Fazer isso requer uma ação padrão e causa 8d8 pontos de dano de Sangue. O chifre do Diabo sempre cresce de volta no começo do seu turno."
+          "descricao": "Se o Diabo acertar um ataque com seu chifre, pode escolher soltar o apêndice e deixá-lo preso no personagem. Um personagem com um chifre preso em si sofre vulnerabilidades a Sangue até removê-lo. Fazer isso requer uma ação padrão e causa {8d8} pontos de dano de Sangue. O chifre do Diabo sempre cresce de volta no começo do seu turno."
         },
         {
           "grupo": "Ações",
@@ -195,7 +195,7 @@
           "grupo": "Ações",
           "rotulo": "Pacto",
           "valor": "Padrão",
-          "descricao": "O Diabo oferece ao alvo um pacto de Sangue. Se o pacto for aceito, o Diabo irá cumprir o que foi prometido, normalmente com resoluções distorcidas ao pé da letra. Em troca, o alvo sofre 10d6 pontos de dano mental e, se enlouquecer como resultado, se torna um servo obcecado pelo Diabo para o resto da vida."
+          "descricao": "O Diabo oferece ao alvo um pacto de Sangue. Se o pacto for aceito, o Diabo irá cumprir o que foi prometido, normalmente com resoluções distorcidas ao pé da letra. Em troca, o alvo sofre {10d6} pontos de dano mental e, se enlouquecer como resultado, se torna um servo obcecado pelo Diabo para o resto da vida."
         },
         {
           "grupo": "Ações",
@@ -303,7 +303,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, 3d6 mental, NEX 30%+ é imune"
+          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -329,45 +329,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+10\nDano: 2d6+6 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {2d6+6} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
           "valor": "Reação",
-          "descricao": "Se a aberração de carne acertar um ataque de pancada, ela pode tentar agarrar o alvo (teste 3d20+12). Ela pode manter até dois personagens agarrados por vez."
+          "descricao": "Se a aberração de carne acertar um ataque de pancada, ela pode tentar agarrar o alvo (teste {3d20>+12}). Ela pode manter até dois personagens agarrados por vez."
         },
         {
           "grupo": "Ações",
           "rotulo": "Abocanhar",
           "valor": "Movimento",
-          "descricao": "A aberração de carne leva até dois personagens agarrados para dentro de sua boca central, que são abocanhados e continuam agarrados. Quando é abocanhado, e no início de cada turno da aberração em que continuar agarrado desta forma, o personagem sofre 3d6 pontos de dano de perfuração (Fortitude DT 15 reduz à metade). Qualquer personagem adjacente a aberração de carne pode gastar uma ação padrão para fazer um teste de Atletismo (DT 20) para tentar tirar outro personagem de dentro da boca."
+          "descricao": "A aberração de carne leva até dois personagens agarrados para dentro de sua boca central, que são abocanhados e continuam agarrados. Quando é abocanhado, e no início de cada turno da aberração em que continuar agarrado desta forma, o personagem sofre {3d6} pontos de dano de perfuração (Fortitude DT 15 reduz à metade). Qualquer personagem adjacente a aberração de carne pode gastar uma ação padrão para fazer um teste de Atletismo (DT 20) para tentar tirar outro personagem de dentro da boca."
         },
         {
           "grupo": "Descrição",
@@ -449,7 +449,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 9d8 mental"
+          "valor": "DT 45, {9d8} mental"
         },
         {
           "grupo": "Combate",
@@ -475,56 +475,56 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+30"
+          "valor": "{5d20>+30}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+40\nDano: 4d10+30 Sangue"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {4d10+30} Sangue"
         },
         {
           "grupo": "Ações",
           "rotulo": "Tentáculos Espinhentos",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+40\nDano: 2d12+30 Sangue"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {2d12+30} Sangue"
         },
         {
           "grupo": "Ações",
           "rotulo": "Disparo de Espinhos",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, médio, 3x.\nTeste: 4d20+40\nDano: 2d10+20 Sangue"
+          "descricao": "Agredir. Distância, médio, 3x.\nTeste: {4d20>+40}\nDano: {2d10+20} Sangue"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
           "valor": "Reação",
-          "descricao": "Se a Aniquilação acertar um ataque de tentáculos espinhentos, ela pode tentar agarrar o alvo (teste 5d20+50). Ela pode manter até quatro personagens agarrados por vez."
+          "descricao": "Se a Aniquilação acertar um ataque de tentáculos espinhentos, ela pode tentar agarrar o alvo (teste {5d20>+50}). Ela pode manter até quatro personagens agarrados por vez."
         },
         {
           "grupo": "Ações",
@@ -542,7 +542,7 @@
           "grupo": "Ações",
           "rotulo": "Bater as Asas",
           "valor": "Movimento",
-          "descricao": "A Aniquilação bate suas asas, criando um som ensurdecedor. Cada personagem em alcance longo sofre 8d6 pontos de dano Mental, é empurrado 6m para longe da Aniquilação e fica atordoado por uma rodada (Fortitude DT 40 reduz o dano à metade e evita os efeitos)."
+          "descricao": "A Aniquilação bate suas asas, criando um som ensurdecedor. Cada personagem em alcance longo sofre {8d6} pontos de dano Mental, é empurrado 6m para longe da Aniquilação e fica atordoado por uma rodada (Fortitude DT 40 reduz o dano à metade e evita os efeitos)."
         },
         {
           "grupo": "Ações",
@@ -554,7 +554,7 @@
           "grupo": "Ações",
           "rotulo": "Tempestade de Espinhos",
           "valor": "Completa",
-          "descricao": "A Aniquilação lança todos os seus espinhos. Todos os personagens em alcance médio sofrem 20d6+20 pontos de dano de Sangue (Reflexos DT 40 reduz à metade). A Aniquilação só pode usar esta habilidade uma vez por cena e, quando a usa, perde seu disparo de espinhos até o fim da cena."
+          "descricao": "A Aniquilação lança todos os seus espinhos. Todos os personagens em alcance médio sofrem {20d6+20} pontos de dano de Sangue (Reflexos DT 40 reduz à metade). A Aniquilação só pode usar esta habilidade uma vez por cena e, quando a usa, perde seu disparo de espinhos até o fim da cena."
         },
         {
           "grupo": "Descrição",
@@ -641,7 +641,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 7d8 mental, NEX 90%+ é imune"
+          "valor": "DT 35, {7d8} mental, NEX 90%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -667,55 +667,55 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Enganação",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras de Sangue",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+35\nDano: 2d8+20 Sangue"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+35}\nDano: {2d8+20} Sangue"
         },
         {
           "grupo": "Ações",
           "rotulo": "Ferrão de Sangue",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 4d20+35\nDano: 2d12+20 Sangue"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {4d20>+35}\nDano: {2d12+20} Sangue"
         },
         {
           "grupo": "Ações",
           "rotulo": "Tentáculo",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 4d20+35\nDano: 2d8+20 Sangue"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {4d20>+35}\nDano: {2d8+20} Sangue"
         },
         {
           "grupo": "Ações",
@@ -831,7 +831,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 3d6 mental, NEX 35%+ é imune"
+          "valor": "DT 20, {3d6} mental, NEX 35%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -857,51 +857,51 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Tentáculo",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+10\nDano: 2d6+5 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {2d6+5} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Arremessar (Flor Rosa)",
           "valor": "Movimento",
-          "descricao": "A dama de Sangue ergue um personagem em alcance curto e o arremessa a um ponto a sua escolha também em alcance curto. O personagem sofre 2d6 pontos de dano de impacto e fica caído (Reflexos DT 15 evita todo o efeito). A flor rosa murcha se a dama de Sangue entrar em contato com fertilizante. Isso faz a dama perder esta habilidade e sofrer -1d20 em Luta"
+          "descricao": "A dama de Sangue ergue um personagem em alcance curto e o arremessa a um ponto a sua escolha também em alcance curto. O personagem sofre {2d6} pontos de dano de impacto e fica caído (Reflexos DT 15 evita todo o efeito). A flor rosa murcha se a dama de Sangue entrar em contato com fertilizante. Isso faz a dama perder esta habilidade e sofrer -1d20 em Luta"
         },
         {
           "grupo": "Ações",
           "rotulo": "Chuva de Ácido (Flor Vermelha)",
           "valor": "Movimento",
-          "descricao": "A dama espirra ácido que derrete carne e corrói metal. Todos os personagens em alcance curto sofrem 4d4 pontos de dano químico (Fortitude DT 15 reduz à metade). A flor vermelha murcha se a dama de Sangue entrar em contato com agrotóxico. Isso faz a dama perder esta habilidade e reduz suas resistências a dano em 5."
+          "descricao": "A dama espirra ácido que derrete carne e corrói metal. Todos os personagens em alcance curto sofrem {4d4} pontos de dano químico (Fortitude DT 15 reduz à metade). A flor vermelha murcha se a dama de Sangue entrar em contato com agrotóxico. Isso faz a dama perder esta habilidade e reduz suas resistências a dano em 5."
         },
         {
           "grupo": "Ações",
           "rotulo": "Espinhos (Flor Amarela)",
           "valor": "Movimento",
-          "descricao": "A dama dispara espinhos em até três alvos em alcance médio. Cada alvo sofre 2d8 pontos de dano de perfuração (Reflexos DT 15 reduz à metade). A flor amarela murcha se a dama de Sangue sofrer 10 pontos de dano de fogo de um único efeito. Isso faz a dama perder esta habilidade e sofrer 1d20 em testes de Reflexos."
+          "descricao": "A dama dispara espinhos em até três alvos em alcance médio. Cada alvo sofre {2d8} pontos de dano de perfuração (Reflexos DT 15 reduz à metade). A flor amarela murcha se a dama de Sangue sofrer 10 pontos de dano de fogo de um único efeito. Isso faz a dama perder esta habilidade e sofrer 1d20 em testes de Reflexos."
         },
         {
           "grupo": "Ações",
@@ -913,7 +913,7 @@
           "grupo": "Ações",
           "rotulo": "Miasma Fétido (Flor Azul)",
           "valor": "Padrão",
-          "descricao": "A dama de Sangue expele um miasma fétido que contamina o ar. Todos os personagens em alcance curto ficam enjoados por 1d4+1 rodadas (Fortitude DT 15 reduz à 1 rodada). A flor azul murcha se a dama de Sangue sofrer dano de eletricidade ou Energia. Isso faz a dama perder esta habilidade e reduz seu deslocamento em 6m."
+          "descricao": "A dama de Sangue expele um miasma fétido que contamina o ar. Todos os personagens em alcance curto ficam enjoados por {1d4+1} rodadas (Fortitude DT 15 reduz à 1 rodada). A flor azul murcha se a dama de Sangue sofrer dano de eletricidade ou Energia. Isso faz a dama perder esta habilidade e reduz seu deslocamento em 6m."
         },
         {
           "grupo": "Ações",
@@ -925,7 +925,7 @@
           "grupo": "Ações",
           "rotulo": "Visão Macabra (Flor Laranja)",
           "valor": "Movimento",
-          "descricao": "O movimento hipnotizante da flor faz com que o personagem tenha delírios de imagens macabras e perturbadas. Todos os personagens em alcance médio sofrem 1d6 pontos de dano Mental (Vontade DT 15 reduz à metade). A flor laranja murcha se a dama de Sangue sofrer 10 pontos de dano de corte de um único efeito. Isso faz a dama perder esta habilidade e reduz seus PV totais em 20."
+          "descricao": "O movimento hipnotizante da flor faz com que o personagem tenha delírios de imagens macabras e perturbadas. Todos os personagens em alcance médio sofrem {1d6} pontos de dano Mental (Vontade DT 15 reduz à metade). A flor laranja murcha se a dama de Sangue sofrer 10 pontos de dano de corte de um único efeito. Isso faz a dama perder esta habilidade e reduz seus PV totais em 20."
         },
         {
           "grupo": "Poderes",
@@ -1017,7 +1017,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, 6d6 mental, NEX 60%+ é imune"
+          "valor": "DT 25, {6d6} mental, NEX 60%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1043,45 +1043,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+15"
+          "valor": "{2d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Socão",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 4x.\nTeste: 4d20+20\nDano: 2d10+10 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 4x.\nTeste: {4d20>+20}\nDano: {2d10+10} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Correntes",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, curto, 3x.\nTeste: 2d20+15\nDano: 2d8+10 Impacto"
+          "descricao": "Agredir. Distância, curto, 3x.\nTeste: {2d20>+15}\nDano: {2d8+10} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Acorrentar",
           "valor": "Livre",
-          "descricao": "Se o enpap-X acertar um ataque de correntes em um personagem Médio ou menor, pode tentar agarrar o alvo à distância (teste 2d20+17). No começo do seu turno, o enpap-X estrangula cada personagem agarrado desta forma, causando 4d6 pontos de dano de impacto. O enpap-X pode manter até dois personagens agarrados simultaneamente"
+          "descricao": "Se o enpap-X acertar um ataque de correntes em um personagem Médio ou menor, pode tentar agarrar o alvo à distância (teste {2d20>+17}). No começo do seu turno, o enpap-X estrangula cada personagem agarrado desta forma, causando {4d6} pontos de dano de impacto. O enpap-X pode manter até dois personagens agarrados simultaneamente"
         },
         {
           "grupo": "Ações",
@@ -1093,13 +1093,13 @@
           "grupo": "Ações",
           "rotulo": "Crescer",
           "valor": "Reação",
-          "descricao": "Movido pelo Sangue incontrolável, o enpap-X desenvolve força conforme desfere seus golpes. Sempre que acertar um personagem com seu socão, o enpap-X recebe um bônus cumulativo de +1d6 em suas próximas rolagens de dano até o fim do turno. Ou seja, se acertar o primeiro socão, no segundo recebe +1d6 de dano. Se acertar o segundo, no terceiro recebe +2d6. E se acertar o terceiro, no quarto socão recebe +3d6."
+          "descricao": "Movido pelo Sangue incontrolável, o enpap-X desenvolve força conforme desfere seus golpes. Sempre que acertar um personagem com seu socão, o enpap-X recebe um bônus cumulativo de +{1d6} em suas próximas rolagens de dano até o fim do turno. Ou seja, se acertar o primeiro socão, no segundo recebe +{1d6} de dano. Se acertar o segundo, no terceiro recebe +{2d6}. E se acertar o terceiro, no quarto socão recebe +{3d6}."
         },
         {
           "grupo": "Ações",
           "rotulo": "Marcas do Terror",
           "valor": "Movimento",
-          "descricao": "O enpap-X faz com que as marcas em seu corpo brilhem com uma luz dourada, revelando as atrocidades eternizadas em sua pele. Todos os personagem em alcance curto do enpap-X sofrem 4d6 pontos de dano mental (Vontade DT 25 reduz à metade). Um personagem que passe no teste de resistência fica imune a esta habilidade até o final da cena."
+          "descricao": "O enpap-X faz com que as marcas em seu corpo brilhem com uma luz dourada, revelando as atrocidades eternizadas em sua pele. Todos os personagem em alcance curto do enpap-X sofrem {4d6} pontos de dano mental (Vontade DT 25 reduz à metade). Um personagem que passe no teste de resistência fica imune a esta habilidade até o final da cena."
         },
         {
           "grupo": "Poderes",
@@ -1181,7 +1181,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 10d6 mental, NEX 99%+ é imune"
+          "valor": "DT 35, {10d6} mental, NEX 99%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1207,44 +1207,44 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+20"
+          "valor": "{3d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 5d20+40\nDano: 4d12+30 Sangue"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+40}\nDano: {4d12+30} Sangue"
         },
         {
           "grupo": "Ações",
           "rotulo": "Disparo de Espinhos",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, médio.\nTeste: 4d20+35\nDano: 4d8+20 Sangue"
+          "descricao": "Agredir. Distância, médio.\nTeste: {4d20>+35}\nDano: {4d8+20} Sangue"
         },
         {
           "grupo": "Ações",
@@ -1256,7 +1256,7 @@
           "grupo": "Ações",
           "rotulo": "Derrubar e Devorar",
           "valor": "Completa",
-          "descricao": "O kerberos usa a manobra derrubar em um personagem a até 3m (teste 5d20+45). Se vencer o teste de manobra, o kerberos desfere três ataques de mordida contra o personagem. O dano destes ataques aumenta para 4d12+40."
+          "descricao": "O kerberos usa a manobra derrubar em um personagem a até 3m (teste {5d20>+45}). Se vencer o teste de manobra, o kerberos desfere três ataques de mordida contra o personagem. O dano destes ataques aumenta para {4d12+40}."
         },
         {
           "grupo": "Poderes",
@@ -1338,7 +1338,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 8d6 mental, NEX 80%+ é imune"
+          "valor": "DT 35, {8d6} mental, NEX 80%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1364,50 +1364,50 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+20"
+          "valor": "{3d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Chifres",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 5d20+30\nDano: 6d12+20 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+30}\nDano: {6d12+20} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Machado",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+32\nDano: 4d12+20 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+32}\nDano: {4d12+20} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Cravar Chifres",
           "valor": "Livre",
-          "descricao": "Se fizer uma investida com seus chifres e acertar o ataque, o minotauro crava seus chifres no alvo, que fica agarrado. Enquanto mantém um ser agarrado dessa forma o minotauro não pode atacar com seus chifres. Porém, no final de cada turno da vítima no qual ela ainda esteja agarrada pelos chifres, ela sofre 4d12+20 pontos de dano de Sangue."
+          "descricao": "Se fizer uma investida com seus chifres e acertar o ataque, o minotauro crava seus chifres no alvo, que fica agarrado. Enquanto mantém um ser agarrado dessa forma o minotauro não pode atacar com seus chifres. Porém, no final de cada turno da vítima no qual ela ainda esteja agarrada pelos chifres, ela sofre {4d12+20} pontos de dano de Sangue."
         },
         {
           "grupo": "Descrição",
@@ -1489,7 +1489,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, 4d8 mental, NEX 50%+ é imune"
+          "valor": "DT 25, {4d8} mental, NEX 50%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1515,45 +1515,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 3d20+15\nDano: 4d8+8 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+15}\nDano: {4d8+8} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+15\nDano: 4d6+6 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {4d6+6} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Jato de Sangue",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, curto.\nTeste: 4d20+10\nDano: 4d8+8 Sangue"
+          "descricao": "Agredir. Distância, curto.\nTeste: {4d20>+10}\nDano: {4d8+8} Sangue"
         },
         {
           "grupo": "Ações",
@@ -1571,13 +1571,13 @@
           "grupo": "Ações",
           "rotulo": "Arrancar Sangue",
           "valor": "Reação",
-          "descricao": "Toda vez que a mulher afogada é arrancada de um corpo que ela esteja asfixiando com afogar em Sangue, ela carrega consigo parte do sangue da vítima, causando 6d6 pontos de dano de Sangue e deixando-a fraca."
+          "descricao": "Toda vez que a mulher afogada é arrancada de um corpo que ela esteja asfixiando com afogar em Sangue, ela carrega consigo parte do sangue da vítima, causando {6d6} pontos de dano de Sangue e deixando-a fraca."
         },
         {
           "grupo": "Ações",
           "rotulo": "Invadir Órgãos",
           "valor": "Movimento",
-          "descricao": "A mulher afogada invade órgãos vitais de um personagem que ela esteja asfixiando com afogar em Sangue. O personagem sofre 6d6 pontos de dano de Sangue e fica enjoado."
+          "descricao": "A mulher afogada invade órgãos vitais de um personagem que ela esteja asfixiando com afogar em Sangue. O personagem sofre {6d6} pontos de dano de Sangue e fica enjoado."
         },
         {
           "grupo": "Poderes",
@@ -1664,7 +1664,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 30, 7d6 mental, NEX 70%+ é imune"
+          "valor": "DT 30, {7d6} mental, NEX 70%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1690,50 +1690,50 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+15"
+          "valor": "{1d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 5d20+25\nDano: 4d12+10 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {5d20>+25}\nDano: {4d12+10} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+25\nDano: 4d8+10 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+25}\nDano: {4d8+10} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Estraçalhar",
           "valor": "Livre",
-          "descricao": "Se o titã acertar um ser com sua mordida, ele estraçalha o alvo, que sofre 4d12+10 pontos de dano de perfuração e fica sangrando até final da cena (Reflexos DT 30 reduz o dano à metade e evita a condição)."
+          "descricao": "Se o titã acertar um ser com sua mordida, ele estraçalha o alvo, que sofre {4d12+10} pontos de dano de perfuração e fica sangrando até final da cena (Reflexos DT 30 reduz o dano à metade e evita a condição)."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Sede de Sangue",
-          "descricao": "Os ataques do titã causam +4d6 pontos de dano de Sangue em personagens que estejam machucados ou sangrando."
+          "descricao": "Os ataques do titã causam +{4d6} pontos de dano de Sangue em personagens que estejam machucados ou sangrando."
         },
         {
           "grupo": "Descrição",
@@ -1810,7 +1810,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, 2d6 mental, NEX 25%+ é imune"
+          "valor": "DT 15, {2d6} mental, NEX 25%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1836,33 +1836,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 2d20+5\nDano: 1d6+5 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+5}\nDano: {1d6+5} Corte"
         },
         {
           "grupo": "Descrição",
@@ -1939,7 +1939,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 4d6 mental, NEX 45%+ é imune"
+          "valor": "DT 20, {4d6} mental, NEX 45%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1965,44 +1965,44 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+15"
+          "valor": "{2d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "2d20+13"
+          "valor": "{2d20>+13}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida de Sangue",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 3d20+15\nDano: 2d10+5 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+15}\nDano: {2d10+5} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras de Sangue",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+15\nDano: 2d6+5 Corte"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {2d6+5} Corte"
         },
         {
           "grupo": "Poderes",

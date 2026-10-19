@@ -96,7 +96,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 10d8 mental"
+          "valor": "DT 45, {10d8} mental"
         },
         {
           "grupo": "Combate",
@@ -122,45 +122,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "6d20+25"
+          "valor": "{6d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "7d20+35"
+          "valor": "{7d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "7d20+35"
+          "valor": "{7d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "6d20+25"
+          "valor": "{6d20>+25}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Teatro (Amphitruo)",
           "valor": "Padrão",
-          "descricao": "O Anfitrião envia a imagem de um texto praticamente incompreensível para a mente do alvo, que deve decorá-lo em poucos segundos e recitá-lo com perfeição ou sofre 10d6 pontos de dano mental (Artes DT 35 ou Vontade DT 45 evita)."
+          "descricao": "O Anfitrião envia a imagem de um texto praticamente incompreensível para a mente do alvo, que deve decorá-lo em poucos segundos e recitá-lo com perfeição ou sofre {10d6} pontos de dano mental (Artes DT 35 ou Vontade DT 45 evita)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Queimar (Aeneas)",
           "valor": "Padrão",
-          "descricao": "O Anfitrião dispara chamas em um cone em alcance médio. Todos os seres nessa área sofrem 10d6+20 pontos de dano de Energia (Reflexos DT 45 reduz à metade)."
+          "descricao": "O Anfitrião dispara chamas em um cone em alcance médio. Todos os seres nessa área sofrem {10d6+20} pontos de dano de Energia (Reflexos DT 45 reduz à metade)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Corte Caótico",
           "valor": "Padrão",
-          "descricao": "Agredir (Liber). Corpo a corpo.\nTeste: 7d20+45\nDano: 3d12+20 Energia"
+          "descricao": "Agredir (Liber). Corpo a corpo.\nTeste: {7d20>+45}\nDano: {3d12+20} Energia"
         },
         {
           "grupo": "Ações",
@@ -172,19 +172,19 @@
           "grupo": "Ações",
           "rotulo": "Lança e Adaga",
           "valor": "Padrão",
-          "descricao": "Agredir (Plautus). Corpo a corpo, 2x.\nTeste: 7d20+45\nDano: 2d12+20 Energia"
+          "descricao": "Agredir (Plautus). Corpo a corpo, 2x.\nTeste: {7d20>+45}\nDano: {2d12+20} Energia"
         },
         {
           "grupo": "Ações",
           "rotulo": "Eu sou o Caos (Plautus)",
           "valor": "Livre",
-          "descricao": "Se acertar um ataque de lança e adaga em um ser desprevenido ou flanqueado, o Anfitrião causa +4d12 pontos de dano de Energia."
+          "descricao": "Se acertar um ataque de lança e adaga em um ser desprevenido ou flanqueado, o Anfitrião causa +{4d12} pontos de dano de Energia."
         },
         {
           "grupo": "Ações",
           "rotulo": "Corte de Água",
           "valor": "Padrão",
-          "descricao": "Agredir (Silenus). Corpo a corpo.\nTeste: 7d20+45\nDano: 5d12+20 Energia"
+          "descricao": "Agredir (Silenus). Corpo a corpo.\nTeste: {7d20>+45}\nDano: {5d12+20} Energia"
         },
         {
           "grupo": "Ações",
@@ -221,12 +221,12 @@
         {
           "grupo": "Poderes",
           "rotulo": "Trilha Sonora (Ato 2)",
-          "descricao": "Durante o Ato 2, a trilha sonora do Anfitrião toca em todo o ambiente. No início de cada turno do Anfitrião, cada ser em alcance longo sofre 2d10 pontos de dano mental."
+          "descricao": "Durante o Ato 2, a trilha sonora do Anfitrião toca em todo o ambiente. No início de cada turno do Anfitrião, cada ser em alcance longo sofre {2d10} pontos de dano mental."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Roleta Maluca (Ato 2)",
-          "descricao": "No começo do turno do Anfitrião, cada ser em alcance longo sofre um efeito determinado aleatoriamente. Jogue 1d6 para cada ser na área; efeitos iguais são cumulativos:\n\n1 - Sofre -5 na Defesa até o final da cena.\n\n2 - Deve usar uma ação completa fazendo coisas sem sentido ou sofre 4d10 pontos de dano mental no final do seu turno\n\n3 - Sofre 4d20 pontos de dano de Energia.\n\n4 - Sofre -1d20 em Pontaria até o final da cena.\n\n5 - Sofre -1d20 em Luta até o final da cena.\n\n6 - Nada acontece."
+          "descricao": "No começo do turno do Anfitrião, cada ser em alcance longo sofre um efeito determinado aleatoriamente. Jogue {1d6} para cada ser na área; efeitos iguais são cumulativos:\n\n1 - Sofre -5 na Defesa até o final da cena.\n\n2 - Deve usar uma ação completa fazendo coisas sem sentido ou sofre {4d10} pontos de dano mental no final do seu turno\n\n3 - Sofre {4d20} pontos de dano de Energia.\n\n4 - Sofre -1d20 em Pontaria até o final da cena.\n\n5 - Sofre -1d20 em Luta até o final da cena.\n\n6 - Nada acontece."
         },
         {
           "grupo": "Descrição",
@@ -308,7 +308,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 14, 2d6 mental, NEX 25%+ é imune"
+          "valor": "DT 14, {2d6} mental, NEX 25%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -339,17 +339,17 @@
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+5"
+          "valor": "{3d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
@@ -360,12 +360,12 @@
           "grupo": "Ações",
           "rotulo": "Pancada Errática",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 2d12 Impacto"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {2d12} Impacto"
         },
         {
           "grupo": "Poderes",
           "rotulo": "Comportamento Errático",
-          "descricao": "No começo do seu turno, o anárquico é tomado pelo fluxo de Energia em seu corpo e age de modo aleatório. Role 1d6 para determinar o que ele faz. Se não puder realizar a ação, fica parado se contorcendo, mas recebe resistência a dano 5 até o início do seu próximo turno.\n\n1,2 - O anárquico pula sobre o personagem mais próximo, fazendo a ação investida (ou a ação agredir, se estiver muito próximo do personagem). Se não conseguir atacar alguém, corre na direção do personagem mais próximo.\n\n3,4 - O anárquico projeta uma luz prismática de dentro de si na direção de um ser em alcance médio. O alvo sofre 2d8 pontos de dano de Energia e fica atordoado por uma rodada (Fortitude DT 14 reduz o dano à metade e evita a condição).\n\n5 - Uma explosão de Energia emana do anárquico. Cada ser em alcance curto sofre 2d6 pontos de dano de Energia (Reflexos DT 14 reduz à metade). Seres adjacentes ao anárquico sofrem +1d6 pontos de dano.\n\n6 - Uma risada descontrolada toma o anárquico enquanto ele faz a ação agredir contra o personagem mais próximo. Até o final de seu próximo turno, o anárquico fica desprevenido, mas seus ataques ficam completamente imprevisíveis e o defensor não pode se esquivar deles."
+          "descricao": "No começo do seu turno, o anárquico é tomado pelo fluxo de Energia em seu corpo e age de modo aleatório. Role {1d6} para determinar o que ele faz. Se não puder realizar a ação, fica parado se contorcendo, mas recebe resistência a dano 5 até o início do seu próximo turno.\n\n1,2 - O anárquico pula sobre o personagem mais próximo, fazendo a ação investida (ou a ação agredir, se estiver muito próximo do personagem). Se não conseguir atacar alguém, corre na direção do personagem mais próximo.\n\n3,4 - O anárquico projeta uma luz prismática de dentro de si na direção de um ser em alcance médio. O alvo sofre {2d8} pontos de dano de Energia e fica atordoado por uma rodada (Fortitude DT 14 reduz o dano à metade e evita a condição).\n\n5 - Uma explosão de Energia emana do anárquico. Cada ser em alcance curto sofre {2d6} pontos de dano de Energia (Reflexos DT 14 reduz à metade). Seres adjacentes ao anárquico sofrem +{1d6} pontos de dano.\n\n6 - Uma risada descontrolada toma o anárquico enquanto ele faz a ação agredir contra o personagem mais próximo. Até o final de seu próximo turno, o anárquico fica desprevenido, mas seus ataques ficam completamente imprevisíveis e o defensor não pode se esquivar deles."
         },
         {
           "grupo": "Descrição",
@@ -442,7 +442,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 21, 4d6 mental, NEX 50%+ é imune"
+          "valor": "DT 21, {4d6} mental, NEX 50%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -468,45 +468,45 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada Energética",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+15\nDano: 4d12 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+15}\nDano: {4d12} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Aceleração",
           "valor": "Livre",
-          "descricao": "Sempre que um personagem sofre dano da pancada energética, entra em estado de aceleração e pode sofrer dano colateral. Em seu próximo turno, se realizar uma ação de movimento e uma ação padrão, ou uma ação completa), o personagem acelerado sofre 4d12 pontos de dano de Energia."
+          "descricao": "Sempre que um personagem sofre dano da pancada energética, entra em estado de aceleração e pode sofrer dano colateral. Em seu próximo turno, se realizar uma ação de movimento e uma ação padrão, ou uma ação completa), o personagem acelerado sofre {4d12} pontos de dano de Energia."
         },
         {
           "grupo": "Ações",
           "rotulo": "Autodestruição",
           "valor": "Movimento",
-          "descricao": "O anárquico concentra Energia no seu corpo e se autodestrói, causando 8d12 pontos de dano de Energia em todos os personagens em alcance curto (Reflexos DT 25 reduz à metade). Personagens adjacentes ao anárquico descontrolado sofrem -2d20 neste teste de resistência. O anárquico descontrolado morre após usar essa habilidade."
+          "descricao": "O anárquico concentra Energia no seu corpo e se autodestrói, causando {8d12} pontos de dano de Energia em todos os personagens em alcance curto (Reflexos DT 25 reduz à metade). Personagens adjacentes ao anárquico descontrolado sofrem -2d20 neste teste de resistência. O anárquico descontrolado morre após usar essa habilidade."
         },
         {
           "grupo": "Descrição",
@@ -588,7 +588,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 9d8 mental"
+          "valor": "DT 45, {9d8} mental"
         },
         {
           "grupo": "Combate",
@@ -624,29 +624,29 @@
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Romper Consciência",
           "valor": "Livre",
-          "descricao": "No início do turno da anomalia, ela sorteia um ser que esteja em sua linha de visão e tenta romper sua razão transformando suas ondas cerebrais. A vítima sofre 10d6 pontos de dano mental (Vontade DT 41 reduz à metade) e, se ficar insana devido a este dano, é absorvida pela anomalia."
+          "descricao": "No início do turno da anomalia, ela sorteia um ser que esteja em sua linha de visão e tenta romper sua razão transformando suas ondas cerebrais. A vítima sofre {10d6} pontos de dano mental (Vontade DT 41 reduz à metade) e, se ficar insana devido a este dano, é absorvida pela anomalia."
         },
         {
           "grupo": "Ações",
           "rotulo": "Manipular Ondas da Existência",
           "valor": "Livre",
-          "descricao": "No final do turno da anomalia, ela manipula as ondas eletromagnéticas que compõem a própria existência. Ela pode ativar, desativar ou operar até seis objetos tecnológicos em alcance médio. Como alternativa, pode sobrecarregar estes objetos, gerando uma poderosa descarga que causa 2d12 pontos de dano de Energia por objeto em todos os seres na área (Reflexos DT 30 reduz à metade)."
+          "descricao": "No final do turno da anomalia, ela manipula as ondas eletromagnéticas que compõem a própria existência. Ela pode ativar, desativar ou operar até seis objetos tecnológicos em alcance médio. Como alternativa, pode sobrecarregar estes objetos, gerando uma poderosa descarga que causa {2d12} pontos de dano de Energia por objeto em todos os seres na área (Reflexos DT 30 reduz à metade)."
         },
         {
           "grupo": "Ações",
@@ -672,7 +672,7 @@
         {
           "grupo": "Descrição",
           "rotulo": "Enigma do Medo",
-          "descricao": "A anomalia não deveria existir. Ela é o próprio caos colapsando com a Realidade, e não existe lógica para defini-la. A única forma de combater essa criatura é mergulhar na anomalia para entendê-la no Outro Lado. Quando o Enigma de Medo da anomalia for resolvido, ela se transforma em um ser ou objeto aleatório por 2d4 rodadas. Durante esse tempo, ela perde sua imunidade a dano e condições e usa as estatísticas do ser ou objeto, com exceção de seus PV."
+          "descricao": "A anomalia não deveria existir. Ela é o próprio caos colapsando com a Realidade, e não existe lógica para defini-la. A única forma de combater essa criatura é mergulhar na anomalia para entendê-la no Outro Lado. Quando o Enigma de Medo da anomalia for resolvido, ela se transforma em um ser ou objeto aleatório por {2d4} rodadas. Durante esse tempo, ela perde sua imunidade a dano e condições e usa as estatísticas do ser ou objeto, com exceção de seus PV."
         }
       ]
     },
@@ -744,7 +744,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 30, 6d8 mental, NEX 75%+ é imune"
+          "valor": "DT 30, {6d8} mental, NEX 75%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -770,39 +770,39 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garra Desintegradora",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+30\nDano: 4d12+20 Energia"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+30}\nDano: {4d12+20} Energia"
         },
         {
           "grupo": "Ações",
           "rotulo": "Comportamento Errático",
           "valor": "Livre",
-          "descricao": "No começo do seu turno, o anomiático é tomado pelo fluxo de Energia em seu corpo e executa três comportamentos aleatórios. Role 1d6 na tabela abaixo três vezes; o anomiático então executa as ações indicadas na ordem em que forem roladas. Se não puder executar uma das ações, ele fica parado se contorcendo e perde aquela ação (mas não qualquer outra). Para cada ação que perder, o anomiático aumenta suas resistências a dano em 10 até seu próximo turno.\n\n1,2 - O anomiático salta até 18m em direção ao ser mais próximo. Se ficar adjacente a ele, faz uma ação agredir e ataca com suas garras desintegradoras.\n\n3 - O anomiático se transforma em um facho de Energia e se move até ficar adjacente a um ser escolhido aleatoriamente entre todos que o estejam enfrentando.\n\n4 - Uma parte do corpo do anomiático explode, causando dano de Energia em todos os seres ao redor. O dano exato depende da distância do ser em relação ao anomiático: 4d12+20 para seres em alcance médio, 6d12+20 para seres em alcance curto e 8d12+20 para seres adjacentes. Seres em alcance médio ou curto têm direito a um teste de Reflexos (DT 30) para reduzir o dano à metade. O anomiático perde 50 PV quando executa esta ação.\n\n5 - Uma risada descontrolada toma o anomiático. Ele fica desprevenido até o início do seu próximo turno. Enquanto estiver desprevenido, todos os seus ataques são mais imprevisíveis e o defensor não pode se esquivar deles.\n\n6 - O anomiático toca um ser adjacente. O alvo acumula uma quantidade absurda de Energia e sofre 10d12+20 pontos de dano de Energia (Fortitude DT 30 reduz à metade)."
+          "descricao": "No começo do seu turno, o anomiático é tomado pelo fluxo de Energia em seu corpo e executa três comportamentos aleatórios. Role {1d6} na tabela abaixo três vezes; o anomiático então executa as ações indicadas na ordem em que forem roladas. Se não puder executar uma das ações, ele fica parado se contorcendo e perde aquela ação (mas não qualquer outra). Para cada ação que perder, o anomiático aumenta suas resistências a dano em 10 até seu próximo turno.\n\n1,2 - O anomiático salta até 18m em direção ao ser mais próximo. Se ficar adjacente a ele, faz uma ação agredir e ataca com suas garras desintegradoras.\n\n3 - O anomiático se transforma em um facho de Energia e se move até ficar adjacente a um ser escolhido aleatoriamente entre todos que o estejam enfrentando.\n\n4 - Uma parte do corpo do anomiático explode, causando dano de Energia em todos os seres ao redor. O dano exato depende da distância do ser em relação ao anomiático: {4d12+20} para seres em alcance médio, {6d12+20} para seres em alcance curto e {8d12+20} para seres adjacentes. Seres em alcance médio ou curto têm direito a um teste de Reflexos (DT 30) para reduzir o dano à metade. O anomiático perde 50 PV quando executa esta ação.\n\n5 - Uma risada descontrolada toma o anomiático. Ele fica desprevenido até o início do seu próximo turno. Enquanto estiver desprevenido, todos os seus ataques são mais imprevisíveis e o defensor não pode se esquivar deles.\n\n6 - O anomiático toca um ser adjacente. O alvo acumula uma quantidade absurda de Energia e sofre {10d12+20} pontos de dano de Energia (Fortitude DT 30 reduz à metade)."
         },
         {
           "grupo": "Descrição",
@@ -884,7 +884,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, 2d6 mental, NEX 40%+ é imune"
+          "valor": "DT 15, {2d6} mental, NEX 40%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -915,57 +915,57 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+5"
+          "valor": "{3d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Braço Laminado",
           "valor": "Padrão",
-          "descricao": "Estado Alpha - Agredir. Corpo a corpo, 2x.\nTeste: 3d20+10\nDano: 1d12+10 Corte\nCrítico: 18"
+          "descricao": "Estado Alpha - Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {1d12+10} Corte\nCrítico: 18"
         },
         {
           "grupo": "Ações",
           "rotulo": "Punho Energizado",
           "valor": "Padrão",
-          "descricao": "Estado Beta - Agredir. Corpo a corpo.\nTeste: 3d20+10\nDano: 2d8+10 Impacto"
+          "descricao": "Estado Beta - Agredir. Corpo a corpo.\nTeste: {3d20>+10}\nDano: {2d8+10} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Estado Beta - Investida Energética",
           "valor": "Completa",
-          "descricao": "Estado Beta - Investida Energética. Corpo a corpo.\nTeste: 4d20+10\nDano: 4d8+10 Impacto\n\nO ciborgue avança até 24m (18) e faz um ataque de punho energizado com bônus de +1d20 no teste de ataque. Se acertar, causa +2d8 de dano (para um total de 4d8+10) e derruba o alvo (Fortitude DT 20 evita a queda)."
+          "descricao": "Estado Beta - Investida Energética. Corpo a corpo.\nTeste: {4d20>+10}\nDano: {4d8+10} Impacto\n\nO ciborgue avança até 24m (18) e faz um ataque de punho energizado com bônus de +1d20 no teste de ataque. Se acertar, causa +{2d8} de dano (para um total de {4d8+10}) e derruba o alvo (Fortitude DT 20 evita a queda)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Canhão",
           "valor": "Padrão",
-          "descricao": "Estado Gama - Agredir. Distância, longo.\nTeste: 3d20+10\nDano: 4d12+5 Energia"
+          "descricao": "Estado Gama - Agredir. Distância, longo.\nTeste: {3d20>+10}\nDano: {4d12+5} Energia"
         },
         {
           "grupo": "Ações",
           "rotulo": "Raio Energético",
           "valor": "Padrão",
-          "descricao": "Estado Delta - Agredir. Distância, médio.\nTeste: 3d20+10\nDano: 1d12+5 Energia"
+          "descricao": "Estado Delta - Agredir. Distância, médio.\nTeste: {3d20>+10}\nDano: {1d12+5} Energia"
         },
         {
           "grupo": "Ações",
@@ -1073,7 +1073,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 14, 2d6 mental, NEX 40%+ é imune"
+          "valor": "DT 14, {2d6} mental, NEX 40%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1094,27 +1094,27 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Poderes",
@@ -1124,7 +1124,7 @@
         {
           "grupo": "Poderes",
           "rotulo": "Desmantelar",
-          "descricao": "O enxame de emepecilhos faz uma manobra desarmar (3d20+7) contra todos os seres em seu espaço que estejam empunhando um equipamento tecnológico, como uma arma de fogo ou acessório. Se vencer, o enxame rouba o item e começa a desmonta-lo, causando 1d6 pontos de dano automaticamente ao objeto (ignora RD). É possível recuperar o objeto vencendo uma manobra desarmar contra o enxame."
+          "descricao": "O enxame de emepecilhos faz uma manobra desarmar ({3d20>+7}) contra todos os seres em seu espaço que estejam empunhando um equipamento tecnológico, como uma arma de fogo ou acessório. Se vencer, o enxame rouba o item e começa a desmonta-lo, causando {1d6} pontos de dano automaticamente ao objeto (ignora RD). É possível recuperar o objeto vencendo uma manobra desarmar contra o enxame."
         },
         {
           "grupo": "Descrição",
@@ -1206,7 +1206,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 8d6 mental, NEX 85%+ é imune"
+          "valor": "DT 35, {8d6} mental, NEX 85%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1232,38 +1232,38 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+15"
+          "valor": "{1d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancadas Infectadas",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: 5d20+30\nDano: 4d12+20 Energia"
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {5d20>+30}\nDano: {4d12+20} Energia"
         },
         {
           "grupo": "Ações",
           "rotulo": "Infecção",
-          "descricao": "Um ser que sofra dano das pancadas é infectado pelo vírus do infecticídio (Fortitude DT 30 evita). Um ser que passe no teste de resistência fica imune a essa doença até final da cena.\n\nVírus do Infecticídio. Contaminação por contato, Fortitude DT 30. O vírus do infecticídio é muito resistente, e só pode ser combatido em condições de temperaturas extremamente baixas. Testes de Fortitude só contam para curar esta doença se forem feitos em ambientes com temperatura abaixo de 0º.\n\nEstágio I. Os pontos de vida máximos do personagem são reduzidos em 2d10. Se em qualquer estágio a doença reduzir seus PV a 0, ele morre instantaneamente.\n\nEstágio II. Os pontos de vida máximos do personagem são reduzidos em mais 2d1\n\nEstágio III ou superior. Os pontos de vida máximos do personagem são reduzidos em mais 2d10. Além disso, ele passa a transmitir o vírus por contato."
+          "descricao": "Um ser que sofra dano das pancadas é infectado pelo vírus do infecticídio (Fortitude DT 30 evita). Um ser que passe no teste de resistência fica imune a essa doença até final da cena.\n\nVírus do Infecticídio. Contaminação por contato, Fortitude DT 30. O vírus do infecticídio é muito resistente, e só pode ser combatido em condições de temperaturas extremamente baixas. Testes de Fortitude só contam para curar esta doença se forem feitos em ambientes com temperatura abaixo de 0º.\n\nEstágio I. Os pontos de vida máximos do personagem são reduzidos em {2d10}. Se em qualquer estágio a doença reduzir seus PV a 0, ele morre instantaneamente.\n\nEstágio II. Os pontos de vida máximos do personagem são reduzidos em mais {2d1}\n\nEstágio III ou superior. Os pontos de vida máximos do personagem são reduzidos em mais {2d10}. Além disso, ele passa a transmitir o vírus por contato."
         },
         {
           "grupo": "Poderes",
@@ -1345,7 +1345,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, 2d8 mental, NEX 30%+ é imune"
+          "valor": "DT 15, {2d8} mental, NEX 30%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1376,7 +1376,7 @@
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
@@ -1386,7 +1386,7 @@
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
@@ -1397,13 +1397,13 @@
           "grupo": "Ações",
           "rotulo": "Toque Plasmático",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+10\nDano: 2d12 Energia"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+10}\nDano: {2d12} Energia"
         },
         {
           "grupo": "Ações",
           "rotulo": "Implantar Confusão",
           "valor": "Livre",
-          "descricao": "Uma vez por rodada, o perturbado de Energia tenta agarrar um personagem que acabou de sofrer dano de seu toque plasmático (teste 4d20+10). Se conseguir, o perturbado começa a implantar imagens na mente do alvo e fazer com que ele reviva experiências traumáticas. O personagem sofre 2d8 pontos de dano mental (Vontade DT 15 reduz à metade) e recebe vulnerabilidade a dano de Energia até o fim da cena."
+          "descricao": "Uma vez por rodada, o perturbado de Energia tenta agarrar um personagem que acabou de sofrer dano de seu toque plasmático (teste {4d20>+10}). Se conseguir, o perturbado começa a implantar imagens na mente do alvo e fazer com que ele reviva experiências traumáticas. O personagem sofre {2d8} pontos de dano mental (Vontade DT 15 reduz à metade) e recebe vulnerabilidade a dano de Energia até o fim da cena."
         },
         {
           "grupo": "Descrição",
@@ -1485,7 +1485,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, 4d8 mental, NEX 55%+ é imune"
+          "valor": "DT 25, {4d8} mental, NEX 55%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1516,48 +1516,48 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida do Outro Lado",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+15\nDano: 2d12 Mental"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {2d12} Mental"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
-          "descricao": "Se a sukkalgir acertar um ataque com sua mordida em um ser Médio ou menor, pode agarrar o alvo (teste 3d20+15)."
+          "descricao": "Se a sukkalgir acertar um ataque com sua mordida em um ser Médio ou menor, pode agarrar o alvo (teste {3d20>+15})."
         },
         {
           "grupo": "Ações",
           "rotulo": "Grito de Desespero",
           "valor": "Completa",
-          "descricao": "A sukkalgir grita em desespero. Cada ser em alcance médio sofre 3d12 pontos de dano mental (Vontade DT 20 reduz à metade; estar sob cobertura fornece +5 nesse teste)."
+          "descricao": "A sukkalgir grita em desespero. Cada ser em alcance médio sofre {3d12} pontos de dano mental (Vontade DT 20 reduz à metade; estar sob cobertura fornece +5 nesse teste)."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Aura Desesperada",
-          "descricao": "Qualquer ser que comece seu turno em alcance curto da sukkalgir sofre 2d12 pontos de dano mental (Vontade DT 25 reduz à metade)."
+          "descricao": "Qualquer ser que comece seu turno em alcance curto da sukkalgir sofre {2d12} pontos de dano mental (Vontade DT 25 reduz à metade)."
         },
         {
           "grupo": "Poderes",
@@ -1644,7 +1644,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, 10d6 mental, NEX 99%+ é imune"
+          "valor": "DT 40, {10d6} mental, NEX 99%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1675,38 +1675,38 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+15"
+          "valor": "{2d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Toque Desintegrador",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: 4d20+35\nDano: 6d12+30 Energia"
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {4d20>+35}\nDano: {6d12+30} Energia"
         },
         {
           "grupo": "Ações",
@@ -1718,13 +1718,13 @@
           "grupo": "Ações",
           "rotulo": "Tela Zumbificadora",
           "valor": "Padrão",
-          "descricao": "O telopsia projeta imagens enlouquecedoras em sua tela. Todos os seres em alcance médio sofrem 6d6 pontos de dano mental e ficam confusos até o final da cena (Vontade DT 30 reduz o dano à metade e evita a condição). Um ser que já esteja confuso e falhe no teste de resistência fica também fascinado."
+          "descricao": "O telopsia projeta imagens enlouquecedoras em sua tela. Todos os seres em alcance médio sofrem {6d6} pontos de dano mental e ficam confusos até o final da cena (Vontade DT 30 reduz o dano à metade e evita a condição). Um ser que já esteja confuso e falhe no teste de resistência fica também fascinado."
         },
         {
           "grupo": "Ações",
           "rotulo": "Prender na Tela",
           "valor": "Completa",
-          "descricao": "O telopsia usa ondas de Energia para desintegrar um ser em alcance curto e materializá-lo dentro de sua tela (Fortitude DT 30 evita). Um ser dentro da tela fica paralisado e sofre 2d12 pontos de dano mental no início de cada um de seus turnos. Cada vez que o telopsia sofre 50 ou mais pontos de dano em um turno, o ser preso pode repetir o teste de Fortitude; se passar, escapa da tela e se materializa em um ponto a sua escolha adjacente ao telopsia."
+          "descricao": "O telopsia usa ondas de Energia para desintegrar um ser em alcance curto e materializá-lo dentro de sua tela (Fortitude DT 30 evita). Um ser dentro da tela fica paralisado e sofre {2d12} pontos de dano mental no início de cada um de seus turnos. Cada vez que o telopsia sofre 50 ou mais pontos de dano em um turno, o ser preso pode repetir o teste de Fortitude; se passar, escapa da tela e se materializa em um ponto a sua escolha adjacente ao telopsia."
         },
         {
           "grupo": "Descrição",
@@ -1806,7 +1806,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, 8d8 mental"
+          "valor": "DT 40, {8d8} mental"
         },
         {
           "grupo": "Combate",
@@ -1837,50 +1837,50 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+30"
+          "valor": "{5d20>+30}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras Radioativas",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+40\nDano: 4d20+20 Energia\n\nAs garras radioativas do tempestuoso podem atingir alvos em alcance curto, mesmo sendo ataques corpo a corpo."
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {4d20+20} Energia\n\nAs garras radioativas do tempestuoso podem atingir alvos em alcance curto, mesmo sendo ataques corpo a corpo."
         },
         {
           "grupo": "Ações",
           "rotulo": "Raio de Energia Radioativa",
           "valor": "Livre",
-          "descricao": "Quando acerta dois ataques de garras radioativas em um mesmo ser, o tempestuoso faz com que um raio de energia radioativa seja projetado deste ser em direção a outro alvo em alcance médio. Este alvo sofre 4d20+20 pontos de dano de Energia (Reflexos DT 40 reduz à metade)."
+          "descricao": "Quando acerta dois ataques de garras radioativas em um mesmo ser, o tempestuoso faz com que um raio de energia radioativa seja projetado deste ser em direção a outro alvo em alcance médio. Este alvo sofre {4d20+20} pontos de dano de Energia (Reflexos DT 40 reduz à metade)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Expandir em Radiação",
           "valor": "Completa",
-          "descricao": "O tempestuoso concentra energia radioativa em volta de si para depois expandi-la como uma explosão de Energia. Cada ser em alcance longo sofre 10d20+20 pontos de dano de Energia (Reflexos DT 40 reduz à metade). O próprio tempestuoso perde 100 PV quando usa esta habilidade."
+          "descricao": "O tempestuoso concentra energia radioativa em volta de si para depois expandi-la como uma explosão de Energia. Cada ser em alcance longo sofre {10d20+20} pontos de dano de Energia (Reflexos DT 40 reduz à metade). O próprio tempestuoso perde 100 PV quando usa esta habilidade."
         },
         {
           "grupo": "Poderes",
           "rotulo": "Aura Radioativa",
-          "descricao": "Qualquer ser que comece seu turno em alcance curto do tempestuoso sofre 2d20+20 pontos de dano de Energia (Fortitude DT 40 reduz à metade)."
+          "descricao": "Qualquer ser que comece seu turno em alcance curto do tempestuoso sofre {2d20+20} pontos de dano de Energia (Fortitude DT 40 reduz à metade)."
         },
         {
           "grupo": "Poderes",
@@ -1967,7 +1967,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 6d6 mental, NEX 60%+ é imune"
+          "valor": "DT 20, {6d6} mental, NEX 60%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1993,33 +1993,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+15"
+          "valor": "{1d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+15\nDano: 2d12+10 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+15}\nDano: {2d12+10} Impacto"
         },
         {
           "grupo": "Ações",
@@ -2031,7 +2031,7 @@
           "grupo": "Ações",
           "rotulo": "Devorar Memória",
           "valor": "Completa",
-          "descricao": "O viajante entra na mente de um ser que esteja agarrando e começa a devorar suas memórias. A vítima sofre 4d12 pontos de dano mental e esquece completamente de uma pessoa (Vontade DT 29 reduz o dano à metade e evita o efeito). Para cada ser que o viajante deixar perturbado com esta habilidade, seu dano de pancada aumenta em +1d12 até o fim da cena."
+          "descricao": "O viajante entra na mente de um ser que esteja agarrando e começa a devorar suas memórias. A vítima sofre {4d12} pontos de dano mental e esquece completamente de uma pessoa (Vontade DT 29 reduz o dano à metade e evita o efeito). Para cada ser que o viajante deixar perturbado com esta habilidade, seu dano de pancada aumenta em +{1d12} até o fim da cena."
         },
         {
           "grupo": "Poderes",

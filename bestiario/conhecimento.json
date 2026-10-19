@@ -96,7 +96,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, 10d8 mental"
+          "valor": "DT 45, {10d8} mental"
         },
         {
           "grupo": "Combate",
@@ -117,42 +117,42 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+35"
+          "valor": "{5d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ciência",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Religião",
-          "valor": "6d20+35"
+          "valor": "{6d20>+35}"
         },
         {
           "grupo": "Ações",
@@ -170,7 +170,7 @@
           "grupo": "Ações",
           "rotulo": "Reescrever Realidade",
           "valor": "Padrão",
-          "descricao": "A Máscara do Desespero tem o poder único de reescrever a Realidade por completo, alterando as propriedades de seres e objetos em alcance médio. Contra objetos, ela pode mudar a composição, posição e estado da matéria de um objeto de até 1 tonelada. Objetos vestidos ou empunhados têm direito a um teste de Reflexos do portador (DT 45) para evitar este efeito. Contra seres, ela pode causar 10d6 pontos de dano de Conhecimento, 10d6 pontos de dano mental e uma condição qualquer (exceto morrendo e enlouquecendo) em um ser (Vontade DT 45 reduz cada dano à metade e evita a condição)."
+          "descricao": "A Máscara do Desespero tem o poder único de reescrever a Realidade por completo, alterando as propriedades de seres e objetos em alcance médio. Contra objetos, ela pode mudar a composição, posição e estado da matéria de um objeto de até 1 tonelada. Objetos vestidos ou empunhados têm direito a um teste de Reflexos do portador (DT 45) para evitar este efeito. Contra seres, ela pode causar {10d6} pontos de dano de Conhecimento, {10d6} pontos de dano mental e uma condição qualquer (exceto morrendo e enlouquecendo) em um ser (Vontade DT 45 reduz cada dano à metade e evita a condição)."
         },
         {
           "grupo": "Poderes",
@@ -272,7 +272,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, 10d6 mental"
+          "valor": "DT 40, {10d6} mental"
         },
         {
           "grupo": "Combate",
@@ -303,57 +303,57 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+25"
+          "valor": "{4d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+30"
+          "valor": "{5d20>+30}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Asas do Conhecimento",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 5d20+40\nDano: 4d10+40 Conhecimento"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {5d20>+40}\nDano: {4d10+40} Conhecimento"
         },
         {
           "grupo": "Ações",
           "rotulo": "Olhares do Saber",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, curto, 2x.\nTeste: 4d20+40\nDano: 6d8+20 Conhecimento"
+          "descricao": "Agredir. Distância, curto, 2x.\nTeste: {4d20>+40}\nDano: {6d8+20} Conhecimento"
         },
         {
           "grupo": "Ações",
           "rotulo": "Faixas Detentoras",
           "valor": "Livre",
-          "descricao": "Se o anjo acertar um ataque de asas do Conhecimento em um ser Médio ou menor, pode tentar agarrar o alvo (teste 5d20+45) usando as faixas que prendem suas asas. Um ser agarrado desta forma também fica fascinado. O anjo pode manter um ser agarrado desta forma por vez e fazer isso não impede que ele use suas asas do Conhecimento."
+          "descricao": "Se o anjo acertar um ataque de asas do Conhecimento em um ser Médio ou menor, pode tentar agarrar o alvo (teste {5d20>+45}) usando as faixas que prendem suas asas. Um ser agarrado desta forma também fica fascinado. O anjo pode manter um ser agarrado desta forma por vez e fazer isso não impede que ele use suas asas do Conhecimento."
         },
         {
           "grupo": "Ações",
           "rotulo": "Chamas Reveladoras",
           "valor": "Padrão",
-          "descricao": "O anjo manifesta um círculo de chamas douradas em volta de si, que se expande em alcance médio. Todos os seres nesta área sofrem 10d8 pontos de dano de Conhecimento (Vontade DT 43 reduz à metade). Um ser que sofra dano dessa habilidade fica com uma auréola reveladora em cima de sua cabeça. Até o final da cena, o anjo sabe exatamente onde estão todos os seres com auréola, o que significa que ele ignora furtividade e qualquer tipo de invisibilidade ou efeito ilusório."
+          "descricao": "O anjo manifesta um círculo de chamas douradas em volta de si, que se expande em alcance médio. Todos os seres nesta área sofrem {10d8} pontos de dano de Conhecimento (Vontade DT 43 reduz à metade). Um ser que sofra dano dessa habilidade fica com uma auréola reveladora em cima de sua cabeça. Até o final da cena, o anjo sabe exatamente onde estão todos os seres com auréola, o que significa que ele ignora furtividade e qualquer tipo de invisibilidade ou efeito ilusório."
         },
         {
           "grupo": "Ações",
           "rotulo": "Raio Dourado",
           "valor": "Completa",
-          "descricao": "Uma vez por cena, o anjo dispara um raio dourado de seu olho central. Todos os seres em uma linha de 3m em alcance longo sofrem 15d8+50 pontos de dano de Conhecimento (Reflexos DT 43 reduz à metade)."
+          "descricao": "Uma vez por cena, o anjo dispara um raio dourado de seu olho central. Todos os seres em uma linha de 3m em alcance longo sofrem {15d8+50} pontos de dano de Conhecimento (Reflexos DT 43 reduz à metade)."
         },
         {
           "grupo": "Poderes",
@@ -440,7 +440,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 7d8 mental, NEX 90%+ é imune"
+          "valor": "DT 35, {7d8} mental, NEX 90%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -466,55 +466,55 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Atletismo",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "5d20+18"
+          "valor": "{5d20>+18}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras Atormentadoras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: 5d20+35\nDano: 4d10+10 Conhecimento"
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {5d20>+35}\nDano: {4d10+10} Conhecimento"
         },
         {
           "grupo": "Ações",
           "rotulo": "Atormentar",
           "valor": "Movimento",
-          "descricao": "O bicho-papão envia sussurros e perturbações para um ser em alcance curto. O alvo sofre 3d8 pontos de dano mental (Vontade DT 30 reduz à metade). Caso o bicho-papão esteja escondido do alvo, este dano aumenta em +3d8."
+          "descricao": "O bicho-papão envia sussurros e perturbações para um ser em alcance curto. O alvo sofre {3d8} pontos de dano mental (Vontade DT 30 reduz à metade). Caso o bicho-papão esteja escondido do alvo, este dano aumenta em +{3d8}."
         },
         {
           "grupo": "Ações",
           "rotulo": "Saltar e Assustar",
           "valor": "Completa",
-          "descricao": "Se estiver escondido de um ser em alcance curto, o bicho-papão pode sair do esconderijo e se aproximar deste ser. Enquanto faz isso, seu corpo aumenta e se retorce, assumindo uma forma assustadora. O ser do qual o bichopapão estava escondido sofre 10d8 pontos de dano mental (Vontade DT 35 reduz à metade)."
+          "descricao": "Se estiver escondido de um ser em alcance curto, o bicho-papão pode sair do esconderijo e se aproximar deste ser. Enquanto faz isso, seu corpo aumenta e se retorce, assumindo uma forma assustadora. O ser do qual o bichopapão estava escondido sofre {10d8} pontos de dano mental (Vontade DT 35 reduz à metade)."
         },
         {
           "grupo": "Poderes",
@@ -529,7 +529,7 @@
         {
           "grupo": "Poderes",
           "rotulo": "Destruir Mente",
-          "descricao": "O bicho-papão destrói e devora a mente assustada de seus alvos. Sempre que acerta um alvo perturbado com suas garras atormentadoras, o bicho-papão causa também 1d8 pontos de dano mental por acerto."
+          "descricao": "O bicho-papão destrói e devora a mente assustada de seus alvos. Sempre que acerta um alvo perturbado com suas garras atormentadoras, o bicho-papão causa também {1d8} pontos de dano mental por acerto."
         },
         {
           "grupo": "Descrição",
@@ -611,7 +611,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 30, 7d6 mental, NEX 70%+ é imune"
+          "valor": "DT 30, {7d6} mental, NEX 70%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -637,38 +637,38 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 2d20+10\nDano: 1d6+2 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+10}\nDano: {1d6+2} Impacto"
         },
         {
           "grupo": "Ações",
@@ -680,7 +680,7 @@
           "grupo": "Ações",
           "rotulo": "Espreitar",
           "valor": "Completa",
-          "descricao": "Uma vez por cena, se estiver adjacente a um ser que esteja dormindo, o espreitador causa 10d6 pontos de dano mental neste ser (Vontade DT 30 reduz à metade). Se a vítima ficar enlouquecendo devido a este dano, o espreitador pode criar uma cópia observada dela."
+          "descricao": "Uma vez por cena, se estiver adjacente a um ser que esteja dormindo, o espreitador causa {10d6} pontos de dano mental neste ser (Vontade DT 30 reduz à metade). Se a vítima ficar enlouquecendo devido a este dano, o espreitador pode criar uma cópia observada dela."
         },
         {
           "grupo": "Ações",
@@ -773,7 +773,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, 10d6 mental, NEX 99%+ é imune"
+          "valor": "DT 40, {10d6} mental, NEX 99%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -799,54 +799,54 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+20"
+          "valor": "{3d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+20"
+          "valor": "{3d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ciência",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "3d20+20"
+          "valor": "{3d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Toque Sutil",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: 5d20+35\nDano: 4d8+10 Conhecimento"
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {5d20>+35}\nDano: {4d8+10} Conhecimento"
         },
         {
           "grupo": "Ações",
           "rotulo": "Rajada Psíquica",
           "valor": "Padrão",
-          "descricao": "Agredir. Distância, extremo, 2x.\nTeste: 5d20+35\nDano: 4d10+20 Conhecimento"
+          "descricao": "Agredir. Distância, extremo, 2x.\nTeste: {5d20>+35}\nDano: {4d10+20} Conhecimento"
         },
         {
           "grupo": "Ações",
@@ -858,19 +858,19 @@
           "grupo": "Ações",
           "rotulo": "Apagar Memória",
           "valor": "Livre",
-          "descricao": "Um ser que fique insano por conta dos ataques e efeitos do Estrangeiro tem consequências diferentes do habitual. A vítima tem a mente completamente controlada pelo Estrangeiro, que passa a controlar as ações do personagem. Como alternativa, o Estrangeiro pode apagar a memória da vítima e devolver um pouco de Sanidade (1d4) a ela, fazendo-a duvidar da existência do Estrangeiro e de seu encontro com esta criatura."
+          "descricao": "Um ser que fique insano por conta dos ataques e efeitos do Estrangeiro tem consequências diferentes do habitual. A vítima tem a mente completamente controlada pelo Estrangeiro, que passa a controlar as ações do personagem. Como alternativa, o Estrangeiro pode apagar a memória da vítima e devolver um pouco de Sanidade ({1d4}) a ela, fazendo-a duvidar da existência do Estrangeiro e de seu encontro com esta criatura."
         },
         {
           "grupo": "Ações",
           "rotulo": "Oblívio",
           "valor": "Livre",
-          "descricao": "Um ser que sofra dano do Toque Sutil esquece momentaneamente a existência do Estrangeiro (Vontade DT 30 evita). A vítima considera o Estrangeiro invisível e esquece qualquer interação que teve com ele. No final de cada um de seus turnos, o ser deve repetir o teste de Vontade. Se passar, volta a perceber a presença da criatura e encerra este efeito, mas sofre 6d6 pontos de dano mental. Uma vítima que esteja incubando uma larva de Estrangeiro (veja Incubar) não tem direito a repetir o teste de Vontade no final de seus turnos."
+          "descricao": "Um ser que sofra dano do Toque Sutil esquece momentaneamente a existência do Estrangeiro (Vontade DT 30 evita). A vítima considera o Estrangeiro invisível e esquece qualquer interação que teve com ele. No final de cada um de seus turnos, o ser deve repetir o teste de Vontade. Se passar, volta a perceber a presença da criatura e encerra este efeito, mas sofre {6d6} pontos de dano mental. Uma vítima que esteja incubando uma larva de Estrangeiro (veja Incubar) não tem direito a repetir o teste de Vontade no final de seus turnos."
         },
         {
           "grupo": "Ações",
           "rotulo": "Incubar",
           "valor": "Completa",
-          "descricao": "O Estrangeiro toca um ser adjacente e que esteja alheio a sua presença (veja Oblívio) e coloca uma larva dentro dele. Enquanto o ser estiver incubando uma larva, o Estrangeiro tem total acesso a sua mente, lendo pensamentos e memórias dele, mesmo à distância. A larva consome a Sanidade do hospedeiro, causando 1d6 pontos de dano mental no início de cada cena. Quando a Sanidade do hospedeiro é reduzida a 0, um novo Estrangeiro eclode de sua cabeça, matando-o instantaneamente."
+          "descricao": "O Estrangeiro toca um ser adjacente e que esteja alheio a sua presença (veja Oblívio) e coloca uma larva dentro dele. Enquanto o ser estiver incubando uma larva, o Estrangeiro tem total acesso a sua mente, lendo pensamentos e memórias dele, mesmo à distância. A larva consome a Sanidade do hospedeiro, causando {1d6} pontos de dano mental no início de cada cena. Quando a Sanidade do hospedeiro é reduzida a 0, um novo Estrangeiro eclode de sua cabeça, matando-o instantaneamente."
         },
         {
           "grupo": "Descrição",
@@ -957,7 +957,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 14, 1d6 mental, NEX 25%+ é imune"
+          "valor": "DT 14, {1d6} mental, NEX 25%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -983,55 +983,55 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ciências",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 1d20+5\nDano: 1d4+1 Impacto"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {1d20>+5}\nDano: {1d4+1} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Brilho Enlouquecedor",
           "valor": "Livre",
-          "descricao": "Uma vez por rodada, o existido faz suas marcas douradas brilharem. Todos os seres em alcance médio capazes de vê-lo sofrem 1d6 pontos de dano mental (Vontade DT 14 reduz à metade)."
+          "descricao": "Uma vez por rodada, o existido faz suas marcas douradas brilharem. Todos os seres em alcance médio capazes de vê-lo sofrem {1d6} pontos de dano mental (Vontade DT 14 reduz à metade)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Fortalecimento Paranormal",
           "valor": "Movimento",
-          "descricao": "Até o fim da cena, o existido recebe +1d20 em todos os testes baseados em Agilidade, Força e Vigor e suas pancadas causam +2d4 pontos de dano de Conhecimento. O existido só pode usar esta habilidade se tiver causado dano mental a algum personagem com seu Brilho Enlouquecedor nesta cena."
+          "descricao": "Até o fim da cena, o existido recebe +1d20 em todos os testes baseados em Agilidade, Força e Vigor e suas pancadas causam +{2d4} pontos de dano de Conhecimento. O existido só pode usar esta habilidade se tiver causado dano mental a algum personagem com seu Brilho Enlouquecedor nesta cena."
         },
         {
           "grupo": "Descrição",
@@ -1108,7 +1108,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 4d6 mental, NEX 45%+ é imune"
+          "valor": "DT 20, {4d6} mental, NEX 45%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1134,49 +1134,49 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ciências",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 2d20+5\nDano: 2d4+7 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {2d20>+5}\nDano: {2d4+7} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Expandir Aura",
           "valor": "Padrão",
-          "descricao": "O lembrado expande sua aura. Seres em alcance curto sofrem 6d6 pontos de dano mental (Vontade DT 20 reduz à metade)."
+          "descricao": "O lembrado expande sua aura. Seres em alcance curto sofrem {6d6} pontos de dano mental (Vontade DT 20 reduz à metade)."
         },
         {
           "grupo": "Poderes",
@@ -1258,7 +1258,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, 8d6 mental, NEX 80%+ é imune"
+          "valor": "DT 35, {8d6} mental, NEX 80%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1284,33 +1284,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+15"
+          "valor": "{5d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Retaliação",
           "valor": "Reação",
-          "descricao": "Retaliação. Corpo a corpo.\nTeste: 5d20+30\nDano: 4d10+20 Impacto\n\nToda vez que for atacado ou alvo de uma habilidade, o ocioso se teletransporta para ficar adjacente ao atacante e faz um ataque corpo a corpo contra ele (teste 5d20+30, dano 4d10+20 de impacto não letal)."
+          "descricao": "Retaliação. Corpo a corpo.\nTeste: {5d20>+30}\nDano: {4d10+20} Impacto\n\nToda vez que for atacado ou alvo de uma habilidade, o ocioso se teletransporta para ficar adjacente ao atacante e faz um ataque corpo a corpo contra ele (teste {5d20>+30}, dano {4d10}+20 de impacto não letal)."
         },
         {
           "grupo": "Ações",
@@ -1322,7 +1322,7 @@
           "grupo": "Ações",
           "rotulo": "Aterrorizar",
           "valor": "Completa",
-          "descricao": "O ocioso fica lá. Parado. Seu corpo distorcido e olhar profundo parecem entrar na alma do alvo, que sofre 4d10+10 pontos de dano mental se estiver adjacente."
+          "descricao": "O ocioso fica lá. Parado. Seu corpo distorcido e olhar profundo parecem entrar na alma do alvo, que sofre {4d10+10} pontos de dano mental se estiver adjacente."
         },
         {
           "grupo": "Poderes",
@@ -1409,7 +1409,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, 2d6 mental, NEX 35%+ é imune"
+          "valor": "DT 20, {2d6} mental, NEX 35%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1430,33 +1430,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "4d20"
+          "valor": "{4d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pancada",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 1d20\nDano: 1d4 Impacto"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {1d20>}\nDano: {1d4} Impacto"
         },
         {
           "grupo": "Ações",
@@ -1468,7 +1468,7 @@
           "grupo": "Ações",
           "rotulo": "Atormentar",
           "valor": "Completa",
-          "descricao": "Se estiver fixado a um hospedeiro, o parasita atormenta a mente do personagem e de todos que ele estiver mantendo inconscientes. No início de cada cena do sonho, todos os personagens dentro do sonho sofrem 2d6 pontos de dano mental (Vontade DT 20 reduz à metade)."
+          "descricao": "Se estiver fixado a um hospedeiro, o parasita atormenta a mente do personagem e de todos que ele estiver mantendo inconscientes. No início de cada cena do sonho, todos os personagens dentro do sonho sofrem {2d6} pontos de dano mental (Vontade DT 20 reduz à metade)."
         },
         {
           "grupo": "Ações",
@@ -1566,7 +1566,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, 6d6 mental, NEX 60%+ é imune"
+          "valor": "DT 25, {6d6} mental, NEX 60%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1592,43 +1592,43 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Toque da Dor",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: 4d20+20\nDano: 4d8+5 Conhecimento"
+          "descricao": "Agredir. Corpo a corpo, 3x.\nTeste: {4d20>+20}\nDano: {4d8+5} Conhecimento"
         },
         {
           "grupo": "Ações",
@@ -1646,7 +1646,7 @@
           "grupo": "Ações",
           "rotulo": "Tentáculos das Sombras",
           "valor": "Movimento",
-          "descricao": "O rastejador coloca suas garras no chão e as fibras que compõem seu corpo são projetadas pelas sombras a até três seres em alcance médio, que ficam agarrados por elas (Reflexos DT 28 evita). Com uma ação de movimento, o rastejador pode arrastar até três vítimas agarradas dessa maneira para outros pontos em alcance médio de si. Em seu turno, um ser pode tentar se soltar como normal. No final de cada um dos seus turnos, um ser que esteja agarrado desta forma sofre 4d6 pontos de dano mental."
+          "descricao": "O rastejador coloca suas garras no chão e as fibras que compõem seu corpo são projetadas pelas sombras a até três seres em alcance médio, que ficam agarrados por elas (Reflexos DT 28 evita). Com uma ação de movimento, o rastejador pode arrastar até três vítimas agarradas dessa maneira para outros pontos em alcance médio de si. Em seu turno, um ser pode tentar se soltar como normal. No final de cada um dos seus turnos, um ser que esteja agarrado desta forma sofre {4d6} pontos de dano mental."
         },
         {
           "grupo": "Poderes",
@@ -1728,7 +1728,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, 8d8 mental"
+          "valor": "DT 40, {8d8} mental"
         },
         {
           "grupo": "Combate",
@@ -1759,27 +1759,27 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "5d20+20"
+          "valor": "{5d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+20"
+          "valor": "{4d20>+20}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "5d20+25"
+          "valor": "{5d20>+25}"
         },
         {
           "grupo": "Ações",
@@ -1796,7 +1796,7 @@
         {
           "grupo": "Poderes",
           "rotulo": "Aura Tangível",
-          "descricao": "Qualquer ser ou item que tocar na silhueta sofre 20d12 pontos de dano de Conhecimento (Fortitude DT 42 reduz à metade) e, se reduzido a 0 PV, é instantaneamente desintegrado. Um ser ou item só sofre esse dano uma vez por turno."
+          "descricao": "Qualquer ser ou item que tocar na silhueta sofre {20d12} pontos de dano de Conhecimento (Fortitude DT 42 reduz à metade) e, se reduzido a 0 PV, é instantaneamente desintegrado. Um ser ou item só sofre esse dano uma vez por turno."
         },
         {
           "grupo": "Poderes",
@@ -1878,7 +1878,7 @@
         {
           "grupo": "Ameaça",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, 3d6 mental, NEX 30%+ é imune"
+          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1904,38 +1904,38 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+5"
+          "valor": "{4d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+5"
+          "valor": "{4d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Toque Macabro",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+10\nDano: 2d6 Conhecimento"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+10}\nDano: {2d6} Conhecimento"
         },
         {
           "grupo": "Ações",
@@ -1946,7 +1946,7 @@
         {
           "grupo": "Poderes",
           "rotulo": "Aura Tangível",
-          "descricao": "O vulto procura pessoas assustadas para que possa se alimentar dos sentimentos disparados pelos sustos. Seus ataques contra criaturas sob efeito de qualquer condição de medo causam +2d6 pontos de dano de Conhecimento."
+          "descricao": "O vulto procura pessoas assustadas para que possa se alimentar dos sentimentos disparados pelos sustos. Seus ataques contra criaturas sob efeito de qualquer condição de medo causam +{2d6} pontos de dano de Conhecimento."
         },
         {
           "grupo": "Descrição",

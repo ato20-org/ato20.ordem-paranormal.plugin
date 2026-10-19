@@ -95,48 +95,48 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Crime",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Faca",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 1d4+2 Perfuração"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {1d4+2} Perfuração"
         },
         {
           "grupo": "Ações",
           "rotulo": "Ataque Furtivo",
-          "descricao": "Uma vez por rodada, o bandido causa +1d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando."
+          "descricao": "Uma vez por rodada, o bandido causa +{1d6} pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando."
         },
         {
           "grupo": "Descrição",
@@ -217,49 +217,49 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Intimidação",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Bastão",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 1d8+7 Impacto"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {1d8+7} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Revólver",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, curto.\nTeste: 1d20+5\nDano: 2d6+5 Balístico\nCrítico: 19/x3"
+          "descricao": "Agredir. À distância, curto.\nTeste: {1d20>+5}\nDano: {2d6+5} Balístico\nCrítico: 19/x3"
         },
         {
           "grupo": "Ações",
           "rotulo": "Ataque Furtivo",
-          "descricao": "Uma vez por rodada, o capanga causa +2d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando."
+          "descricao": "Uma vez por rodada, o capanga causa +{2d6} pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando."
         },
         {
           "grupo": "Descrição",
@@ -340,39 +340,39 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Machete",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+10\nDano: 1d6+9 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+10}\nDano: {1d6+9} Corte\nCrítico: 19"
         },
         {
           "grupo": "Ações",
           "rotulo": "Fuzil de assalto",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, médio.\nTeste: 2d20+10\nDano: 2d8+9 Balístico\nCrítico: 19/x3"
+          "descricao": "Agredir. À distância, médio.\nTeste: {2d20>+10}\nDano: {2d8+9} Balístico\nCrítico: 19/x3"
         },
         {
           "grupo": "Ações",
@@ -459,66 +459,66 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "4d20+15"
+          "valor": "{4d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Crime",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Enganação",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "4d20+10"
+          "valor": "{4d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Faca",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 4d20+17\nDano: 1d4+11 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {4d20>+17}\nDano: {1d4+11} Corte\nCrítico: 19"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pistola",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, curto, 2x.\nTeste: 4d20+15\nDano: 1d12+14 Balístico\nCrítico: 16/x4"
+          "descricao": "Agredir. À distância, curto, 2x.\nTeste: {4d20>+15}\nDano: {1d12+14} Balístico\nCrítico: 16/x4"
         },
         {
           "grupo": "Ações",
           "rotulo": "Ataque Furtivo",
           "valor": "Livre",
-          "descricao": "Uma vez por rodada, o assassino causa +4d6 pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando"
+          "descricao": "Uma vez por rodada, o assassino causa +{4d6} pontos de dano com ataques corpo a corpo, ou à distância em alcance curto, contra alvos desprevenidos ou que esteja flanqueando"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mão na boca",
           "valor": "Livre",
-          "descricao": "Quando faz um ataque corpo a corpo furtivo contra uma criatura desprevenida, o assassino pode fazer um teste de agarrar (teste 2d20+15). Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada."
+          "descricao": "Quando faz um ataque corpo a corpo furtivo contra uma criatura desprevenida, o assassino pode fazer um teste de agarrar (teste {2d20>+15}). Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada."
         },
         {
           "grupo": "Ações",
@@ -614,49 +614,49 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Intimidação",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Tática",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Machete",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+17\nDano: 1d6+15 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+17}\nDano: {1d6+15} Corte\nCrítico: 19"
         },
         {
           "grupo": "Ações",
           "rotulo": "Metralhadora",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, médio.\nTeste: 2d20+17\nDano: 3d12+15 Corte\nCrítico: 19/x3"
+          "descricao": "Agredir. À distância, médio.\nTeste: {2d20>+17}\nDano: {3d12+15} Corte\nCrítico: 19/x3"
         },
         {
           "grupo": "Ações",
@@ -754,43 +754,43 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Enganação",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Faca",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 1d20\nDano: 1d4+1 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {1d20>}\nDano: {1d4+1} Corte\nCrítico: 19"
         },
         {
           "grupo": "Poderes",
@@ -876,49 +876,49 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20"
+          "valor": "{2d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Enganação",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Faca",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 1d4+1 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {1d4+1} Corte\nCrítico: 19"
         },
         {
           "grupo": "Ações",
           "rotulo": "Revólver",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, curto.\nTeste: 2d20\nDano: 2d6 Balístico\nCrítico: 19/x3"
+          "descricao": "Agredir. À distância, curto.\nTeste: {2d20>}\nDano: {2d6} Balístico\nCrítico: 19/x3"
         },
         {
           "grupo": "Poderes",
@@ -1004,49 +1004,49 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Enganação",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Ocultismo",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Faca",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+10\nDano: 1d4+1 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+10}\nDano: {1d4+1} Corte\nCrítico: 19"
         },
         {
           "grupo": "Ações",
           "rotulo": "Revólver",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, curto.\nTeste: 2d20+5\nDano: 2d6 Balístico\nCrítico: 19/x3"
+          "descricao": "Agredir. À distância, curto.\nTeste: {2d20>+5}\nDano: {2d6} Balístico\nCrítico: 19/x3"
         },
         {
           "grupo": "Poderes",
@@ -1132,39 +1132,39 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Bastão",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 1d8+7 Impacto"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {1d8+7} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Pistola",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, curto.\nTeste: 2d20+5\nDano: 1d12+5 Balístico\nCrítico: 18"
+          "descricao": "Agredir. À distância, curto.\nTeste: {2d20>+5}\nDano: {1d12+5} Balístico\nCrítico: 18"
         },
         {
           "grupo": "Descrição",
@@ -1250,51 +1250,51 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Bastão",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+10\nDano: 1d8+13 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {1d8+13} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Fuzil de assalto",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, médio.\nTeste: 3d20+10\nDano: 2d8+13 Balístico\nCrítico: 17/x3"
+          "descricao": "Agredir. À distância, médio.\nTeste: {3d20>+10}\nDano: {2d8+13} Balístico\nCrítico: 17/x3"
         },
         {
           "grupo": "Ações",
           "rotulo": "Lança-granadas",
           "valor": "Padrão",
-          "descricao": "Uma vez por cena, o policial de elite dispara uma granada explosiva em alcance médio. Cada ser a 6m do ponto de impacto sofre 8d6 pontos de dano de impacto (Reflexos DT 19 reduz à metade)."
+          "descricao": "Uma vez por cena, o policial de elite dispara uma granada explosiva em alcance médio. Cada ser a 6m do ponto de impacto sofre {8d6} pontos de dano de impacto (Reflexos DT 19 reduz à metade)."
         },
         {
           "grupo": "Ações",
           "rotulo": "Empurrar e atirar",
           "valor": "Completa",
-          "descricao": "Fuzil de assalto. À distância, médio.\nTeste: 4d20+10\nDano: 4d8+13 Balístico\nCrítico: 17/x3\n\nO policial de elite empurra um personagem adjacente 3m para longe de si (Fortitude DT 19 evita) e em seguida atira com seu fuzil de assalto a curta distância. Se tiver conseguido empurrar o personagem, o policial de elite recebe +1d20 neste ataque e, se acertar, +2d8 na rolagem de dano."
+          "descricao": "Fuzil de assalto. À distância, médio.\nTeste: {4d20>+10}\nDano: {4d8+13} Balístico\nCrítico: 17/x3\n\nO policial de elite empurra um personagem adjacente 3m para longe de si (Fortitude DT 19 evita) e em seguida atira com seu fuzil de assalto a curta distância. Se tiver conseguido empurrar o personagem, o policial de elite recebe +1d20 neste ataque e, se acertar, +{2d8} na rolagem de dano."
         },
         {
           "grupo": "Poderes",
@@ -1380,39 +1380,39 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+10"
+          "valor": "{2d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "3d20+15"
+          "valor": "{3d20>+15}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Bastão",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+15\nDano: 1d8+8 Impacto"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+15}\nDano: {1d8+8} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Espingarda",
           "valor": "Padrão",
-          "descricao": "Agredir. À distância, curto, 2x.\nTeste: 2d20+17\nDano: 4d6+12 Balístico\nCrítico: x3"
+          "descricao": "Agredir. À distância, curto, 2x.\nTeste: {2d20>+17}\nDano: {4d6+12} Balístico\nCrítico: x3"
         },
         {
           "grupo": "Ações",
@@ -1499,44 +1499,44 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Sobrevivência",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 1d6+2 Corte"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {1d6+2} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Derrubar",
           "valor": "Livre",
-          "descricao": "Se o cão de guarda acerta um ataque de mordida, pode fazer a manobra derrubar (bônus 2d20+5)."
+          "descricao": "Se o cão de guarda acerta um ataque de mordida, pode fazer a manobra derrubar (bônus {2d20>+5})."
         },
         {
           "grupo": "Descrição",
@@ -1622,12 +1622,12 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
@@ -1637,17 +1637,17 @@
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Poderes",
           "rotulo": "Enxame",
-          "descricao": "Um enxame é uma aglomeração de criaturas que agem em conjunto. Em termos de regras, pode entrar no espaço ocupado por um ser. No fim do seu turno, o enxame causa 2d6 pontos de dano de perfuração a qualquer ser em seu espaço, automaticamente. Um enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano e sofre apenas metade do dano de ataques com armas. Porém, sofre 50% a mais de dano por efeitos de área."
+          "descricao": "Um enxame é uma aglomeração de criaturas que agem em conjunto. Em termos de regras, pode entrar no espaço ocupado por um ser. No fim do seu turno, o enxame causa {2d6} pontos de dano de perfuração a qualquer ser em seu espaço, automaticamente. Um enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano e sofre apenas metade do dano de ataques com armas. Porém, sofre 50% a mais de dano por efeitos de área."
         },
         {
           "grupo": "Poderes",
@@ -1738,32 +1738,32 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Poderes",
           "rotulo": "Enxame",
-          "descricao": "Um enxame é uma aglomeração de criaturas que agem em conjunto. Em termos de regras, pode entrar no espaço ocupado por um ser. No fim do seu turno, o enxame causa 2d6 pontos de dano de perfuração a qualquer ser em seu espaço, automaticamente. Um enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano e sofre apenas metade do dano de ataques com armas. Porém, sofre 50% a mais de dano por efeitos de área."
+          "descricao": "Um enxame é uma aglomeração de criaturas que agem em conjunto. Em termos de regras, pode entrar no espaço ocupado por um ser. No fim do seu turno, o enxame causa {2d6} pontos de dano de perfuração a qualquer ser em seu espaço, automaticamente. Um enxame é imune a manobras de combate e efeitos que afetam apenas uma criatura e não causam dano e sofre apenas metade do dano de ataques com armas. Porém, sofre 50% a mais de dano por efeitos de área."
         },
         {
           "grupo": "Poderes",
@@ -1854,50 +1854,50 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "1d20+8"
+          "valor": "{1d20>+8}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 3d20+5\nDano: 1d8+8 Corte"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+5}\nDano: {1d8+8} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Cauda",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 3d20+5\nDano: 1d12 Impacto"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+5}\nDano: {1d12} Impacto"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
           "valor": "Livre",
-          "descricao": "Se o jacaré acertar um ataque de mordida em um ser Médio ou menor, pode tentar agarrar o alvo (teste 3d20+7)."
+          "descricao": "Se o jacaré acertar um ataque de mordida em um ser Médio ou menor, pode tentar agarrar o alvo (teste {3d20>+7})."
         },
         {
           "grupo": "Poderes",
@@ -1987,33 +1987,33 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+5"
+          "valor": "{3d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 2d20+5\nDano: 1d8+4 Corte"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {2d20>+5}\nDano: {1d8+4} Corte"
         },
         {
           "grupo": "Ações",
@@ -2024,7 +2024,7 @@
         {
           "grupo": "Poderes",
           "rotulo": "Ferocidade",
-          "descricao": "Mordida. Corpo a corpo.\nTeste: 3d20+5\nDano: 2d8+4 Corte\n\nSe o javaporco sofrer dano, recebe +1d20 em testes de ataque e causa um dado de dano adicional em todas as rolagens de dano até o final da cena."
+          "descricao": "Mordida. Corpo a corpo.\nTeste: {3d20>+5}\nDano: {2d8+4} Corte\n\nSe o javaporco sofrer dano, recebe +1d20 em testes de ataque e causa um dado de dano adicional em todas as rolagens de dano até o final da cena."
         },
         {
           "grupo": "Descrição",
@@ -2110,62 +2110,62 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+10"
+          "valor": "{1d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "3d20+10"
+          "valor": "{3d20>+10}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "3d20+5"
+          "valor": "{3d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "3d20+13"
+          "valor": "{3d20>+13}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 3d20+10\nDano: 1d8+5 Corte"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+10}\nDano: {1d8+5} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Garras",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: 3d20+10\nDano: 1d6+5 Corte\nCrítico: 19"
+          "descricao": "Agredir. Corpo a corpo, 2x.\nTeste: {3d20>+10}\nDano: {1d6+5} Corte\nCrítico: 19"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
           "valor": "Livre",
-          "descricao": "Se a onça acertar um ataque de mordida em um ser Médio ou menor, ela pode tentar agarrar o alvo (teste 3d20+7)."
+          "descricao": "Se a onça acertar um ataque de mordida em um ser Médio ou menor, ela pode tentar agarrar o alvo (teste {3d20>+7})."
         },
         {
           "grupo": "Ações",
           "rotulo": "Bote: Mordida",
           "valor": "Completa",
-          "descricao": "Mordida. Corpo a corpo.\nTeste: 4d20+10\nDano: 1d8+5 Corte\n\nA onça faz uma investida e ataca com sua mordida e suas garras. Os três ataques recebem o bônus de +1d20 da investida, mas devem ser feitos contra o mesmo alvo"
+          "descricao": "Mordida. Corpo a corpo.\nTeste: {4d20>+10}\nDano: {1d8+5} Corte\n\nA onça faz uma investida e ataca com sua mordida e suas garras. Os três ataques recebem o bônus de +1d20 da investida, mas devem ser feitos contra o mesmo alvo"
         },
         {
           "grupo": "Ações",
           "rotulo": "Bote: Garras",
           "valor": "Completa",
-          "descricao": "Garras. Corpo a corpo, 2x.\nTeste: 4d20+10\nDano: 1d6+5 Corte\nCrítico: 19\n\nA onça faz uma investida e ataca com sua mordida e suas garras. Os três ataques recebem o bônus de +1d20 da investida, mas devem ser feitos contra o mesmo alvo"
+          "descricao": "Garras. Corpo a corpo, 2x.\nTeste: {4d20>+10}\nDano: {1d6+5} Corte\nCrítico: 19\n\nA onça faz uma investida e ataca com sua mordida e suas garras. Os três ataques recebem o bônus de +1d20 da investida, mas devem ser feitos contra o mesmo alvo"
         },
         {
           "grupo": "Descrição",
@@ -2251,50 +2251,50 @@
         {
           "grupo": "Perícias",
           "rotulo": "Percepção",
-          "valor": "1d20+5"
+          "valor": "{1d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Iniciativa",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Fortitude",
-          "valor": "3d20+5"
+          "valor": "{3d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Reflexos",
-          "valor": "2d20+5"
+          "valor": "{2d20>+5}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Vontade",
-          "valor": "1d20"
+          "valor": "{1d20>}"
         },
         {
           "grupo": "Perícias",
           "rotulo": "Furtividade",
-          "valor": "2d20+8"
+          "valor": "{2d20>+8}"
         },
         {
           "grupo": "Ações",
           "rotulo": "Mordida",
           "valor": "Padrão",
-          "descricao": "Agredir. Corpo a corpo.\nTeste: 3d20+10\nDano: 1d6+7 Corte"
+          "descricao": "Agredir. Corpo a corpo.\nTeste: {3d20>+10}\nDano: {1d6+7} Corte"
         },
         {
           "grupo": "Ações",
           "rotulo": "Agarrão",
           "valor": "Livre",
-          "descricao": "Se a sucuri acertar um ataque de mordida em um ser Médio ou menor, ela pode tentar agarrar o alvo (teste 4d20+12)."
+          "descricao": "Se a sucuri acertar um ataque de mordida em um ser Médio ou menor, ela pode tentar agarrar o alvo (teste {4d20>+12})."
         },
         {
           "grupo": "Ações",
           "rotulo": "Constrição",
           "valor": "Livre",
-          "descricao": "No início de cada um dos seus turnos, a sucuri causa 2d6+8 pontos de dano de impacto em qualquer ser que esteja agarrando."
+          "descricao": "No início de cada um dos seus turnos, a sucuri causa {2d6+8} pontos de dano de impacto em qualquer ser que esteja agarrando."
         },
         {
           "grupo": "Descrição",
