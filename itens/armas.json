@@ -1,0 +1,555 @@
+{
+  "itens": [
+    {
+      "id": "faca",
+      "nome": "Faca",
+      "tags": [
+        "Arma",
+        "Corpo a corpo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "1d4 corte"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Simples · corpo a corpo · leve"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "0"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Propriedades",
+          "valor": "Ágil, arremessável"
+        }
+      ]
+    },
+    {
+      "id": "faca-tatica",
+      "nome": "Faca tática",
+      "tags": [
+        "Arma",
+        "Corpo a corpo"
+      ],
+      "fonte": "Sobrevivendo ao Horror",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "1d6 corte"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · corpo a corpo · leve"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Propriedades",
+          "valor": "Ágil, arremessável"
+        }
+      ]
+    },
+    {
+      "id": "facao",
+      "nome": "Facão",
+      "tags": [
+        "Arma",
+        "Corpo a corpo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "1d6 corte"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Corpo a corpo"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Simples · corpo a corpo · uma mão"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "0"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Base",
+          "valor": "Machete"
+        }
+      ]
+    },
+    {
+      "id": "machadinha",
+      "nome": "Machadinha",
+      "tags": [
+        "Arma",
+        "Corpo a corpo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "1d6 corte"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · corpo a corpo · leve"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "0"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Propriedades",
+          "valor": "Arremessável"
+        }
+      ]
+    },
+    {
+      "id": "revolver-38",
+      "nome": "Revólver .38",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d6 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19/x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Simples · fogo · leve"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas curtas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Base",
+          "valor": "Revólver"
+        }
+      ]
+    },
+    {
+      "id": "pistola-9mm",
+      "nome": "Pistola 9mm",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "1d12 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "18"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Simples · fogo · leve"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas curtas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Base",
+          "valor": "Pistola"
+        }
+      ]
+    },
+    {
+      "id": "pistola-40",
+      "nome": "Pistola .40",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Sobrevivendo ao Horror",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d8 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "18"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · fogo · uma mão"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas curtas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Base",
+          "valor": "Pistola pesada"
+        }
+      ]
+    },
+    {
+      "id": "submetralhadora-9mm",
+      "nome": "Submetralhadora 9mm",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d6 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19/x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · fogo · uma mão"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas curtas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        },
+        {
+          "nome": "Propriedades",
+          "valor": "Automática"
+        },
+        {
+          "nome": "Base",
+          "valor": "Submetralhadora"
+        }
+      ]
+    },
+    {
+      "id": "escopeta-12",
+      "nome": "Escopeta calibre 12",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "4d6 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Curto"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · fogo · duas mãos"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Cartuchos"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        },
+        {
+          "nome": "Base",
+          "valor": "Espingarda"
+        }
+      ]
+    },
+    {
+      "id": "fuzil-de-caca",
+      "nome": "Fuzil de caça",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d8 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19/x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Simples · fogo · duas mãos"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas longas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        }
+      ]
+    },
+    {
+      "id": "fuzil-fal",
+      "nome": "Fuzil 7,62 (FAL)",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d10 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19/x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · fogo · duas mãos"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas longas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "II"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        },
+        {
+          "nome": "Propriedades",
+          "valor": "Automática"
+        },
+        {
+          "nome": "Base",
+          "valor": "Fuzil de assalto"
+        }
+      ]
+    },
+    {
+      "id": "fuzil-ia2",
+      "nome": "Fuzil 5,56 (IA2)",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d10 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19/x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · fogo · duas mãos"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas longas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "II"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        },
+        {
+          "nome": "Propriedades",
+          "valor": "Automática"
+        },
+        {
+          "nome": "Base",
+          "valor": "Fuzil de assalto"
+        }
+      ]
+    },
+    {
+      "id": "fuzil-de-precisao",
+      "nome": "Fuzil de precisão 7,62",
+      "tags": [
+        "Arma",
+        "Arma de fogo"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "2d10 balístico"
+        },
+        {
+          "nome": "Crítico",
+          "valor": "19/x3"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Longo"
+        },
+        {
+          "nome": "Tipo",
+          "valor": "Tática · fogo · duas mãos"
+        },
+        {
+          "nome": "Munição",
+          "valor": "Balas longas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "III"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        },
+        {
+          "nome": "Base",
+          "valor": "Fuzil de precisão"
+        }
+      ]
+    }
+  ]
+}
