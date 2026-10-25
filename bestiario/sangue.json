@@ -94,9 +94,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, {10d8} mental"
+          "valor": "DT 45",
+          "descricao": "{10d8} mental"
         },
         {
           "grupo": "Combate",
@@ -301,9 +302,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, {3d6} mental, NEX 30%+ é imune"
+          "valor": "DT 15",
+          "descricao": "{3d6} mental\nNEX 30%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -447,9 +449,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 45, {9d8} mental"
+          "valor": "DT 45",
+          "descricao": "{9d8} mental"
         },
         {
           "grupo": "Combate",
@@ -639,9 +642,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, {7d8} mental, NEX 90%+ é imune"
+          "valor": "DT 35",
+          "descricao": "{7d8} mental\nNEX 90%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -829,9 +833,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, {3d6} mental, NEX 35%+ é imune"
+          "valor": "DT 20",
+          "descricao": "{3d6} mental\nNEX 35%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1015,9 +1020,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, {6d6} mental, NEX 60%+ é imune"
+          "valor": "DT 25",
+          "descricao": "{6d6} mental\nNEX 60%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1179,9 +1185,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, {10d6} mental, NEX 99%+ é imune"
+          "valor": "DT 35",
+          "descricao": "{10d6} mental\nNEX 99%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1336,9 +1343,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 35, {8d6} mental, NEX 80%+ é imune"
+          "valor": "DT 35",
+          "descricao": "{8d6} mental\nNEX 80%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1487,9 +1495,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 25, {4d8} mental, NEX 50%+ é imune"
+          "valor": "DT 25",
+          "descricao": "{4d8} mental\nNEX 50%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1662,9 +1671,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 30, {7d6} mental, NEX 70%+ é imune"
+          "valor": "DT 30",
+          "descricao": "{7d6} mental\nNEX 70%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1808,9 +1818,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 15, {2d6} mental, NEX 25%+ é imune"
+          "valor": "DT 15",
+          "descricao": "{2d6} mental\nNEX 25%+ é imune"
         },
         {
           "grupo": "Combate",
@@ -1937,9 +1948,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 20, {4d6} mental, NEX 45%+ é imune"
+          "valor": "DT 20",
+          "descricao": "{4d6} mental\nNEX 45%+ é imune"
         },
         {
           "grupo": "Combate",

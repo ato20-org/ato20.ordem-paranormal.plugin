@@ -94,9 +94,10 @@
           "valor": "Percepção às cegas"
         },
         {
-          "grupo": "Ameaça",
+          "grupo": "Poderes",
           "rotulo": "Presença Perturbadora",
-          "valor": "DT 40, {9d6} mental, NEX 95%+ é imune"
+          "valor": "DT 40",
+          "descricao": "{9d6} mental\nNEX 95%+ é imune"
         },
         {
           "grupo": "Combate",
