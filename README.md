@@ -139,6 +139,13 @@ De onde vem o que o plugin traz:
   ameaças do bestiário, que chega na próxima versão. O texto do wiki é
   [CC BY-SA](https://www.fandom.com/pt-br/licensing-pt-br), e o que vier dele
   segue nessa licença, com o crédito ao wiki.
+- **Bestiário de Fã para Fã**, de Andrew ([@AndreeeewFeliz](https://x.com/AndreeeewFeliz)),
+  Drawmlins ([@davimlins](https://x.com/davimlins)) e Gosk ([@Gosk16](https://x.com/Gosk16)):
+  tokens das ameaças desenhados por fãs. O uso é livre com o crédito aos
+  artistas, e não se vende. Quem desenhou cada token está em
+  [`bestiario/CREDITOS.md`](bestiario/CREDITOS.md).
+- **Luck** ([@The_Luckyest](https://x.com/The_Luckyest)): o token do
+  Bicho-Papão, arte de fã que ele ofereceu para download.
 
 Se você tem direito sobre algo que está aqui e quer que saia, abra uma
 [issue](https://github.com/ato20-org/ato20.ordem-paranormal.plugin/issues):
