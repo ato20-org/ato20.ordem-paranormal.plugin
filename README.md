@@ -7,8 +7,8 @@ Ordem Paranormal.** Ordem Paranormal é do Rafael "Cellbit" Lange, e o livro de
 regras é da Jambô Editora. O plugin é de fã, gratuito, e não tem parceria nem
 aprovação de nenhum dos dois. Ver [Licença e fontes](#licença-e-fontes).
 
-Plugin que põe Ordem Paranormal no ATO20, em três partes. É só o
-`manifest.json` e a imagem do ritual, sem código.
+Plugin que põe Ordem Paranormal no ATO20. Não tem código: é o `manifest.json`,
+a imagem do ritual e os arquivos do bestiário e dos itens.
 
 - **O sistema:** ao criar a campanha (ou depois, em Configuração da campanha,
   Sistema), ela nasce com AGI, FOR, INT, PRE e VIG, os medidores PV, PE e SAN,
@@ -19,6 +19,9 @@ Plugin que põe Ordem Paranormal no ATO20, em três partes. É só o
 - **A ficha em PDF:** na lista de Personagens, **Importar ficha em PDF** cria
   o personagem a partir da ficha de agente editável, com o PDF anexado como a
   ficha dele. Com o sistema aplicado, tudo cai nos detalhes do molde.
+- **O bestiário:** as 68 ameaças oficiais no Compêndio, uma pasta por elemento.
+- **Os itens:** armas, munição, granadas, proteção e cura no Compêndio, prontos
+  para pôr em jogo.
 
 ![A ficha da Helena no Mestre e no celular de quem joga, com os atributos no ritual](docs/ritual.png)
 
@@ -75,12 +78,33 @@ O PDF da ficha não vem no plugin: ela é da Jambô Editora.
 
 O inventário fica de fora por enquanto: ele segue no PDF anexado.
 
+## Os itens
+
+Na aba Itens do Compêndio, quatro pastas: **Armas**, **Munição**,
+**Explosivos** e **Proteção e cura**. Clicar num item mostra tudo dele; **Pôr
+em jogo** o põe no catálogo de Itens da campanha, e **Trazer para a campanha**
+o deixa no Compêndio dela para editar.
+
+| Pasta | Itens |
+| --- | --- |
+| Armas | faca, faca tática, facão, machadinha, revólver .38, pistola 9mm, pistola .40, submetralhadora 9mm, escopeta calibre 12, fuzil de caça, fuzil 7,62 (FAL), fuzil 5,56 (IA2) e fuzil de precisão 7,62 |
+| Munição | munição 9mm (balas curtas), munição de fuzil (balas longas) e cartuchos calibre 12 |
+| Explosivos | granadas de fragmentação, incendiária, de atordoamento e de fumaça |
+| Proteção e cura | bandagem, cicatrizante, colete balístico, proteção pesada e escudo balístico |
+
+Os números são os do livro: dano, crítico, alcance, categoria e espaços. As
+armas têm nome de arma que existe no Brasil, e quando o nome não é o do livro o
+atributo **Base** diz qual arma do livro ela é (a pistola .40 é a pistola
+pesada, a escopeta é a espingarda). A munição tem o medidor **Cenas**: quantas
+cenas o pacote ainda dura em cada mochila. Os itens vêm sem imagem por
+enquanto, e por isso entram em jogo pelo botão, e não arrastando para o mapa.
+
 ## Instalar
 
 No ATO20: Configurações → Plugins → **Catálogo**, e **Instalar** no Ordem
 Paranormal. Quando sair versão nova, o mesmo botão vira **Atualizar**.
 
-Pede o ATO20 com a API de plugins 11.
+Pede o ATO20 com a API de plugins 13.
 
 Num ATO20 sem o catálogo:
 
@@ -105,8 +129,11 @@ de regras é da Jambô Editora. Para jogar, [compre o livro](https://jamboeditor
 
 De onde vem o que o plugin traz:
 
-- **O livro de regras** (Jambô, 2022): os atributos, as perícias, as condições
-  e os campos da ficha de agente.
+- **O livro de regras** (Jambô, 2022): os atributos, as perícias, as condições,
+  os campos da ficha de agente e os números dos itens.
+- **Sobrevivendo ao Horror** e **Arquivos Secretos** (Jambô): a faca tática e a
+  pistola pesada, do primeiro, e a bandagem, do segundo. Os nomes brasileiros
+  das armas são do plugin.
 - **[C.R.I.S. - Ordem Paranormal](https://crisordemparanormal.com)** e
   **[Ordem Paranormal Wiki](https://ordemparanormal.fandom.com/pt-br)**: as
   ameaças do bestiário, que chega na próxima versão. O texto do wiki é

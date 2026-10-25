@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "id": "granada-de-fragmentacao",
+      "nome": "Granada de fragmentação",
+      "tags": [
+        "Explosivo",
+        "Granada"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "8d6 perfuração"
+        },
+        {
+          "nome": "Área",
+          "valor": "Raio de 6m"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Uso",
+          "valor": "Ação padrão para arremessar"
+        },
+        {
+          "nome": "Resistência",
+          "valor": "Reflexos DT Agi reduz à metade"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ]
+    },
+    {
+      "id": "granada-incendiaria",
+      "nome": "Granada incendiária",
+      "tags": [
+        "Explosivo",
+        "Granada"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Dano",
+          "valor": "6d6 fogo e em chamas"
+        },
+        {
+          "nome": "Área",
+          "valor": "Raio de 6m"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Uso",
+          "valor": "Ação padrão para arremessar"
+        },
+        {
+          "nome": "Resistência",
+          "valor": "Reflexos DT Agi reduz o dano à metade e evita em chamas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ]
+    },
+    {
+      "id": "granada-de-atordoamento",
+      "nome": "Granada de atordoamento",
+      "tags": [
+        "Explosivo",
+        "Granada"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Efeito",
+          "valor": "Atordoado por 1 rodada"
+        },
+        {
+          "nome": "Área",
+          "valor": "Raio de 6m"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Uso",
+          "valor": "Ação padrão para arremessar"
+        },
+        {
+          "nome": "Resistência",
+          "valor": "Fortitude DT Agi reduz para ofuscado e surdo por 1 rodada"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "0"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ]
+    },
+    {
+      "id": "granada-de-fumaca",
+      "nome": "Granada de fumaça",
+      "tags": [
+        "Explosivo",
+        "Granada"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Efeito",
+          "valor": "Cegos e com camuflagem total"
+        },
+        {
+          "nome": "Duração",
+          "valor": "2 rodadas"
+        },
+        {
+          "nome": "Área",
+          "valor": "Raio de 6m"
+        },
+        {
+          "nome": "Alcance",
+          "valor": "Médio"
+        },
+        {
+          "nome": "Uso",
+          "valor": "Ação padrão para arremessar"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "0"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ]
+    }
+  ]
+}

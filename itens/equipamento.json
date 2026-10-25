@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "id": "bandagem",
+      "nome": "Bandagem",
+      "tags": [
+        "Cura",
+        "Consumível"
+      ],
+      "fonte": "Arquivos Secretos",
+      "atributos": [
+        {
+          "nome": "Cura",
+          "valor": "2d4+2 PV e remove sangrando"
+        },
+        {
+          "nome": "Uso",
+          "valor": "Ação padrão, em você ou num ser adjacente"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "0,5"
+        }
+      ]
+    },
+    {
+      "id": "cicatrizante",
+      "nome": "Cicatrizante",
+      "tags": [
+        "Cura",
+        "Consumível"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Cura",
+          "valor": "2d8+2 PV"
+        },
+        {
+          "nome": "Uso",
+          "valor": "Ação padrão, em você ou num ser adjacente"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ]
+    },
+    {
+      "id": "colete-balistico",
+      "nome": "Colete balístico",
+      "tags": [
+        "Proteção"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Defesa",
+          "valor": "+5"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        },
+        {
+          "nome": "Base",
+          "valor": "Proteção leve"
+        }
+      ]
+    },
+    {
+      "id": "protecao-pesada",
+      "nome": "Proteção pesada",
+      "tags": [
+        "Proteção"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Defesa",
+          "valor": "+10"
+        },
+        {
+          "nome": "Resistência",
+          "valor": "Balístico, corte, impacto e perfuração 2"
+        },
+        {
+          "nome": "Penalidade",
+          "valor": "–5 em perícias com penalidade de carga"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "II"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "5"
+        }
+      ]
+    },
+    {
+      "id": "escudo-balistico",
+      "nome": "Escudo balístico",
+      "tags": [
+        "Proteção"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Defesa",
+          "valor": "+2, soma com a proteção"
+        },
+        {
+          "nome": "Empunhadura",
+          "valor": "Uma mão"
+        },
+        {
+          "nome": "Proficiência",
+          "valor": "Conta como proteção pesada"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "2"
+        },
+        {
+          "nome": "Base",
+          "valor": "Escudo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "itens": [
+    {
+      "id": "municao-9mm",
+      "nome": "Munição 9mm",
+      "tags": [
+        "Munição"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Tipo",
+          "valor": "Balas curtas"
+        },
+        {
+          "nome": "Duração",
+          "valor": "Duas cenas"
+        },
+        {
+          "nome": "Serve em",
+          "valor": "Pistolas, revólveres e submetralhadoras"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "0"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "Cenas",
+          "maximo": 2,
+          "cor": "#f59e0b"
+        }
+      ]
+    },
+    {
+      "id": "municao-de-fuzil",
+      "nome": "Munição de fuzil (5,56 e 7,62)",
+      "tags": [
+        "Munição"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Tipo",
+          "valor": "Balas longas"
+        },
+        {
+          "nome": "Duração",
+          "valor": "Uma cena"
+        },
+        {
+          "nome": "Serve em",
+          "valor": "Fuzis e metralhadoras"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "Cenas",
+          "maximo": 1,
+          "cor": "#f59e0b"
+        }
+      ]
+    },
+    {
+      "id": "cartuchos-12",
+      "nome": "Cartuchos calibre 12",
+      "tags": [
+        "Munição"
+      ],
+      "fonte": "Livro de Regras de Ordem Paranormal RPG",
+      "atributos": [
+        {
+          "nome": "Tipo",
+          "valor": "Cartuchos"
+        },
+        {
+          "nome": "Duração",
+          "valor": "Uma cena"
+        },
+        {
+          "nome": "Serve em",
+          "valor": "Espingardas"
+        },
+        {
+          "nome": "Categoria",
+          "valor": "I"
+        },
+        {
+          "nome": "Espaços",
+          "valor": "1"
+        }
+      ],
+      "medidores": [
+        {
+          "nome": "Cenas",
+          "maximo": 1,
+          "cor": "#f59e0b"
+        }
+      ]
+    }
+  ]
+}
