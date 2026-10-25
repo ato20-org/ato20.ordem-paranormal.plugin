@@ -8,7 +8,7 @@ regras é da Jambô Editora. O plugin é de fã, gratuito, e não tem parceria n
 aprovação de nenhum dos dois. Ver [Licença e fontes](#licença-e-fontes).
 
 Plugin que põe Ordem Paranormal no ATO20. Não tem código: é o `manifest.json`,
-a imagem do ritual e os arquivos do bestiário e dos itens.
+a imagem do ritual e os arquivos do bestiário, dos itens e dos rituais.
 
 - **O sistema:** ao criar a campanha (ou depois, em Configuração da campanha,
   Sistema), ela nasce com AGI, FOR, INT, PRE e VIG, os medidores PV, PE e SAN,
@@ -22,6 +22,8 @@ a imagem do ritual e os arquivos do bestiário e dos itens.
 - **O bestiário:** as 68 ameaças oficiais no Compêndio, uma pasta por elemento.
 - **Os itens:** armas, munição, granadas, proteção e cura no Compêndio, prontos
   para pôr em jogo.
+- **Os rituais:** a aba Rituais no Compêndio, com os 105 rituais da série, uma
+  pasta por elemento, cada um com o símbolo dele quando o wiki tem (74).
 
 ![A ficha da Helena no Mestre e no celular de quem joga, com os atributos no ritual](docs/ritual.png)
 
@@ -136,7 +138,8 @@ De onde vem o que o plugin traz:
   das armas são do plugin.
 - **[C.R.I.S. - Ordem Paranormal](https://crisordemparanormal.com)** e
   **[Ordem Paranormal Wiki](https://ordemparanormal.fandom.com/pt-br)**: as
-  ameaças do bestiário, que chega na próxima versão. O texto do wiki é
+  ameaças do bestiário e, do wiki, os rituais e os símbolos deles (o arquivo
+  de cada símbolo está em [`rituais/CREDITOS.md`](rituais/CREDITOS.md)). O texto do wiki é
   [CC BY-SA](https://www.fandom.com/pt-br/licensing-pt-br), e o que vier dele
   segue nessa licença, com o crédito ao wiki.
 - **Bestiário de Fã para Fã**, de Andrew ([@AndreeeewFeliz](https://x.com/AndreeeewFeliz)),
