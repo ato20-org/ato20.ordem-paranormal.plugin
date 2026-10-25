@@ -536,6 +536,74 @@
         "sistema": "ordem"
       }
     ],
+    "abas": [
+      {
+        "id": "rituais",
+        "titulo": {
+          "pt-BR": "Rituais",
+          "en": "Rituals"
+        },
+        "grupo": {
+          "nome": "Rituais",
+          "exibicao": "lista"
+        },
+        "colecoes": [
+          {
+            "id": "sangue",
+            "titulo": {
+              "pt-BR": "Sangue",
+              "en": "Blood"
+            },
+            "arquivo": "rituais/sangue.json",
+            "aura": "sangue"
+          },
+          {
+            "id": "morte",
+            "titulo": {
+              "pt-BR": "Morte",
+              "en": "Death"
+            },
+            "arquivo": "rituais/morte.json",
+            "aura": "morte"
+          },
+          {
+            "id": "conhecimento",
+            "titulo": {
+              "pt-BR": "Conhecimento",
+              "en": "Knowledge"
+            },
+            "arquivo": "rituais/conhecimento.json",
+            "aura": "conhecimento"
+          },
+          {
+            "id": "energia",
+            "titulo": {
+              "pt-BR": "Energia",
+              "en": "Energy"
+            },
+            "arquivo": "rituais/energia.json",
+            "aura": "energia"
+          },
+          {
+            "id": "medo",
+            "titulo": {
+              "pt-BR": "Medo",
+              "en": "Fear"
+            },
+            "arquivo": "rituais/medo.json",
+            "aura": "medo"
+          },
+          {
+            "id": "outros",
+            "titulo": {
+              "pt-BR": "Outros",
+              "en": "Others"
+            },
+            "arquivo": "rituais/outros.json"
+          }
+        ]
+      }
+    ],
     "auras": [
       {
         "id": "sangue",

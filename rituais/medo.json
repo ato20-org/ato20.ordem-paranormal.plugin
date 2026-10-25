@@ -1,0 +1,159 @@
+{
+  "verbetes": [
+    {
+      "id": "invocar-nevoa",
+      "nome": "Invocar Névoa",
+      "tags": [
+        "Medo",
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/invocar-nevoa.webp",
+      "resumo": "Medo e Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Medo e Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Focar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kaiser"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 6 Pontos de Ocultismo, invoca a névoa do Outro Lado em um raio de 5 metros, dando vantagem em esquiva, furtividade, e melhorias em rituais."
+    },
+    {
+      "id": "rejeitar-nevoa",
+      "nome": "Rejeitar Névoa",
+      "tags": [
+        "Medo",
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/rejeitar-nevoa.webp",
+      "resumo": "Medo e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Medo e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kian"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Em um raio de 20 metros, a névoa é dissipada, fazendo com que todos os rituais nesse raio demorem muito mais para serem conjurados, e rituais de conjuração instantânea se tornam rituais de conjuração contínua."
+    },
+    {
+      "id": "flashback",
+      "nome": "\"Flashback\"",
+      "tags": [
+        "Medo",
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/medo.webp",
+      "resumo": "Medo e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Medo e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Permitir que o alvo tenha uma visão do passado."
+    },
+    {
+      "id": "lamina-do-medo",
+      "nome": "Lâmina do Medo",
+      "tags": [
+        "Medo",
+        "Morte",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/lamina-do-medo.webp",
+      "resumo": "Medo e Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Medo e Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kian"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "O usuário cria uma lâmina translucida em sua mão que emana um som melodioso, e ao perfurar um alvo deixa o mesmo morrendo instantaneamente."
+    },
+    {
+      "id": "cineraria",
+      "nome": "Cinerária",
+      "tags": [
+        "Medo",
+        "Energia",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/cineraria.webp",
+      "resumo": "Medo e Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Medo e Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "O usuário manifesta uma névoa carregada de essência paranormal, fazendo com que rituais conjurados dentro de uma área com raio de 6 metros sejam fortalecidos."
+    }
+  ]
+}

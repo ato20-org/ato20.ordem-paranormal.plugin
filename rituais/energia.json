@@ -1,0 +1,706 @@
+{
+  "verbetes": [
+    {
+      "id": "teletransporte",
+      "nome": "Teletransporte",
+      "tags": [
+        "Energia",
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/teletransporte.webp",
+      "resumo": "Energia e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Anthony Scelto, Clara, Gal"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Desaparecer e reaparecer em outro local em uma distância incerta."
+    },
+    {
+      "id": "paralisia",
+      "nome": "Paralisia",
+      "tags": [
+        "Energia",
+        "Desconjuração",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Rana"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, Calamidade"
+        }
+      ],
+      "descricao": "Em Desconjuração: A vítima fica em estado de paralisia, podendo apenas se comunicar.\n\nEm Calamidade: A vítima fica em estado de paralisia, podendo apenas falar."
+    },
+    {
+      "id": "forma-fantasmagorica",
+      "nome": "\"Forma Fantasmagórica\"",
+      "tags": [
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Membros da Produção do Anfitrião"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Adquirir características físicas de corpos formados pelo elemento de Energia."
+    },
+    {
+      "id": "bencao-maldita",
+      "nome": "Bênção Maldita",
+      "tags": [
+        "Energia",
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/bencao-maldita.webp",
+      "resumo": "Energia e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Ter em mãos um objeto tecnológico, estar próximo de uma fonte de energia e se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Erin Parker, Gal"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Indouto: Ao gastar 5 Pontos de Ocultismo, rola {1d20} de uma perícia cinco vezes, esses serão os próximos 5 resultados do usuário.\nDiscente: Ao rolar um d20 de uma perícia cinco vezes, esses serão os próximos 5 resultados do usuário, sendo capaz de reorganizá-los da forma que quiser."
+    },
+    {
+      "id": "eletrocussao",
+      "nome": "Eletrocussão",
+      "tags": [
+        "Energia",
+        "Desconjuração",
+        "O Segredo na Ilha"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/eletrocussao.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Diretor da Produção, Amelie Florence"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, O Segredo na Ilha"
+        }
+      ],
+      "descricao": "Em Desconjuração: O alvo é eletrocutado de dentro para fora, tendo que fazer um teste de Constituição para resistir.\n\nEm O Segredo na Ilha: Raios caóticos são lançados pelo usuário na direção do alvo, causando {3d6} de dano de energia usando 1 PE."
+    },
+    {
+      "id": "onda-de-choque",
+      "nome": "\"Onda de Choque\"",
+      "tags": [
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Diretor da Produção"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Raios saem do corpo do usuário eletrocutando aqueles ao seu redor."
+    },
+    {
+      "id": "dissipar-espiritos",
+      "nome": "Dissipar Espíritos",
+      "tags": [
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/dissipar-espiritos.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Focar no símbolo segurando um dispositivo eletrônico funcional com correntes nos braços."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kaiser"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 3 Pontos de Ocultismo, Causa {2d10} de dano em entidades formadas pelo elemento de Energia, e metade deste dano em seres que não forem de Energia."
+    },
+    {
+      "id": "reacao",
+      "nome": "Reação",
+      "tags": [
+        "Energia",
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/reacao.webp",
+      "resumo": "Energia e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Segurar um aparelho eletrônico enquanto sofre um ataque, e focar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Luciano Carvalho"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 5 Pontos de Ocultismo e uma reação, metade do dano de um golpe físico é refletido em dano de Energia e em seus pontos de ocultismo, enquanto apenas metade afeta o corpo do usuário."
+    },
+    {
+      "id": "amaldicoar-tecnologia",
+      "nome": "Amaldiçoar Tecnologia",
+      "tags": [
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/amaldicoar-tecnologia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Possuir uma fonte de energia próxima e se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Arthur Cervero"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Amaldiçoar temporariamente uma arma de fogo próxima, fazendo ela dar +{1d6} de dano caótico durante {1d6} rodadas."
+    },
+    {
+      "id": "coincidencia-forcada",
+      "nome": "Coincidência Forçada",
+      "tags": [
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/coincidencia-forcada.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo, segurar um objeto tecnológico e possuir uma fonte de energia próxima."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Joui Jouki, um membro da Seita das Máscaras"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 5 Pontos de Ocultismo, dá um dado de vantagem em bloquear e contra-atacar para o usuário por {1d6} de rodadas."
+    },
+    {
+      "id": "chamas-do-caos",
+      "nome": "Chamas do Caos",
+      "tags": [
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/chamas-do-caos.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Jushur"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Aquece uma arma ao ponto do alvo precisar soltá-la no chão."
+    },
+    {
+      "id": "embaralhar",
+      "nome": "Embaralhar",
+      "tags": [
+        "Energia",
+        "Conhecimento",
+        "Calamidade",
+        "Sinais do Outro Lado",
+        "Enigma do Medo"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/embaralhar.webp",
+      "resumo": "Energia e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Apertar duas baterias."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante, Damir, Guilherme Santos, Calisto Besatt"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado, Enigma do Medo"
+        }
+      ],
+      "descricao": "Em Calamidade: Permitir que o invocador crie cópias de si mesmo. A primeira cópia é invocada gastando 2 PE, a partir da primeira, é necessário gastar 1 PE por cópia.\n\nEm Sinais do Outro Lado: O usuário cria cópias ilusórias suas, como hologramas extremamente realistas. As cópias ficam ao seu redor e imitam suas ações, tornando difícil para um inimigo saber quem é o verdadeiro e fazendo com que o conjurador receba bônus em sua Defesa.\n\nEm Enigma do Medo: Cria cópias ilusórias realistas que imitam as ações do usuário."
+    },
+    {
+      "id": "salto-fantasma",
+      "nome": "Salto Fantasma",
+      "tags": [
+        "Energia",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/salto-fantasma.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Pensar ou ver o ponto onde queira se teletransportar."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Rubens Naluti, Yuki"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 3 PE, o usuário pode se teleportar em uma área de 9 metros, podendo gastar +1 PE para expandir o raio para 30 metros. Também é possível usá-lo como reação ao gastar +2 PE, e levar outro indivíduo consigo ao gastar +1 PE."
+    },
+    {
+      "id": "amaldicoar-arma-com-energia",
+      "nome": "Amaldiçoar Arma com Energia",
+      "tags": [
+        "Energia",
+        "Calamidade",
+        "O Segredo na Ilha"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/amaldicoar-arma-com-energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Arthur, Artemis, Clarissa, Amelie Florence"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, O Segredo na Ilha"
+        }
+      ],
+      "descricao": "Em Calamidade: Ao gastar 1 PE, o usuário adiciona +{1d6} de dano de Energia em sua arma. Ele pode gastar 2 PE extra para adicionar +{1d6}, sendo o máximo {3d6}.\n\nEm O Segredo na Ilha: O usuário amaldiçoa uma arma corpo-a-corpo ou a munição de uma arma de fogo com energia, gastando 1 PE e adicionando +{1d6} de dano de energia para a arma."
+    },
+    {
+      "id": "polarizacao-caotica",
+      "nome": "Polarização Caótica",
+      "tags": [
+        "Energia",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/polarizacao-caotica.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Vinicio Ludos, Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Fazer com que objetos metálicos se atraiam mutuamente e, caso o portador do objeto não consiga segurá-lo, ele ficará preso em outro, só podendo ser retirado com um teste de força.\n\nEm Sinais do Outro Lado: O usuário cria uma aura magnética paranormal, sendo capaz de levitar objetos e pessoas, ou até repelir e atrair estes."
+    },
+    {
+      "id": "impulso-de-eletricidade",
+      "nome": "Impulso de Eletricidade",
+      "tags": [
+        "Energia",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Vinicio Ludos"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Soltar raios elétricos que dão dano de Energia e quando acertam um alvo partem aleatoriamente em outras direções a procura de novas vítimas, até que não se encontre mais a quem atingir."
+    },
+    {
+      "id": "protecao-de-energia",
+      "nome": "Proteção de Energia",
+      "tags": [
+        "Energia",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Eletrocutar e dar dano de sanidade em pessoas que aproximem determinados objetos amaldiçoados onde o ritual foi ativo, ficando cada vez mais intenso a cada choque."
+    },
+    {
+      "id": "disparo-de-energia-concentrado",
+      "nome": "Disparo de Energia Concentrado",
+      "tags": [
+        "Energia",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 3 PE, dispara um projétil de energia concentrado na direção de um alvo que causa {6d6} de Dano Caótico. Esse ritual, quando aprimorado, pode causar +{2d6} de energia a cada 2 PE gastos, chegando a até {14d6} ao gastar 11 PE. Caso o alvo passe em um teste de reflexo, o dano completo é diminuído pela metade."
+    },
+    {
+      "id": "tela-de-ruido",
+      "nome": "Tela de Ruído",
+      "tags": [
+        "Energia",
+        "Sangue",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/tela-de-ruido.webp",
+      "resumo": "Energia e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Este ritual cria uma película de Energia que recobre o corpo do usuário e absorve energia cinética. O usuário recebe 30 PV temporários, mas apenas contra dano balístico, de corte, de impacto ou de perfuração. Alternativamente, este ritual pode ser usado como uma reação quando sofrer dano, fazendo com que o usuário receba 15 de resistência apenas contra esse dano."
+    },
+    {
+      "id": "luz",
+      "nome": "Luz",
+      "tags": [
+        "Energia",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/luz.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Faz um objeto emitir luz de cores alternadas e brilhantes (mas não produzindo calor) em uma área com 9m de raio."
+    },
+    {
+      "id": "rajada-caotica",
+      "nome": "Rajada Caótica",
+      "tags": [
+        "Energia",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/rajada-caotica.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Dispara um raio que causa {8d8} pontos de dano de Energia em um ser em alcance médio."
+    },
+    {
+      "id": "tempestade-caotica",
+      "nome": "Tempestade Caótica",
+      "tags": [
+        "Energia",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/energia.webp",
+      "resumo": "Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Dispara um raio que causa {8d10} pontos de dano de Energia em um ser em alcance médio."
+    },
+    {
+      "id": "explosao",
+      "nome": "\"Explosão\"",
+      "tags": [
+        "Energia",
+        "Conhecimento",
+        "Enigma do Medo"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/explosao.webp",
+      "resumo": "Energia e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Energia e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Calisto Besatt"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Enigma do Medo"
+        }
+      ],
+      "descricao": "Gera uma explosão de impulso a partir de um ponto específico."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "verbetes": [
+    {
+      "id": "invocacao",
+      "nome": "\"Invocação\"",
+      "tags": [
+        "A Ordem Paranormal"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Álvaro Augusto"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "A Ordem Paranormal"
+        }
+      ],
+      "descricao": "Invoca uma entidade paranormal nova."
+    },
+    {
+      "id": "gritos",
+      "nome": "\"Gritos\"",
+      "tags": [
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Enrolar o braço em arame farpado até sangrar, focar no símbolo e Focar no alvo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Sidney Souza"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "O alvo começa a escutar gritos ensurdecedores, tendo desvantagem em qualquer ação efetuada durante o tempo do ritual."
+    },
+    {
+      "id": "poluicao-mental",
+      "nome": "Poluição Mental",
+      "tags": [
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Nergal, Produção Verde"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "A mente do alvo começa a ser preenchida por pensamentos horríveis e violentos, tentando fazer o alvo enlouquecer."
+    },
+    {
+      "id": "censura-escripta",
+      "nome": "\"Censura Escripta\"",
+      "tags": [
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Escriptas"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Censurar completamente informações existentes sobre atividades escriptas registradas em documentos."
+    },
+    {
+      "id": "levitacao",
+      "nome": "\"Levitação\"",
+      "tags": [
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kian"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Levitar qualquer objeto."
+    },
+    {
+      "id": "cicatrizacao-em-area",
+      "nome": "Cicatrização em Área",
+      "tags": [
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Rana"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Curar simultaneamente várias pessoas ao seu redor, reinstaurando o vigor de todos."
+    },
+    {
+      "id": "portal",
+      "nome": "\"Portal\"",
+      "tags": [
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "resumo": "Desconhecido",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Rana"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Abrir um portal que pode teletransportar somente indivíduos permitidos pelo conjurador."
+    }
+  ]
+}

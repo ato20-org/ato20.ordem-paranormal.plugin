@@ -1,0 +1,850 @@
+{
+  "verbetes": [
+    {
+      "id": "transcender",
+      "nome": "Transcender",
+      "tags": [
+        "Conhecimento"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/transcender.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Pessoas com experiência paranormal suficiente para se conectar com o Outro Lado."
+        }
+      ],
+      "descricao": "Ao entrar em comunhão com o Outro Lado e suas entidades, seu usuário é fortalecido dependendo da exposição dele ao paranormal, sendo capaz de aprender um ritual no processo."
+    },
+    {
+      "id": "alterar-memoria",
+      "nome": "Alterar Memória",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/alterar-memoria.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Álvaro Augusto, Clara"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Apaga a memória de certos momentos da vida do alvo."
+    },
+    {
+      "id": "terceiro-olho",
+      "nome": "Terceiro Olho",
+      "tags": [
+        "Conhecimento",
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/terceiro-olho.webp",
+      "resumo": "Conhecimento e Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Segurar um celular e focar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Localiza concentrações paranormais no campo de visão do usuário."
+    },
+    {
+      "id": "controle-mental",
+      "nome": "Controle Mental",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/controle-mental.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Gal"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Faz com que a mente da vítima seja controlada por outra pessoa."
+    },
+    {
+      "id": "esconder-dos-olhos",
+      "nome": "Esconder dos Olhos",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/esconder-dos-olhos.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Membros da Seita das Máscaras"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Torna o usuário invisível aos olhos comuns por determinado tempo."
+    },
+    {
+      "id": "ouvir-os-sussurros",
+      "nome": "Ouvir os Sussurros",
+      "tags": [
+        "Conhecimento",
+        "Energia",
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/ouvir-os-sussurros.webp",
+      "resumo": "Conhecimento e Energia e Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Energia e Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Segurar um objeto em particular conectado ao espírito ou estar em um local específico em um horário específico."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Eduarda Flom"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "O usuário ouve sussurros do Outro Lado, dizendo o resultado de uma ação que será tomada em breve."
+    },
+    {
+      "id": "leitura-psiquica",
+      "nome": "Leitura Psíquica",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/leitura-psiquica.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo e ter um alvo num raio de 5 metros."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 6 Pontos de Ocultismo, usuário poderá ler a mente de seu alvo para poder prever seus próximos movimentos ou pensamentos e intenções."
+    },
+    {
+      "id": "ligacao-telepatica",
+      "nome": "Ligação Telepática",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Marcar o símbolo em quem o usuário quer afetar."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Se comunicar telepaticamente e livremente com quem for marcado por uma hora."
+    },
+    {
+      "id": "sentir-atraves",
+      "nome": "Sentir Através",
+      "tags": [
+        "Conhecimento",
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/sentir-atraves.webp",
+      "resumo": "Conhecimento e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Marcar o símbolo de Emissão no alvo e o de Absorção no usuário e se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Anthony Scelto, Vanessa Ângelo, Kaiser"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 6 Pontos de Ocultismo, é possível observar e escutar tudo que o marcado pelo Símbolo de Emissão ver e ouvir por até 5 minutos."
+    },
+    {
+      "id": "assombracao-forcada",
+      "nome": "Assombração Forçada",
+      "tags": [
+        "Conhecimento",
+        "Energia",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/assombracao-forcada.webp",
+      "resumo": "Conhecimento e Energia",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Energia"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Vanessa Ângelo"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Aprisionar espíritos dos mortos em um local."
+    },
+    {
+      "id": "pavor-anormal",
+      "nome": "Pavor Anormal",
+      "tags": [
+        "Conhecimento",
+        "Medo",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/pavor-anormal.webp",
+      "resumo": "Conhecimento e Medo",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Medo"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desenhar o símbolo desse ritual no chão subir em cima e definir o alvo que esteja em seu campo de visão."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Joui Jouki"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 5 Pontos de Ocultismo, paralisa o alvo por {1d6} rodadas e faz ele ter vantagens em escutar e encontrar."
+    },
+    {
+      "id": "compreensao-paranormal",
+      "nome": "Compreensão Paranormal",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/compreensao-paranormal.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo e estar próximo a uma vela acesa."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Desconhecido"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Compreender durante 5 minutos, toda linguagem da Realidade escrita."
+    },
+    {
+      "id": "graduacao",
+      "nome": "\"Graduação\"",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/graduacao.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Anthony Scelto"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Temporariamente \"apagar\" o alvo, para que ele se transforme em um porta-voz do usuário."
+    },
+    {
+      "id": "inexistir",
+      "nome": "Inexistir",
+      "tags": [
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/inexistir.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kian"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Faz com que o alvo tenha de realizar um teste de Poder. Dependendo do sucesso, ele pode receber até 50 de dano em sua sanidade, ou, caso fracasse, o alvo deixa de existir, o fazendo desaparecer em pleno ar."
+    },
+    {
+      "id": "mergulho-mental",
+      "nome": "Mergulho Mental",
+      "tags": [
+        "Conhecimento",
+        "Morte",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/mergulho-mental.webp",
+      "resumo": "Conhecimento e Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Furar os 5 dedos de uma mão com agulhas, e colocá-la na sobre a testa do alvo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 2 PE, leva o invocador e um alvo para um lugar mental vazio e escuro, onde o alvo é obrigado a responder \"sim\" ou \"não\" para qualquer pergunta que o conjurador fizer, tornando o alvo indefeso com acontecimentos externos. Também pode ser aprimorado gastando 2 PE extra, de maneira que o invocador possa mostrar partes especificas de sua mente."
+    },
+    {
+      "id": "amaldicoar-arma-com-conhecimento",
+      "nome": "Amaldiçoar Arma com Conhecimento",
+      "tags": [
+        "Conhecimento",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/amaldicoar-arma-com-conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Damir, Gal, Yuki, Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Ao gastar 1 PE, amaldiçoa temporariamente uma arma corpo a corpo próxima, fazendo ela dar +{1d6} de dano de Conhecimento durando até o final da cena. Pode ser aprimorado com +2 PE para adicionar +{1d6} de dano, sendo seu máximo em {3d6}.\n\nEm Sinais do Outro Lado: O usuário imbui uma arma ou munição com o Elemento de Conhecimento, fazendo com que causem +{1d6} de dano de Conhecimento, ou, em sua versão Discente, +{2d6}."
+    },
+    {
+      "id": "blackout",
+      "nome": "Blackout",
+      "tags": [
+        "Conhecimento",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Damir"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 3 PE, o alvo precisa fazer um teste de Vontade se ele passar ele fica frustrado e se ele falhar ele fica confuso. Esse ritual pode ser aprimorado com +2 PE para aumentar seu alvo em 1."
+    },
+    {
+      "id": "perturbacao",
+      "nome": "Perturbação",
+      "tags": [
+        "Conhecimento",
+        "Calamidade",
+        "Sinais do Outro Lado",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/perturbacao.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Damir, Yuki, Alexandre, Juan"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado, Hexatombe"
+        }
+      ],
+      "descricao": "Em Calamidade: Ao gastar 1 PE, faz com que o alvo, ao fracassar em um teste de Vontade com Presença, obedeça ao que o conjurador disser em seu turno, da melhor forma possível.\n\nEm Sinais do Outro Lado: O usuário dá uma ordem que o alvo deve ser capaz de ouvir (mas não precisa entender). Se falhar na resistência, ele deve obedecer à ordem em seu próprio turno da melhor maneira possível.\n\nEm Hexatombe: Ao gastar 3 PE, o alvo, fracassando em um teste de Vontade com Presença, obedece uma ordem do conjurador da melhor forma possível, por 1 rodada."
+    },
+    {
+      "id": "enfeiticar",
+      "nome": "Enfeitiçar",
+      "tags": [
+        "Conhecimento",
+        "Sangue",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/enfeiticar.webp",
+      "resumo": "Conhecimento e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Artemis"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Muda a atitude do alvo, e o conjurador recebe +10 em teste de diplomacia, intimidação e enganação com um alvo até o final da cena caso esse alvo não passe no teste de vontade. Você pode gastar 2 PE para receber +20 ao invés de +10 nas perícias."
+    },
+    {
+      "id": "cartas-do-destino",
+      "nome": "\"Cartas do Destino\"",
+      "tags": [
+        "Conhecimento",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Yuki"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 2 PE, causa {2d6} de dano de Conhecimento. O alvo realiza um teste de Vontade com Presença, e se falhar, além de tomar o dano completo, fica pasmo; se passar, toma metade do dano. Gastando +2 PE, o símbolo permanece na mente do alvo e o usuário tem conhecimento da direção e localização do alvo."
+    },
+    {
+      "id": "cura-de-conhecimento",
+      "nome": "\"Cura de Conhecimento\"",
+      "tags": [
+        "Conhecimento",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Magistrada, Kian"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Conjurar Sigilos de Conhecimento nas feridas do alvo, que reescrevem a história das feridas curando toda vida, sanidade e pontos de esforço."
+    },
+    {
+      "id": "tecer-ilusao",
+      "nome": "Tecer Ilusão",
+      "tags": [
+        "Conhecimento",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/tecer-ilusao.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Cria uma ilusão visual ou sonora, podendo criar apenas imagens ou sons simples."
+    },
+    {
+      "id": "invadir-mente",
+      "nome": "Invadir Mente",
+      "tags": [
+        "Conhecimento",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/invadir-mente.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Guilherme Santos"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "O usuário gera uma Rajada Mental que causa dano de Conhecimento ou cria uma Ligação Telepática, permitindo que duas pessoas possam se comunicar livremente por um elo mental."
+    },
+    {
+      "id": "labirinto-mental",
+      "nome": "Labirinto Mental",
+      "tags": [
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/labirinto-mental.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Obriga o alvo a gastar suas ações para se mover em uma direção aleatória por {1d4} rodadas."
+    },
+    {
+      "id": "labirinto-abissal",
+      "nome": "Labirinto Abissal",
+      "tags": [
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Obriga o alvo a gastar suas ações para se mover em uma direção à escolha do usuário por {1d4} rodadas."
+    },
+    {
+      "id": "olhar-da-curiosidade-morbida",
+      "nome": "Olhar da Curiosidade Mórbida",
+      "tags": [
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Velisar"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Há dois efeitos para o ritual: se o alvo escolher olhar, ele precisa fazer um teste de Vontade com Presença para resistir e não sofrer penalidades; se falhar por um valor muito abaixo da DT, vira uma espécie de servo do usuário; se o alvo evitar olhar, recebe desvantagem de {2d20} em todo teste que for fazer, ficando cego."
+    },
+    {
+      "id": "imersao",
+      "nome": "Imersão",
+      "tags": [
+        "Conhecimento",
+        "Enigma do Medo"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/imersao.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Aplicar Lodo em uma lápide do Perímetro, desenhar o símbolo ao seu redor e se concentrar nele."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Calisto Besatt, Uriel Theodoro Portlash, Mia, Lupi, Jaser"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Enigma do Medo"
+        }
+      ],
+      "descricao": "Permite ao conjurador acessar vividamente uma memória específica do dono da Marca da lápide."
+    },
+    {
+      "id": "ilusao-lacerante",
+      "nome": "Ilusão Lacerante",
+      "tags": [
+        "Conhecimento",
+        "RPG do Balela"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/conhecimento.webp",
+      "resumo": "Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Cellbit"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "RPG do Balela"
+        }
+      ],
+      "descricao": "Ao gastar 6 PE, o alvo faz um teste de Vontade, que caso falhe cai numa ilusão tão real que o cérebro faz seu corpo reagir, causando {3d6} de qualquer tipo de dano, escolhido pelo usuário baseando na ilusão. Caso o alvo passe no teste, o ritual é totalmente anulado. É possível aumentar o alvo do ritual em 1 gastando 3 PE extra e também é possível adicionar +{2d6} de dano ao ritual gastando 2 PE extra."
+    }
+  ]
+}

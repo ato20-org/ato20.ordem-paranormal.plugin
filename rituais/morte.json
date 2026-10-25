@@ -1,0 +1,554 @@
+{
+  "verbetes": [
+    {
+      "id": "infligir-doenca",
+      "nome": "Infligir Doença",
+      "tags": [
+        "Morte",
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/infligir-doenca.webp",
+      "resumo": "Morte e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Ter em mãos cinzas animais, um órgão humano e focar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "A vítima contrai ou acelera os efeitos de algum tipo de doença, dando {1d8} de dano de Morte por rodada no alvo."
+    },
+    {
+      "id": "envelhecimento-localizado",
+      "nome": "Envelhecimento Localizado",
+      "tags": [
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/envelhecimento-localizado.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Ter em mãos cinzas humanas e assoprá-las."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante, Joui Jouki, Erin Parker, Jushur"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Indouto: Ao gastar 4 Pontos de Ocultismo, acelera o tempo de uma ferida do alvo, curando {1d6} de vida ou infeccionando ainda mais a ferida. (Não cura lesão grave)\nDiscente: Acelera o tempo de 2 feridas do alvo, curando um total de {2d6+2} de vida ou infeccionando ainda mais a ferida. (Cura lesão grave)"
+    },
+    {
+      "id": "destruicao-temporal",
+      "nome": "Destruição Temporal",
+      "tags": [
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/destruicao-temporal.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Consumir meia porção de cinzas humanas e se concentrar no Símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao gastar 5 Pontos de Ocultismo, Destrói temporalmente o alvo, dando {2d8} de dano direto de Morte."
+    },
+    {
+      "id": "distorcer-o-tempo",
+      "nome": "Distorcer o Tempo",
+      "tags": [
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/morte.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Jushur"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Desacelerar temporalmente os alvos, os fazendo perder um número desconhecido de rodadas."
+    },
+    {
+      "id": "definhar",
+      "nome": "Definhar",
+      "tags": [
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/morte.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Jushur"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "O alvo deve fazer um teste de Constituição, fazendo com que ele comece a definhar."
+    },
+    {
+      "id": "toque-da-morte",
+      "nome": "Toque da Morte",
+      "tags": [
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/morte.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Kian"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Faz o corpo do alvo envelhecer até definhar completamente, dando {4d10} de dano."
+    },
+    {
+      "id": "sugada-mortal",
+      "nome": "Sugada Mortal",
+      "tags": [
+        "Morte",
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/sugada-mortal.webp",
+      "resumo": "Morte e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Gal"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Remover permanentemente 2 de Constituição do alvo."
+    },
+    {
+      "id": "eco-espiral",
+      "nome": "Eco Espiral",
+      "tags": [
+        "Morte",
+        "Sangue",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/eco-espiral.webp",
+      "resumo": "Morte e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao invocar o ritual gastando 1 PE, cada dado de dano que o alvo sofre em seu campo de visão é repetido na sua próxima rodada como dano de Morte, com o limite de seu nex d6 + seu nex. Em sua forma de segundo círculo pode ser aprimorado para d8 gastando 2 PE extra. Em sua forma de terceiro círculo pode ser aprimorado para d12 gastando 5 PE extra."
+    },
+    {
+      "id": "cicatrizacao",
+      "nome": "Cicatrização",
+      "tags": [
+        "Morte",
+        "Calamidade",
+        "O Segredo na Ilha",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/cicatrizacao.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante, Damir, Blaire, Milo Castello, Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, O Segredo na Ilha, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Acelera o tempo das feridas do alvo ao gastar 1 PE, curando {2d8+2} podendo ser aprimorado com + 2 PE para adicionar +{2d8+2} de cura.\n\nEm O Segredo na Ilha: O usuário gasta 1 PE para envelhecer os ferimentos do alvo, curando {3d8+3} PV, mas envelhecendo o alvo em 1 ano.\n\nEm Sinais do Outro Lado: O usuário acelera o tempo ao redor das feridas do alvo, que cicatrizam instantaneamente. O alvo recupera {3d8+3} PV, mas envelhece 1 ano automaticamente."
+    },
+    {
+      "id": "decadencia",
+      "nome": "Decadência",
+      "tags": [
+        "Morte",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/decadencia.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante, Guilherme Santos"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Ao gastar 1 PE, acelera o envelhecimento dos órgão internos, dando {2d8+2} de dano de Morte. Pode ser aprimorado gastando +2 PE para adicionar +{1d8+1}.\n\nEm Sinais do Outro Lado: Espirais de trevas envolvem sua mão e definham o alvo, que sofre {2d8+5} pontos de dano de Morte."
+    },
+    {
+      "id": "velocidade-mortal",
+      "nome": "Velocidade Mortal",
+      "tags": [
+        "Morte",
+        "Sangue",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/velocidade-mortal.webp",
+      "resumo": "Morte e Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte e Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Gal, T-Bag, Yuki, Guilherme Santos, Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Ao gastar 3 PE, a quantidade de ações que podem ser tomadas pelo usuário em um turno dobra. Gastando 7 PE extra, pode mudar o alvo do ritual.\n\nEm Sinais do Outro Lado: O usuário distorce a passagem do tempo ao redor do alvo, tornando-o extremamente veloz. O alvo recebe uma ação de movimento adicional por turno; em sua versão Discente, recebe uma ação padrão adicional."
+    },
+    {
+      "id": "paradoxo",
+      "nome": "Paradoxo",
+      "tags": [
+        "Morte",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/paradoxo.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante, Yuki"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Gastando 3 PE, causa {6d6} de dano de Morte em alvos que estejam na área onde foi utilizado o ritual. Podem ser gastados 2 PE extra para adicionar +{1d6} de dano."
+    },
+    {
+      "id": "desacelerar-impacto",
+      "nome": "Desacelerar Impacto",
+      "tags": [
+        "Morte",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/desacelerar-impacto.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Yuki"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 2 PE, recebe 10 PV temporários contra ataques físicos e balísticos, podendo aumentar para 15 PV ao gastar +2 PE."
+    },
+    {
+      "id": "tentaculos-de-lodo",
+      "nome": "Tentáculos de Lodo",
+      "tags": [
+        "Morte",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/tentaculos-de-lodo.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Manifestar uma área de lodo (terreno difícil) de 3m no chão. Aqueles que estiverem presos podem tentar sair com um teste de Luta contra o Ocultismo do usuário e, se chegar no turno do mesmo após se passar uma rodada completa, quem estiver preso toma {4d6} de dano de Morte."
+    },
+    {
+      "id": "consumir-manancial",
+      "nome": "Consumir Manancial",
+      "tags": [
+        "Morte",
+        "O Segredo na Ilha"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/consumir-manancial.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Milo Castello"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "O Segredo na Ilha"
+        }
+      ],
+      "descricao": "O usuário pode gastar 1 PE para absorver a Energia Potencial de plantas, insetos, e até mesmo solo ao seu redor, criando lodo e fornecendo {3d6} PV temporários para o usuário do ritual."
+    },
+    {
+      "id": "espirais-da-perdicao",
+      "nome": "Espirais da Perdição",
+      "tags": [
+        "Morte",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/espirais-da-perdicao.webp",
+      "resumo": "Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Guilherme Santos"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Espirais surgem no corpo do alvo, tornando seus movimentos lentos. O alvo sofre –{1d20} em testes de ataque."
+    },
+    {
+      "id": "capturar-momento",
+      "nome": "Capturar Momento",
+      "tags": [
+        "Morte",
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/capturar-momento.webp",
+      "resumo": "Morte e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Faz o usuário poder ver imagens e captar sons próximos do símbolo."
+    },
+    {
+      "id": "consumir-momento",
+      "nome": "Consumir Momento",
+      "tags": [
+        "Morte",
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/morte.webp",
+      "resumo": "Morte e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Morte e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Gera uma explosão de Morte em área a partir do símbolo."
+    }
+  ]
+}
