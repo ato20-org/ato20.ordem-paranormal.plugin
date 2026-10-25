@@ -33,6 +33,12 @@
       "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
       "retrato": "bestiario/o-deus-da-morte-retrato.webp",
       "miniatura": "bestiario/o-deus-da-morte-miniatura.webp",
+      "aparencias": [
+        {
+          "nome": "SB",
+          "miniatura": "bestiario/o-deus-da-morte-sb-miniatura.webp"
+        }
+      ],
       "atributos": [
         {
           "sigla": "AGI",
@@ -396,6 +402,12 @@
       "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
       "retrato": "bestiario/carnical-preto-da-morte-retrato.webp",
       "miniatura": "bestiario/carnical-preto-da-morte-miniatura.webp",
+      "aparencias": [
+        {
+          "nome": "SB",
+          "miniatura": "bestiario/carnical-preto-da-morte-sb-miniatura.webp"
+        }
+      ],
       "atributos": [
         {
           "sigla": "AGI",

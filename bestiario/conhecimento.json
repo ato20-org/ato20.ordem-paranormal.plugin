@@ -904,6 +904,12 @@
       "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
       "retrato": "bestiario/existido-retrato.webp",
       "miniatura": "bestiario/existido-miniatura.webp",
+      "aparencias": [
+        {
+          "nome": "Desligado",
+          "miniatura": "bestiario/existido-desligado-miniatura.webp"
+        }
+      ],
       "atributos": [
         {
           "sigla": "AGI",

@@ -251,6 +251,12 @@
       "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
       "retrato": "bestiario/anarquico-retrato.webp",
       "miniatura": "bestiario/anarquico-miniatura.webp",
+      "aparencias": [
+        {
+          "nome": "Variação 2",
+          "miniatura": "bestiario/anarquico-variacao-2-miniatura.webp"
+        }
+      ],
       "atributos": [
         {
           "sigla": "AGI",
@@ -1591,6 +1597,12 @@
       "fonte": "Livro de Regras de Ordem Paranormal RPG · C.R.I.S. · Ordem Paranormal Wiki",
       "retrato": "bestiario/telopsia-retrato.webp",
       "miniatura": "bestiario/telopsia-miniatura.webp",
+      "aparencias": [
+        {
+          "nome": "Com espirais",
+          "miniatura": "bestiario/telopsia-com-espirais-miniatura.webp"
+        }
+      ],
       "atributos": [
         {
           "sigla": "AGI",
