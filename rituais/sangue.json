@@ -1,0 +1,745 @@
+{
+  "verbetes": [
+    {
+      "id": "passagem-de-sangue",
+      "nome": "Passagem de Sangue",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "A Ordem Paranormal"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/sangue.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Álvaro Augusto"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "A Ordem Paranormal"
+        }
+      ],
+      "descricao": "Transferência de mente capaz de mesclar 2 mentes em uma."
+    },
+    {
+      "id": "passagem-de-conhecimento",
+      "nome": "Passagem de Conhecimento",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/passagem-de-conhecimento.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Agatha Volkomenn"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Troca e substituição de mentes ou até mesmo mais de uma mente dividindo um mesmo corpo."
+    },
+    {
+      "id": "descarnar",
+      "nome": "Descarnar",
+      "tags": [
+        "Sangue",
+        "Desconjuração",
+        "Sinais do Outro Lado",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/descarnar.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Derramar sangue humano sob o Símbolo, se concentrar nele e apontar seu alvo num raio de 10 metros, com ele tendo que fazer um teste de Constituição."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Sidney Souza, Agatha Volkomenn, Beatrice Portinari, Luciano Carvalho, Alexandre, Juan"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, Sinais do Outro Lado, Hexatombe"
+        }
+      ],
+      "descricao": "Em Desconjuração:\nIndouto: A pele do alvo é dilacerada, deixando a carne à mostra dando {1d10} de dano de Sangue. Não funciona em criaturas de Sangue.\nDiscente: A pele do alvo é dilacerada, deixando a carne à mostra, dando {2d10+2} de dano de Sangue. Não funciona em criaturas de Sangue.\n\nEm Sinais do Outro Lado: Esse ritual faz com que lacerações se manifestem na pele e órgãos do alvo, que sofre {6d8} de dano de Sangue e fica com uma hemorragia severa. No início de cada turno dele, o alvo deve fazer um teste de Fortitude, se falhar, sofre {2d8} pontos de dano de Sangue."
+    },
+    {
+      "id": "derreter-criaturas-de-sangue",
+      "nome": "Derreter Criaturas de Sangue",
+      "tags": [
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/derreter-criaturas-de-sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Segurar uma corrente com sangue escorrendo e focar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Ao ter sucesso em um teste de Poder contra um teste resistido de Constituição, causa {4d10+5} em criaturas de Sangue, porém causa {2d10} em outras criaturas. Esse ritual funciona apenas em criaturas."
+    },
+    {
+      "id": "espelho",
+      "nome": "Espelho",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Desconjuração",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/espelho.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Anthony Scelto, Giovanni Opspor"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, Hexatombe"
+        }
+      ],
+      "descricao": "Em Desconjuração: Criar um clone de carne e sangue igual ao afetado.\n\nEm Hexatombe: Gera um clone de carne a partir de um alvo. Dependendo da distância entre o usuário do ritual e o clone criado, o ritual fica mais difícil de ser conjurado de forma contínua."
+    },
+    {
+      "id": "odio-incontrolavel",
+      "nome": "Ódio Incontrolável",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Desconjuração",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/odio-incontrolavel.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Cortar a mão, botando-a no olho enquanto se concentra no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Anthony Scelto, Sidney Souza, Arthur Cervero, Damir Lukic"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, Calamidade"
+        }
+      ],
+      "descricao": "Em Desconjuração: Ao gastar 8 Pontos de Ocultismo, durante {1d4+2} rodadas, garante +{2d6} de dano em golpes corpo-a-corpo do usuário e vantagem em testes relacionados a força e em ataques.\n\nEm Calamidade: Gastando 1 PE, o alvo recebe +1d em testes de ataque e +1d para o dano de ataques de corpo-a-corpo, o usário também pode gastar 2 PE para aumentar o alcance para curto."
+    },
+    {
+      "id": "vinculo-de-sangue",
+      "nome": "Vínculo de Sangue",
+      "tags": [
+        "Sangue",
+        "Desconjuração",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/vinculo-de-sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Marcar o símbolo de \"enviar dano\" em um alvo e um símbolo de \"receber dano\" em outro alvo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Henri, Juan"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, Hexatombe"
+        }
+      ],
+      "descricao": "Em Desconjuração: Espalhar parte da dor causada naqueles marcados pelo símbolo de \"enviar dano\" para os marcados pelo de \"receber dano\".\n\nEm Hexatombe: Espalha parte da dor causada naqueles marcados pelo símbolo de \"enviar dano\" para os marcados pelo de \"receber dano\"."
+    },
+    {
+      "id": "armadura-de-sangue",
+      "nome": "Armadura de Sangue",
+      "tags": [
+        "Sangue",
+        "Desconjuração",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/armadura-de-sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Se concentrar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Henri, Damir, Alexandre"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração, Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Desconjuração: Criar uma armadura de Sangue em volta do usuário, reduzindo dano recebido e aumentando sua velocidade.\n\nEm Calamidade: Ao gastar 1 PE, conjura uma armadura de sangue para si ou para um aliado próximo que recebe mais 5 de armadura. Também é possível gastar +1 PE para aprimorar o ritual, fazendo com que o primeiro golpe que o indivíduo com a armadura receber garante 10 pontos de defesa extras ao invés de 5.\n\nEm Sinais do Outro Lado: O sangue do conjurador escorre para fora do corpo, cobrindo-o sob a forma de uma carapaça que fornece +5 em Defesa."
+    },
+    {
+      "id": "paralisia-de-sangue",
+      "nome": "Paralisia de Sangue",
+      "tags": [
+        "Sangue",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/paralisia-de-sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Marcar o símbolo no alvo, enrolar arame farpado no braço e fazer sangrar, e focar no símbolo."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Arthur Cervero"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Paralisar o alvo por {1d4} rodadas, com o alvo tendo que fazer um teste de Poder a cada rodada."
+    },
+    {
+      "id": "transfusao-vital",
+      "nome": "Transfusão Vital",
+      "tags": [
+        "Sangue",
+        "Morte",
+        "Desconjuração"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/transfusao-vital.webp",
+      "resumo": "Sangue e Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Bruno"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Desconjuração"
+        }
+      ],
+      "descricao": "Transferir vida do usuário para vários alvos, os curando instantaneamente."
+    },
+    {
+      "id": "fortalecimento-sensorial",
+      "nome": "Fortalecimento Sensorial",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/fortalecimento-sensorial.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Cortar a palma da mão."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Dante"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Ao gastar 1 PE, ganha um dado extra à testes de Percepção, Investigação, Luta e Pontaria."
+    },
+    {
+      "id": "distorcer-aparencia",
+      "nome": "Distorcer Aparência",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/distorcer-aparencia.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Artemis, Guilherme Santos"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Se transformar ou transformar um aliado próximo, fisicamente, em outra pessoa.\n\nEm Sinais do Outro Lado: Você modifica sua aparência de modo a parecer outra pessoa. Isso inclui altura, peso, tom de pele, cor de cabelo, timbre de voz, impressão digital, córnea etc."
+    },
+    {
+      "id": "vomitar-pestes",
+      "nome": "Vomitar Pestes",
+      "tags": [
+        "Sangue",
+        "Calamidade"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/vomitar-pestes.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "T-Bag"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade"
+        }
+      ],
+      "descricao": "Faz com que o usuário vomite criaturas paranormais minúsculas que no fim de cada turno do usuário causam {2d12} de dano de sangue a qualquer personagem em seu espaço."
+    },
+    {
+      "id": "amaldicoar-arma-com-sangue",
+      "nome": "Amaldiçoar Arma com Sangue",
+      "tags": [
+        "Sangue",
+        "Calamidade",
+        "Sinais do Outro Lado"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/amaldicoar-arma-com-sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Balu, Alexandre, Guilherme Santos"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Calamidade, Sinais do Outro Lado"
+        }
+      ],
+      "descricao": "Em Calamidade: Ao gastar 1 PE, o usuário adiciona +{1d6} de dano de Sangue em sua arma. Ele pode gastar 2 PE extra para adicionar +{1d6}, sendo o máximo {3d6}.\n\nEm Sinais do Outro Lado: O usuário imbui uma arma ou munição com o Elemento de Sangue, fazendo com que causem +{1d6} de dano de Sangue, ou, em sua versão Discente, +{2d6}."
+    },
+    {
+      "id": "passagem-de-conhecimento-expandido",
+      "nome": "Passagem de Conhecimento Expandido",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/passagem-de-conhecimento-expandido.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Agatha Volkomenn"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Troca e substituição de mentes simultâneamente entre 10 pessoas, podendo tornar os corpos que ficarão inertes durante o ritual em Anulados."
+    },
+    {
+      "id": "mapa-sanguineo",
+      "nome": "Mapa Sanguíneo",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/mapa-sanguineo.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Desenha um mapa capaz de sinalizar a localização em tempo real de todos os seres em um raio de um quilômetro."
+    },
+    {
+      "id": "revelacao-sanguinea",
+      "nome": "Revelação Sanguínea",
+      "tags": [
+        "Sangue",
+        "Conhecimento",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/sangue.webp",
+      "resumo": "Sangue e Conhecimento",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Conhecimento"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Labirinto, Remi"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Desenha um mapa capaz de sinalizar em tempo real a localização, intenção geral e condições de saúde de todos os seres em um raio de 1km até o fim da cena."
+    },
+    {
+      "id": "armadura-de-sangue-diabolica",
+      "nome": "Armadura de Sangue Diabólica",
+      "tags": [
+        "Sangue",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/armadura-de-sangue-diabolica.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Juan"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Ao gastar 1 PE, conjura uma armadura de sangue para si ou para um aliado próximo que recebe mais 5 de armadura. Também é possível gastar +1 PE para aprimorar o ritual, fazendo com que o primeiro golpe que o indivíduo com a armadura receber garante 10 pontos de defesa extras ao invés de 5."
+    },
+    {
+      "id": "esfolar",
+      "nome": "Esfolar",
+      "tags": [
+        "Sangue",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Velisar"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Quando um objeto ou pessoa marcado com esse ritual é tocado, ele se explode, lançando diversas lâminas que machucam seres em uma área de 3 metros. Essas lâminas causam dano de corte e causam sangramento. Em caso de sucesso em um teste de Fortitude, o dano é reduzido pela metade e não causa sangramento."
+    },
+    {
+      "id": "bolsa-do-sangue",
+      "nome": "Bolsa do Sangue",
+      "tags": [
+        "Sangue",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Alvira"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Recupera pontos de vida de um alvo usando seu próprio sangue."
+    },
+    {
+      "id": "vampirismo",
+      "nome": "Vampirismo",
+      "tags": [
+        "Sangue",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/vampirismo.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Alvira, Raziel"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Transforma o corpo de uma pessoa (viva ou morta) em uma refeição paranormal. Qualquer pessoa que gastar 1 minuto comendo parte desse corpo recebe efeitos que variam de acordo com os vasos sanguíneos consumidos, que abrangem visão, audição, paladar, olfato ou tato. Eles concedem desde memórias e bônus em ataques até pontos de vida ou habilidades do corpo ao consumidor."
+    },
+    {
+      "id": "maldicao-sanguinea",
+      "nome": "Maldição Sanguínea",
+      "tags": [
+        "Sangue",
+        "Hexatombe"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "bestiario/elementos/sangue.webp",
+      "resumo": "Sangue",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Desconhecida"
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Raziel"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Hexatombe"
+        }
+      ],
+      "descricao": "Pode ser resistido com um teste de Fortitude. Caso não passe, o alvo fica abalado e recebe desvantagem de {1d20} para qualquer teste pelo resto da cena."
+    },
+    {
+      "id": "invocacao-da-dama-de-sangue",
+      "nome": "Invocação da Dama de Sangue",
+      "tags": [
+        "Sangue",
+        "Morte",
+        "Livro de Regras"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/invocacao-da-dama-de-sangue.webp",
+      "resumo": "Sangue e Morte",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Morte"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Fazer o Símbolo da Orquídea entrar em contato com 7 sacrifícios em 7 condições diferentes envolvendo 7 flores específicas. O hospedeiro da Dama deve ter sementes de Orquídea de Sangue alojadas em sua coluna, e então ser sacrificado em um ritual de Sangue."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Sanguis Orchid"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Livro de Regras"
+        }
+      ],
+      "descricao": "Invocar a Dama de Sangue na Realidade."
+    },
+    {
+      "id": "forma-monstruosa",
+      "nome": "Forma Monstruosa",
+      "tags": [
+        "Sangue",
+        "Medo",
+        "Vendeta Oculta"
+      ],
+      "fonte": "Ordem Paranormal Wiki",
+      "imagem": "rituais/simbolos/forma-monstruosa.webp",
+      "resumo": "Sangue e Medo",
+      "campos": [
+        {
+          "rotulo": "Elemento",
+          "valor": "Sangue e Medo"
+        },
+        {
+          "rotulo": "Conjuração",
+          "valor": "Acender uma vela e matar um animal afogado em uma tina, deixando com que a água apague a vela e então deixar a água escorrer de volta para o córrego."
+        },
+        {
+          "rotulo": "Usuários",
+          "valor": "Ramiro Miranda"
+        },
+        {
+          "rotulo": "Aparece em",
+          "valor": "Vendeta Oculta"
+        }
+      ],
+      "descricao": "Infectar animais da mesma espécie do usado como sacrifício com resquícios do Sangue. Após realizado 7 vezes na transformação de animais, transforma o conjurador em uma criatura."
+    }
+  ]
+}
